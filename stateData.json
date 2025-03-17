@@ -1,0 +1,63 @@
+{
+    "Northeast": {
+        "Connecticut": 75,
+        "Maine": 70,
+        "Massachusetts": 78,
+        "New Hampshire": 72,
+        "Rhode Island": 75,
+        "Vermont": 78,
+        "New Jersey": 72,
+        "New York": 72,
+        "Pennsylvania": 65
+    },
+    
+    "Midwest": {
+        "Illinois": 65,
+        "Indiana": 52,
+        "Iowa": 58,
+        "Kansas": 54,
+        "Michigan": 60,
+        "Minnesota": 68,
+        "Missouri": 52,
+        "Nebraska": 58,
+        "North Dakota": 52,
+        "Ohio": 55,
+        "South Dakota": 52,
+        "Wisconsin": 62
+    },
+    
+    "South": {
+        "Alabama": 45,
+        "Arkansas": 48,
+        "Delaware": 68,
+        "Florida": 60,
+        "Georgia": 50,
+        "Kentucky": 52,
+        "Louisiana": 48,
+        "Maryland": 72,
+        "Mississippi": 45,
+        "North Carolina": 58,
+        "Oklahoma": 48,
+        "South Carolina": 52,
+        "Tennessee": 50,
+        "Texas": 55,
+        "Virginia": 68,
+        "West Virginia": 48
+    },
+    
+    "West": {
+        "Alaska": 52,
+        "Arizona": 55,
+        "California": 72,
+        "Colorado": 65,
+        "Hawaii": 78,
+        "Idaho": 45,
+        "Montana": 54,
+        "Nevada": 58,
+        "New Mexico": 65,
+        "Oregon": 68,
+        "Utah": 58,
+        "Washington": 70,
+        "Wyoming": 45
+    }
+} 
