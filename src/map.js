@@ -1,15 +1,8 @@
-const data = {
-    'Alabama': 45, 'Alaska': 52, 'Arizona': 55, 'Arkansas': 48, 'California': 72,
-    'Colorado': 65, 'Connecticut': 75, 'Delaware': 68, 'Florida': 60, 'Georgia': 50,
-    'Hawaii': 78, 'Idaho': 45, 'Illinois': 65, 'Indiana': 52, 'Iowa': 58,
-    'Kansas': 54, 'Kentucky': 52, 'Louisiana': 48, 'Maine': 70, 'Maryland': 72,
-    'Massachusetts': 78, 'Michigan': 60, 'Minnesota': 68, 'Mississippi': 45, 'Missouri': 52,
-    'Montana': 54, 'Nebraska': 58, 'Nevada': 58, 'New Hampshire': 72, 'New Jersey': 72,
-    'New Mexico': 65, 'New York': 72, 'North Carolina': 58, 'North Dakota': 52, 'Ohio': 55,
-    'Oklahoma': 48, 'Oregon': 68, 'Pennsylvania': 65, 'Rhode Island': 75, 'South Carolina': 52,
-    'South Dakota': 52, 'Tennessee': 50, 'Texas': 55, 'Utah': 58, 'Vermont': 78,
-    'Virginia': 68, 'Washington': 70, 'West Virginia': 48, 'Wisconsin': 62, 'Wyoming': 45
-};
+data = fetch('../data/Adult_COVID_agg.json').then(response => response.json()).then(data => {
+    console.log(data);
+    return data;
+});
+// Map
 
 const svg = d3.select("#map-container")
     .append("svg")
@@ -29,6 +22,9 @@ const path = d3.geoPath().projection(proj);
 
 function createMap(us) {
     // Draw the states
+    // state_estimates = data
+    //     .filter(d => d['Geography'] === 'State')
+    //     .map(d => [d['State'], d['Estimate']]);
     svg.append("g")
         .selectAll("path")
         .data(topojson.feature(us, us.objects.states).features)

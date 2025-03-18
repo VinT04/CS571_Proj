@@ -1,26 +1,43 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://d3js.org/topojson.v3.min.js"></script>
     <style>
-        h1 { font-family: "Times New Roman"; text-align: center; }
-        h2 { font-family: "Times New Roman"; text-align: center; }
-        #map-container { 
-            width: 900px; 
-            height: 600px; 
-            margin: auto; 
+        h1 {
+            font-family: "Times New Roman";
+            text-align: center;
         }
-        .state { 
+
+        h2 {
+            font-family: "Times New Roman";
+            text-align: center;
+        }
+
+        #map-container {
+            width: 900px;
+            height: 600px;
+            margin: auto;
+        }
+
+        .state {
             stroke: rgb(0, 0, 0);
             opacity: 0.7;
         }
     </style>
 </head>
+
 <body>
     <h1>VaxInfo</h1>
-    <h2>subtitle</h2>
+    <h2>Empowering communities through data-driven COVID-19 vaccination insights</h2>
+    <h3>vaxInfo is a cutting-edge program that visualizes COVID-19 vaccination trends based on demographic insights. By
+        harnessing the power of data, vaxInfo supports public health efforts and empowers informed decision-making for
+        healthier communities. Whether you're analyzing trends by age, region, or other factors, vaxInfo is your go-to
+        resource for accessible and impactful vaccination data.
+    </h3>
     <div id="map-container"></div>
     <script src="map.js"></script>
 </body>
+
 </html>

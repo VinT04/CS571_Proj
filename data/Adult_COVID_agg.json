@@ -1,0 +1,2890 @@
+[
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 10: AK,ID,OR,WA",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 38.9319,
+    "Sample Size": 1754604
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 10: AK,ID,OR,WA",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 39.1454,
+    "Sample Size": 1471104
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 10: AK,ID,OR,WA",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 38.9136,
+    "Sample Size": 968853
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 10: AK,ID,OR,WA",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 35.9786,
+    "Sample Size": 2811704
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 10: AK,ID,OR,WA",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 37.5867,
+    "Sample Size": 2983532
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 1: CT,ME,MA,NH,RI,VT",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 40.3068,
+    "Sample Size": 2491992
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 1: CT,ME,MA,NH,RI,VT",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 40.518,
+    "Sample Size": 2474599
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 1: CT,ME,MA,NH,RI,VT",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 40.3205,
+    "Sample Size": 4291346
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 1: CT,ME,MA,NH,RI,VT",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 38.2304,
+    "Sample Size": 6070448
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 1: CT,ME,MA,NH,RI,VT",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 39.2733,
+    "Sample Size": 4697688
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 2: NJ,NY, PR, VI",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 38.6611,
+    "Sample Size": 1752285
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 2: NJ,NY, PR, VI",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 38.9675,
+    "Sample Size": 2176864
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 2: NJ,NY, PR, VI",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 37.9846,
+    "Sample Size": 2751024
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 2: NJ,NY, PR, VI",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 36.2671,
+    "Sample Size": 5149946
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 2: NJ,NY, PR, VI",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 37.5261,
+    "Sample Size": 3688762
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 3: DE,DC,MD,PA,VA,WV",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 38.9051,
+    "Sample Size": 4731987
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 3: DE,DC,MD,PA,VA,WV",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 39.357,
+    "Sample Size": 3061549
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 3: DE,DC,MD,PA,VA,WV",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 38.353,
+    "Sample Size": 7156090
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 3: DE,DC,MD,PA,VA,WV",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 36.4505,
+    "Sample Size": 9161788
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 3: DE,DC,MD,PA,VA,WV",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 37.9844,
+    "Sample Size": 7888314
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 4: AL,FL,GA,KY,MS,NC,SC,TN",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 35.6763,
+    "Sample Size": 2416535
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 4: AL,FL,GA,KY,MS,NC,SC,TN",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 36.8163,
+    "Sample Size": 2945417
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 4: AL,FL,GA,KY,MS,NC,SC,TN",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 35.6005,
+    "Sample Size": 3840287
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 4: AL,FL,GA,KY,MS,NC,SC,TN",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 34.7771,
+    "Sample Size": 5661210
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 4: AL,FL,GA,KY,MS,NC,SC,TN",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 36.0018,
+    "Sample Size": 6590332
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 5: IL,IN,MI,MN,OH,WI",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 37.7332,
+    "Sample Size": 2882697
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 5: IL,IN,MI,MN,OH,WI",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 38.7504,
+    "Sample Size": 2789742
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 5: IL,IN,MI,MN,OH,WI",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 37.9548,
+    "Sample Size": 3544412
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 5: IL,IN,MI,MN,OH,WI",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 36.0026,
+    "Sample Size": 5773626
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 5: IL,IN,MI,MN,OH,WI",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 37.3648,
+    "Sample Size": 6516254
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 6: AR,LA,NM,OK,TX",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 36.9255,
+    "Sample Size": 3868297
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 6: AR,LA,NM,OK,TX",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 37.6406,
+    "Sample Size": 2957419
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 6: AR,LA,NM,OK,TX",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 36.4592,
+    "Sample Size": 4032600
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 6: AR,LA,NM,OK,TX",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 35.9884,
+    "Sample Size": 8124478
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 6: AR,LA,NM,OK,TX",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 36.0589,
+    "Sample Size": 8505770
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 7: IA,KS,MO,NE",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 36.7639,
+    "Sample Size": 696499
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 7: IA,KS,MO,NE",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 37.5582,
+    "Sample Size": 991943
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 7: IA,KS,MO,NE",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 36.9225,
+    "Sample Size": 904757
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 7: IA,KS,MO,NE",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 34.8223,
+    "Sample Size": 2112144
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 7: IA,KS,MO,NE",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 36.6055,
+    "Sample Size": 2247920
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 8: CO,MT,ND,SD,UT,WY",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 37.6196,
+    "Sample Size": 4116403
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 8: CO,MT,ND,SD,UT,WY",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 38.389,
+    "Sample Size": 1884496
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 8: CO,MT,ND,SD,UT,WY",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 37.7992,
+    "Sample Size": 1555496
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 8: CO,MT,ND,SD,UT,WY",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 34.9969,
+    "Sample Size": 8218230
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 8: CO,MT,ND,SD,UT,WY",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 36.3492,
+    "Sample Size": 5785484
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 9: AZ,CA,HI,NV, GU",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 39.2112,
+    "Sample Size": 1759879
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 9: AZ,CA,HI,NV, GU",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 39.3772,
+    "Sample Size": 1487277
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 9: AZ,CA,HI,NV, GU",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 38.5221,
+    "Sample Size": 1948622
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 9: AZ,CA,HI,NV, GU",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 36.8223,
+    "Sample Size": 5181276
+  },
+  {
+    "Geography Type": "HHS Region",
+    "Geography": "REGION 9: AZ,CA,HI,NV, GU",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 38.1702,
+    "Sample Size": 4517502
+  },
+  {
+    "Geography Type": "National",
+    "Geography": "National",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 37.8191,
+    "Sample Size": 27828051
+  },
+  {
+    "Geography Type": "National",
+    "Geography": "National",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 38.8659,
+    "Sample Size": 23461409
+  },
+  {
+    "Geography Type": "National",
+    "Geography": "National",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 37.5534,
+    "Sample Size": 32577801
+  },
+  {
+    "Geography Type": "National",
+    "Geography": "National",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 36.1477,
+    "Sample Size": 61366486
+  },
+  {
+    "Geography Type": "National",
+    "Geography": "National",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 37.2707,
+    "Sample Size": 56237984
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Alabama",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 36.1756,
+    "Sample Size": 676284
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Alabama",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 35.015,
+    "Sample Size": 742853
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Alabama",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 35.2822,
+    "Sample Size": 880568
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Alabama",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 34.5764,
+    "Sample Size": 851110
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Alabama",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 34.7511,
+    "Sample Size": 1900762
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Alaska",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 37.6612,
+    "Sample Size": 77369
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Alaska",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 35.8479,
+    "Sample Size": 205537
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Alaska",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 36.0471,
+    "Sample Size": 155076
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Alaska",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 34.3788,
+    "Sample Size": 622668
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Alaska",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 35.2218,
+    "Sample Size": 555370
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Arizona",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 36.9873,
+    "Sample Size": 111233
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Arizona",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 38.7591,
+    "Sample Size": 172880
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Arizona",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 37.3137,
+    "Sample Size": 117911
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Arizona",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 33.9363,
+    "Sample Size": 332206
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Arizona",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 36.8147,
+    "Sample Size": 463308
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Arkansas",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 36.7541,
+    "Sample Size": 253335
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Arkansas",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 35.7917,
+    "Sample Size": 300029
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Arkansas",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 36.519,
+    "Sample Size": 254381
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Arkansas",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 34.2292,
+    "Sample Size": 621194
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Arkansas",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 35.6842,
+    "Sample Size": 530480
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "California",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 39.7838,
+    "Sample Size": 644581
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "California",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 39.878,
+    "Sample Size": 655661
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "California",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 39.2285,
+    "Sample Size": 604488
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "California",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 37.7813,
+    "Sample Size": 1514072
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "California",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 38.5529,
+    "Sample Size": 2024108
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Colorado",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 38.66,
+    "Sample Size": 1334721
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Colorado",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 39.6415,
+    "Sample Size": 515245
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Colorado",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 38.8575,
+    "Sample Size": 347797
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Colorado",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 36.6389,
+    "Sample Size": 2066052
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Colorado",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 37.6732,
+    "Sample Size": 1623068
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Connecticut",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 38.9222,
+    "Sample Size": 35437
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Connecticut",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 40.0651,
+    "Sample Size": 168748
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Connecticut",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 41.0969,
+    "Sample Size": 153704
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Connecticut",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 38.0725,
+    "Sample Size": 89764
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Connecticut",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 37.8164,
+    "Sample Size": 209948
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Delaware",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 39.4344,
+    "Sample Size": 585503
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Delaware",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 39.8679,
+    "Sample Size": 300284
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Delaware",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 38.5737,
+    "Sample Size": 874760
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Delaware",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 37.1411,
+    "Sample Size": 920262
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Delaware",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 37.8744,
+    "Sample Size": 1136428
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "District of Columbia",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 43.522,
+    "Sample Size": 1267473
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "District of Columbia",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 42.8481,
+    "Sample Size": 449387
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "District of Columbia",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 42.6558,
+    "Sample Size": 1389693
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "District of Columbia",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 39.9612,
+    "Sample Size": 1456678
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "District of Columbia",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 42.5578,
+    "Sample Size": 1245958
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Florida",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 35.5008,
+    "Sample Size": 221100
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Florida",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 36.2832,
+    "Sample Size": 268728
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Florida",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 34.9616,
+    "Sample Size": 336534
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Florida",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 35.164,
+    "Sample Size": 526010
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Florida",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 35.5169,
+    "Sample Size": 554858
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Georgia",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 35.8771,
+    "Sample Size": 134865
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Georgia",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 36.3038,
+    "Sample Size": 312411
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Georgia",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 36.248,
+    "Sample Size": 247713
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Georgia",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 35.1588,
+    "Sample Size": 357270
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Georgia",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 36.1544,
+    "Sample Size": 487478
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Hawaii",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 39.9376,
+    "Sample Size": 639629
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Hawaii",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 40.078,
+    "Sample Size": 434602
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Hawaii",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 39.4419,
+    "Sample Size": 1036498
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Hawaii",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 37.3589,
+    "Sample Size": 2233924
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Hawaii",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 39.1741,
+    "Sample Size": 1339468
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Idaho",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 35.5749,
+    "Sample Size": 404771
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Idaho",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 35.4875,
+    "Sample Size": 361736
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Idaho",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 35.4542,
+    "Sample Size": 105623
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Idaho",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 33.0596,
+    "Sample Size": 622818
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Idaho",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 34.0829,
+    "Sample Size": 437498
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Illinois",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 38.8431,
+    "Sample Size": 988199
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Illinois",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 39.8946,
+    "Sample Size": 1188327
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Illinois",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 39.2924,
+    "Sample Size": 1448540
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Illinois",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 37.0767,
+    "Sample Size": 2211008
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Illinois",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 38.394,
+    "Sample Size": 2818534
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Indiana",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 36.6723,
+    "Sample Size": 723432
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Indiana",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 37.6487,
+    "Sample Size": 485029
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Indiana",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 36.7387,
+    "Sample Size": 802854
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Indiana",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 36.4647,
+    "Sample Size": 1048800
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Indiana",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 37.043,
+    "Sample Size": 866150
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Iowa",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 39.7866,
+    "Sample Size": 67583
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Iowa",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 37.8612,
+    "Sample Size": 376851
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Iowa",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 35.9344,
+    "Sample Size": 121039
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Iowa",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 34.2391,
+    "Sample Size": 337120
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Iowa",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 37.9613,
+    "Sample Size": 283282
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Kansas",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 36.1068,
+    "Sample Size": 298365
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Kansas",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 37.9916,
+    "Sample Size": 165937
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Kansas",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 36.9123,
+    "Sample Size": 392606
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Kansas",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 34.3618,
+    "Sample Size": 500360
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Kansas",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 37.3852,
+    "Sample Size": 902776
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Kentucky",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 35.5359,
+    "Sample Size": 94690
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Kentucky",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 37.7332,
+    "Sample Size": 175407
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Kentucky",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 37.5003,
+    "Sample Size": 203127
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Kentucky",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 35.1751,
+    "Sample Size": 838454
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Kentucky",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 36.0581,
+    "Sample Size": 528302
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Louisiana",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 35.9934,
+    "Sample Size": 238763
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Louisiana",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 36.3166,
+    "Sample Size": 414689
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Louisiana",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 34.6028,
+    "Sample Size": 321760
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Louisiana",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 35.2173,
+    "Sample Size": 1500146
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Louisiana",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 35.9829,
+    "Sample Size": 702892
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Maine",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 39.0043,
+    "Sample Size": 555337
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Maine",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 39.9558,
+    "Sample Size": 497766
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Maine",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 39.7975,
+    "Sample Size": 1143323
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Maine",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 37.2633,
+    "Sample Size": 1425950
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Maine",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 39.115,
+    "Sample Size": 1308464
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Maryland",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 41.2459,
+    "Sample Size": 316338
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Maryland",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 40.5876,
+    "Sample Size": 176678
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Maryland",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 40.1733,
+    "Sample Size": 445083
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Maryland",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 38.466,
+    "Sample Size": 504770
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Maryland",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 39.6799,
+    "Sample Size": 458366
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Massachusetts",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 41.6995,
+    "Sample Size": 592483
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Massachusetts",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 41.6934,
+    "Sample Size": 658215
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Massachusetts",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 40.6276,
+    "Sample Size": 1109640
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Massachusetts",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 38.5799,
+    "Sample Size": 1337624
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Massachusetts",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 40.0249,
+    "Sample Size": 1213490
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Michigan",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 38.6547,
+    "Sample Size": 155678
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Michigan",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 37.9269,
+    "Sample Size": 116870
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Michigan",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 37.9941,
+    "Sample Size": 170807
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Michigan",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 34.8482,
+    "Sample Size": 367190
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Michigan",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 37.4726,
+    "Sample Size": 299578
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Minnesota",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 40.1525,
+    "Sample Size": 756491
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Minnesota",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 39.8973,
+    "Sample Size": 641373
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Minnesota",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 39.2866,
+    "Sample Size": 754152
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Minnesota",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 37.0901,
+    "Sample Size": 959350
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Minnesota",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 37.9771,
+    "Sample Size": 1840906
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Mississippi",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 32.8384,
+    "Sample Size": 52138
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Mississippi",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 36.492,
+    "Sample Size": 348181
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Mississippi",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 35.1033,
+    "Sample Size": 156710
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Mississippi",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 33.6793,
+    "Sample Size": 587560
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Mississippi",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 35.3492,
+    "Sample Size": 565910
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Missouri",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 34.8488,
+    "Sample Size": 135441
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Missouri",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 38.6351,
+    "Sample Size": 95937
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Missouri",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 37.3226,
+    "Sample Size": 209334
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Missouri",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 33.9917,
+    "Sample Size": 443692
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Missouri",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 35.4399,
+    "Sample Size": 439122
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Montana",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 36.318,
+    "Sample Size": 1556029
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Montana",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 36.3864,
+    "Sample Size": 398368
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Montana",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 35.7098,
+    "Sample Size": 314669
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Montana",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 33.7357,
+    "Sample Size": 2806948
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Montana",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 35.4336,
+    "Sample Size": 1675380
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Nebraska",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 37.5188,
+    "Sample Size": 165161
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Nebraska",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 37.8736,
+    "Sample Size": 325574
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Nebraska",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 37.0547,
+    "Sample Size": 152357
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Nebraska",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 35.6585,
+    "Sample Size": 775274
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Nebraska",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 36.7278,
+    "Sample Size": 574498
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Nevada",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 36.9227,
+    "Sample Size": 343661
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Nevada",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 37.2206,
+    "Sample Size": 203654
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Nevada",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 37.0343,
+    "Sample Size": 167502
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Nevada",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 34.8817,
+    "Sample Size": 1059134
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Nevada",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 35.3914,
+    "Sample Size": 648274
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "New Hampshire",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 39.7057,
+    "Sample Size": 950233
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "New Hampshire",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 39.6862,
+    "Sample Size": 525105
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "New Hampshire",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 39.0108,
+    "Sample Size": 1389524
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "New Hampshire",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 36.8771,
+    "Sample Size": 1666960
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "New Hampshire",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 38.5869,
+    "Sample Size": 1180746
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "New Jersey",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 38.9054,
+    "Sample Size": 512715
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "New Jersey",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 38.6547,
+    "Sample Size": 552095
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "New Jersey",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 38.4652,
+    "Sample Size": 915483
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "New Jersey",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 37.6389,
+    "Sample Size": 1292102
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "New Jersey",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 37.9691,
+    "Sample Size": 1115236
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "New Mexico",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 39.5438,
+    "Sample Size": 550581
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "New Mexico",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 38.9193,
+    "Sample Size": 321748
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "New Mexico",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 37.72,
+    "Sample Size": 160898
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "New Mexico",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 36.7872,
+    "Sample Size": 1793934
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "New Mexico",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 37.2247,
+    "Sample Size": 1155180
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "New York",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 38.9857,
+    "Sample Size": 787000
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "New York",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 39.6808,
+    "Sample Size": 767392
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "New York",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 38.2019,
+    "Sample Size": 1276607
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "New York",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 36.3672,
+    "Sample Size": 1644382
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "New York",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 37.6865,
+    "Sample Size": 1735208
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "North Carolina",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 38.383,
+    "Sample Size": 203837
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "North Carolina",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 38.2839,
+    "Sample Size": 351513
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "North Carolina",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 36.5672,
+    "Sample Size": 451496
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "North Carolina",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 35.6481,
+    "Sample Size": 1132442
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "North Carolina",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 37.4908,
+    "Sample Size": 875446
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "North Dakota",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 36.2043,
+    "Sample Size": 152711
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "North Dakota",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 36.0959,
+    "Sample Size": 254182
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "North Dakota",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 36.5283,
+    "Sample Size": 244264
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "North Dakota",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 33.6543,
+    "Sample Size": 619988
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "North Dakota",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 34.3843,
+    "Sample Size": 656948
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Ohio",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 34.3768,
+    "Sample Size": 85133
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Ohio",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 38.1322,
+    "Sample Size": 116428
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Ohio",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 37.4034,
+    "Sample Size": 203554
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Ohio",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 34.5038,
+    "Sample Size": 489632
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Ohio",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 35.9407,
+    "Sample Size": 339604
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Oklahoma",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 35.9775,
+    "Sample Size": 471366
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Oklahoma",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 36.4773,
+    "Sample Size": 401964
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Oklahoma",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 35.5992,
+    "Sample Size": 563670
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Oklahoma",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 34.9941,
+    "Sample Size": 1188644
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Oklahoma",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 35.305,
+    "Sample Size": 1099954
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Oregon",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 39.247,
+    "Sample Size": 1056308
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Oregon",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 39.4219,
+    "Sample Size": 738600
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Oregon",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 39.425,
+    "Sample Size": 480191
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Oregon",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 37.5412,
+    "Sample Size": 1040282
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Oregon",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 38.9159,
+    "Sample Size": 1365286
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Pennsylvania",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 38.06,
+    "Sample Size": 1186988
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Pennsylvania",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 39.4561,
+    "Sample Size": 1150047
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Pennsylvania",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 38.1319,
+    "Sample Size": 1586314
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Pennsylvania",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 35.5735,
+    "Sample Size": 2939540
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Pennsylvania",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 37.403,
+    "Sample Size": 2370786
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Puerto Rico",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 36.0987,
+    "Sample Size": 442325
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Puerto Rico",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 36.0883,
+    "Sample Size": 666475
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Puerto Rico",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 35.411,
+    "Sample Size": 553914
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Puerto Rico",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 34.1145,
+    "Sample Size": 2193396
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Puerto Rico",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 35.1104,
+    "Sample Size": 819078
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Rhode Island",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 39.6787,
+    "Sample Size": 109971
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Rhode Island",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 40.4677,
+    "Sample Size": 167108
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Rhode Island",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 40.0187,
+    "Sample Size": 178650
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Rhode Island",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 36.6076,
+    "Sample Size": 285462
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Rhode Island",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 38.1915,
+    "Sample Size": 286790
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "South Carolina",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 36.5886,
+    "Sample Size": 893137
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "South Carolina",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 37.3944,
+    "Sample Size": 554898
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "South Carolina",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 36.6349,
+    "Sample Size": 1360447
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "South Carolina",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 35.554,
+    "Sample Size": 895864
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "South Carolina",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 36.2722,
+    "Sample Size": 1252276
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "South Dakota",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 36.5428,
+    "Sample Size": 497797
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "South Dakota",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 37.893,
+    "Sample Size": 291173
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "South Dakota",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 37.2349,
+    "Sample Size": 343963
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "South Dakota",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 34.9885,
+    "Sample Size": 1239444
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "South Dakota",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 35.6313,
+    "Sample Size": 906296
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Tennessee",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 34.5757,
+    "Sample Size": 79078
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Tennessee",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 36.8408,
+    "Sample Size": 142305
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Tennessee",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 35.4704,
+    "Sample Size": 150309
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Tennessee",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 33.2401,
+    "Sample Size": 353358
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Tennessee",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 34.5956,
+    "Sample Size": 323804
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Texas",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 36.9639,
+    "Sample Size": 2328748
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Texas",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 38.2851,
+    "Sample Size": 1495036
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Texas",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 36.6304,
+    "Sample Size": 2704308
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Texas",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 36.5503,
+    "Sample Size": 2959698
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Texas",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 35.9729,
+    "Sample Size": 4969672
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "U.S. Virgin Islands",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 33.0398,
+    "Sample Size": 175657
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Utah",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 36.7071,
+    "Sample Size": 158971
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Utah",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 36.7634,
+    "Sample Size": 70185
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Utah",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 35.3959,
+    "Sample Size": 67538
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Utah",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 33.7721,
+    "Sample Size": 101874
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Utah",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 35.7557,
+    "Sample Size": 183140
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Vermont",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 41.4047,
+    "Sample Size": 207759
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Vermont",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 42.3432,
+    "Sample Size": 417120
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Vermont",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 41.8808,
+    "Sample Size": 285876
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Vermont",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 38.282,
+    "Sample Size": 1184038
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Vermont",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 39.9717,
+    "Sample Size": 423958
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Virginia",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 39.2406,
+    "Sample Size": 630858
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Virginia",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 39.1066,
+    "Sample Size": 582142
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Virginia",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 38.468,
+    "Sample Size": 1182209
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Virginia",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 36.7955,
+    "Sample Size": 1572808
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Virginia",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 38.2322,
+    "Sample Size": 1347668
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Washington",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 40.0687,
+    "Sample Size": 194422
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Washington",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 40.2746,
+    "Sample Size": 141862
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Washington",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 39.4682,
+    "Sample Size": 201093
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Washington",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 35.9873,
+    "Sample Size": 483732
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Washington",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 37.763,
+    "Sample Size": 579012
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "West Virginia",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 35.5394,
+    "Sample Size": 719925
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "West Virginia",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 36.8228,
+    "Sample Size": 370865
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "West Virginia",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 35.6414,
+    "Sample Size": 1659055
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "West Virginia",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 35.6629,
+    "Sample Size": 1704374
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "West Virginia",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 35.9784,
+    "Sample Size": 1270672
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Wisconsin",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 37.4179,
+    "Sample Size": 130391
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Wisconsin",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 39.6873,
+    "Sample Size": 205996
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Wisconsin",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 37.3646,
+    "Sample Size": 128632
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Wisconsin",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 35.5018,
+    "Sample Size": 623580
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Wisconsin",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 37.8586,
+    "Sample Size": 283782
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Wyoming",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 34.7829,
+    "Sample Size": 387594
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Wyoming",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 34.8454,
+    "Sample Size": 310206
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Wyoming",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 33.488,
+    "Sample Size": 191999
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Wyoming",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 32.9137,
+    "Sample Size": 1305418
+  },
+  {
+    "Geography Type": "State",
+    "Geography": "Wyoming",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 33.8236,
+    "Sample Size": 663712
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "IL-City of Chicago",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 39.1958,
+    "Sample Size": 94167
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "IL-City of Chicago",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 41.2802,
+    "Sample Size": 276052
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "IL-City of Chicago",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 41.0822,
+    "Sample Size": 285222
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "IL-City of Chicago",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 38.5625,
+    "Sample Size": 129674
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "IL-City of Chicago",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 39.8776,
+    "Sample Size": 1010628
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "IL-Rest of State",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 38.7781,
+    "Sample Size": 881731
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "IL-Rest of State",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 39.6998,
+    "Sample Size": 905425
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "IL-Rest of State",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 38.8804,
+    "Sample Size": 1155844
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "IL-Rest of State",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 36.4778,
+    "Sample Size": 2057976
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "IL-Rest of State",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 38.1189,
+    "Sample Size": 1800706
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "NY-City of New York",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 39.3862,
+    "Sample Size": 202230
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "NY-City of New York",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 40.1385,
+    "Sample Size": 160157
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "NY-City of New York",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 38.1997,
+    "Sample Size": 323371
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "NY-City of New York",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 36.1248,
+    "Sample Size": 301196
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "NY-City of New York",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 36.9444,
+    "Sample Size": 424022
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "NY-Rest of State",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 38.3932,
+    "Sample Size": 575660
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "NY-Rest of State",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 39.2922,
+    "Sample Size": 596747
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "NY-Rest of State",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 38.2182,
+    "Sample Size": 944879
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "NY-Rest of State",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 36.4615,
+    "Sample Size": 1323020
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "NY-Rest of State",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 38.0645,
+    "Sample Size": 1294080
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "PA-Philadelphia County",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 40.3361,
+    "Sample Size": 252232
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "PA-Philadelphia County",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 40.2112,
+    "Sample Size": 394240
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "PA-Philadelphia County",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 40.0148,
+    "Sample Size": 326023
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "PA-Philadelphia County",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 37.9406,
+    "Sample Size": 724192
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "PA-Philadelphia County",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 38.6612,
+    "Sample Size": 644208
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "PA-Rest of State",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 37.6869,
+    "Sample Size": 928191
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "PA-Rest of State",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 39.3014,
+    "Sample Size": 748246
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "PA-Rest of State",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 37.9135,
+    "Sample Size": 1255829
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "PA-Rest of State",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 35.2143,
+    "Sample Size": 2199968
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "PA-Rest of State",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 37.1428,
+    "Sample Size": 1714138
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "TX-Bexar County",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 38.834,
+    "Sample Size": 840639
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "TX-Bexar County",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 39.2938,
+    "Sample Size": 485148
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "TX-Bexar County",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 38.2709,
+    "Sample Size": 885972
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "TX-Bexar County",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 37.3935,
+    "Sample Size": 929918
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "TX-Bexar County",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 38.1765,
+    "Sample Size": 1651320
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "TX-City of Houston",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 38.9911,
+    "Sample Size": 911959
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "TX-City of Houston",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 39.7375,
+    "Sample Size": 479533
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "TX-City of Houston",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 37.9197,
+    "Sample Size": 1095550
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "TX-City of Houston",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 38.1233,
+    "Sample Size": 500600
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "TX-City of Houston",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 37.4366,
+    "Sample Size": 1342342
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "TX-Rest of State",
+    "Time Period": "December 1 - December 28",
+    "Year": 2024,
+    "Estimate (%)": 36.5695,
+    "Sample Size": 570076
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "TX-Rest of State",
+    "Time Period": "December 29 - January 25",
+    "Year": 2025,
+    "Estimate (%)": 37.7674,
+    "Sample Size": 520603
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "TX-Rest of State",
+    "Time Period": "October 27 - November 30",
+    "Year": 2024,
+    "Estimate (%)": 36.4371,
+    "Sample Size": 718889
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "TX-Rest of State",
+    "Time Period": "September 1 - September 28",
+    "Year": 2024,
+    "Estimate (%)": 37.0191,
+    "Sample Size": 1504662
+  },
+  {
+    "Geography Type": "Substate",
+    "Geography": "TX-Rest of State",
+    "Time Period": "September 29 - October 26",
+    "Year": 2024,
+    "Estimate (%)": 35.7324,
+    "Sample Size": 1966016
+  }
+]
