@@ -1,3 +1,5 @@
+import { showStateName } from './stateView.js';
+
 const data = {
     'Alabama': 45, 'Alaska': 52, 'Arizona': 55, 'Arkansas': 48, 'California': 72,
     'Colorado': 65, 'Connecticut': 75, 'Delaware': 68, 'Florida': 60, 'Georgia': 50,
@@ -11,10 +13,7 @@ const data = {
     'Virginia': 68, 'Washington': 70, 'West Virginia': 48, 'Wisconsin': 62, 'Wyoming': 45
 };
 
-const svg = d3.select("#map-container")
-    .append("svg")
-    .style("width", "100%")
-    .style("height", "100%");
+const container = d3.select("#map-container");
 
 const color = d3.scaleLinear()
     .domain([40, 80])
@@ -28,6 +27,16 @@ const proj = d3.geoAlbersUsa()
 const path = d3.geoPath().projection(proj);
 
 function createMap(us) {
+    // Clear any existing content
+    container.selectAll("*").remove();
+
+    // Create new SVG
+    const svg = container
+        .append("svg")
+        .attr("viewBox", "0 0 900 600")
+        .style("width", "100%")
+        .style("height", "100%");
+
     // Draw the states
     svg.append("g")
         .selectAll("path")
@@ -36,7 +45,14 @@ function createMap(us) {
         .attr("class", "state")
         .attr("d", path)
         .style("fill", d => color(data[d.properties.name] || 0))
-        .style("opacity", 0.7);
+        .style("opacity", 0.7)
+        .style("cursor", "pointer")
+        .on("click", (event, d) => {
+            showStateName(d.properties.name, container, () => {
+                container.selectAll("*").remove();
+                init();
+            });
+        });
 
     // Add state borders
     svg.append("path")
@@ -45,7 +61,6 @@ function createMap(us) {
         .attr("stroke", "black")
         .attr("d", path);
 }
-
 
 async function init() {
     const us = await d3.json("https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json");
