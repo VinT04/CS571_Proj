@@ -1,26 +1,43 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+    <link rel="stylesheet" href="styles.css">
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://d3js.org/topojson.v3.min.js"></script>
-    <style>
-        h1 { font-family: "Times New Roman"; text-align: center; }
-        h2 { font-family: "Times New Roman"; text-align: center; }
-        #map-container { 
-            width: 900px; 
-            height: 600px; 
-            margin: auto; 
-        }
-        .state { 
-            stroke: rgb(0, 0, 0);
-            opacity: 0.7;
-        }
-    </style>
 </head>
+
 <body>
-    <h1>VaxInfo</h1>
-    <h2>subtitle</h2>
-    <div id="map-container"></div>
-    <script type="module" src="map.js"></script>
+    <div id="header">
+        <h1>VaxInfo</h1>
+        <h2> An empowering data-driven COVID-19 solution </h2>
+    </div>
+    <div id="national-info">
+        <div id="map-container"></div>
+        <div id="slider">
+            <input type="range" id="mySlider" name="date_slider" min="0" max="4" value="0" step="1">
+            <div id="slider-labels">
+                <label for="mySlider">09/01 - 09/28</label>
+                <label for="mySlider">09/29 - 10/26</label>
+                <label for="mySlider">10/27 - 11/30</label>
+                <label for="mySlider">11/01 - 12/28</label>
+                <label for="mySlider">12/29 - 01/25</label>
+            </div>
+        </div>
+        <script type='module' src="map.js"></script>
+    </div>
+    <div id="footer">
+        <h3>vaxInfo is a cutting-edge program that visualizes COVID-19 vaccination trends based on demographic
+            insights.
+            By
+            harnessing the power of data, vaxInfo supports public health efforts and empowers informed
+            decision-making
+            for
+            healthier communities. Whether you're analyzing trends by age, region, or other factors, vaxInfo is your
+            go-to
+            resource for accessible and impactful vaccination data.
+        </h3>
+    </div>
 </body>
+
 </html>
