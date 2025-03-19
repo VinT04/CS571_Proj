@@ -7,8 +7,8 @@ const svg = d3.select("#map-container")
     .style("height", "100%");
 
 const color = d3.scaleLinear()
-    .domain([40, 80])
-    .range(["rgb(255, 255, 255)", "rgb(255, 0, 0)"])
+    .domain([60, 84, 100])
+    .range(["rgb(255, 255, 255)", "rgb(0, 151, 118)"])
     .clamp(true);
 
 const proj = d3.geoAlbersUsa()
@@ -28,18 +28,15 @@ const slider = document.getElementById('mySlider');
 let default_time = slider_to_date.get(0);
 slider.addEventListener("input", () => {
     default_time = slider_to_date.get(parseInt(slider.value));
+    console.log(default_time);
     updateMap();
 });
 
 function getData() {
     return data
-        .filter(d => {
-            if (d['Group Category'] === 'All adults 18+ years') {
-                return true;
-            }
-
-            return false;
-        })
+        .filter(d =>
+            d['Group Category'] === 'All adults 18+ years' &&
+            d['Time Period'] === default_time)
         .reduce((acc, curr) => {
             acc[curr.Geography] = curr['Estimate (%)'];
             return acc;
@@ -58,7 +55,28 @@ function createMap(us) {
         .attr("class", "state")
         .attr("d", path)
         .style("fill", d => color(state_estimates[d.properties.name] || 0))
-        .style("opacity", 0.7);
+        .style("opacity", 1)
+        .style('transform-origin', 'center center')
+        .on("click", function (event, d) {
+            console.log("State clicked:", d.properties.name);
+            // Add your button click logic here
+        })
+        .on("mouseover", function (event, d) {
+            d3.select(this)
+                .transition()
+                .duration(100)
+                .attr("stroke", "black")
+                .attr("stroke-width", 4)
+                .attr('size', 10);
+        })
+        .on("mouseout", function (event, d) {
+            d3.select(this)
+                .transition()
+                .duration(100)
+                .attr("stroke", "black")
+                .attr("stroke-width", 1);
+        });
+
 
     // Add state borders
     svg.append("path")
