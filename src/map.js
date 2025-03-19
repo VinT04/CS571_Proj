@@ -1,23 +1,13 @@
 import { showStateName } from './stateView.js';
 
-const data = {
-    'Alabama': 45, 'Alaska': 52, 'Arizona': 55, 'Arkansas': 48, 'California': 72,
-    'Colorado': 65, 'Connecticut': 75, 'Delaware': 68, 'Florida': 60, 'Georgia': 50,
-    'Hawaii': 78, 'Idaho': 45, 'Illinois': 65, 'Indiana': 52, 'Iowa': 58,
-    'Kansas': 54, 'Kentucky': 52, 'Louisiana': 48, 'Maine': 70, 'Maryland': 72,
-    'Massachusetts': 78, 'Michigan': 60, 'Minnesota': 68, 'Mississippi': 45, 'Missouri': 52,
-    'Montana': 54, 'Nebraska': 58, 'Nevada': 58, 'New Hampshire': 72, 'New Jersey': 72,
-    'New Mexico': 65, 'New York': 72, 'North Carolina': 58, 'North Dakota': 52, 'Ohio': 55,
-    'Oklahoma': 48, 'Oregon': 68, 'Pennsylvania': 65, 'Rhode Island': 75, 'South Carolina': 52,
-    'South Dakota': 52, 'Tennessee': 50, 'Texas': 55, 'Utah': 58, 'Vermont': 78,
-    'Virginia': 68, 'Washington': 70, 'West Virginia': 48, 'Wisconsin': 62, 'Wyoming': 45
-};
+const data = await fetch('../data/Adult_COVID.json').then(response => response.json());
 
+const us = await d3.json("https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json");
 const container = d3.select("#map-container");
 
 const color = d3.scaleLinear()
-    .domain([40, 80])
-    .range(["rgb(255, 255, 255)", "rgb(255, 0, 0)"])
+    .domain([60, 84, 100])
+    .range(["rgb(255, 255, 255)", "rgb(0, 151, 118)"])
     .clamp(true);
 
 const proj = d3.geoAlbersUsa()
@@ -25,9 +15,39 @@ const proj = d3.geoAlbersUsa()
     .scale(1000);
 
 const path = d3.geoPath().projection(proj);
+const slider_to_date = new Map([
+    [0, "September 1 - September 28"],
+    [1, "September 29 - October 26"],
+    [2, "October 27 - November 30"],
+    [3, "December 1 - December 28"],
+    [4, "December 29 - January 25"]
+]);
+const slider = document.getElementById('mySlider');
+
+let default_time = slider_to_date.get(0);
+slider.addEventListener("input", () => {
+    default_time = slider_to_date.get(parseInt(slider.value));
+    console.log(default_time);
+    updateMap();
+});
+
+function getData() {
+    return data
+        .filter(d =>
+            d['Group Category'] === 'All adults 18+ years' &&
+            d['Time Period'] === default_time)
+        .reduce((acc, curr) => {
+            acc[curr.Geography] = curr['Estimate (%)'];
+            return acc;
+        }, {});
+}
+
 
 function createMap(us) {
-    // Clear any existing content
+    // Draw the states
+    let state_estimates = getData();
+    // console.log(state_estimates);
+
     container.selectAll("*").remove();
 
     // Create new SVG
@@ -44,7 +64,7 @@ function createMap(us) {
         .join("path")
         .attr("class", "state")
         .attr("d", path)
-        .style("fill", d => color(data[d.properties.name] || 0))
+        .style("fill", d => color(state_estimates[d.properties.name] || 0))
         .style("opacity", 0.7)
         .style("cursor", "pointer")
         .on("click", (event, d) => {
@@ -52,6 +72,21 @@ function createMap(us) {
                 container.selectAll("*").remove();
                 init();
             });
+        })
+        .on("mouseover", function (event, d) {
+            d3.select(this)
+                .transition()
+                .duration(100)
+                .attr("stroke", "black")
+                .attr("stroke-width", 4)
+                .attr('size', 10);
+        })
+        .on("mouseout", function (event, d) {
+            d3.select(this)
+                .transition()
+                .duration(100)
+                .attr("stroke", "black")
+                .attr("stroke-width", 1);
         });
 
     // Add state borders
@@ -62,10 +97,16 @@ function createMap(us) {
         .attr("d", path);
 }
 
-async function init() {
-    const us = await d3.json("https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json");
+function updateMap() {
+    let state_estimates = getData();
+    console.log(state_estimates);
+    svg.selectAll(".state")
+        .style("fill", d => color(state_estimates[d.properties.name] || 0))
+        .style("opacity", 0.7);
+}
+
+function init() {
     createMap(us);
 }
 
-
-init(); 
+init();
