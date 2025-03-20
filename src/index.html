@@ -2,12 +2,37 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles_homepage.css">
+    <link rel="stylesheet" href="styles_overlay_nat.css">
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://d3js.org/topojson.v3.min.js"></script>
 </head>
 
 <body>
+    <script type='module' src="map.js"></script>
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+
+    </script>
+    <div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <!-- Overlay content -->
+        <div class="overlay-content">
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
     <div id="header">
         <h1>VaxInfo</h1>
         <h2> An empowering data-driven COVID-19 solution </h2>
@@ -15,7 +40,7 @@
     <div id="national-info">
         <div id="map-container"></div>
         <div id="option-detail">
-            <div id="option_container">
+            <div id="option-container">
                 <div id="slider">
                     <input type="range" id="mySlider" name="date_slider" min="0" max="4" value="0" step="1">
                     <div id="slider-labels">
@@ -27,13 +52,13 @@
                     </div>
                 </div>
                 <label class="switch">
-                    <input type="checkbox" id="rsv_check">
+                    <input type="checkbox" id="rsv-check">
                     <span class="slider round"></span>
                 </label>
             </div>
-            <input type="button" id="detail_button" value="Detailed Statistics">
+            <input type="button" id="detail-button" value="Detailed Statistics" onclick="openNav()">
         </div>
-        <script type='module' src="map.js"></script>
+
     </div>
     <div id="footer">
         <h3>vaxInfo is a cutting-edge program that visualizes COVID-19 vaccination trends based on demographic
