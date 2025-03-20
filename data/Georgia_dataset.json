@@ -62,18 +62,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Received an RSV vaccination (ever)",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Received a flu vaccination since July 1, 2024",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -119,30 +107,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Reaction to previous dose of COVID-19 vaccine",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Difficulty with cost (including payments, transportation, time off)",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Difficulty with cost (including payments, transportation, time off)",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -173,18 +137,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Reaction to previous dose of COVID-19 vaccine",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -211,18 +163,6 @@
     "Sample Size": 42,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -332,18 +272,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Difficulty getting an appointment online",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Hard to get to vaccination site",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -355,18 +283,6 @@
     "Sample Size": 404,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Hard to get to vaccination site",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -386,30 +302,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Difficulty knowing where to get vaccinated",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Vaccination sites not open at convenient times",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Vaccination sites not open at convenient times",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -421,18 +313,6 @@
     "Sample Size": 397,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Not sure whether eligible",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -497,18 +377,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is somewhat difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Race/Ethnicity (4 level)",
     "Group Category": "Black, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -535,18 +403,6 @@
     "Sample Size": 31,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is very difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -642,18 +498,6 @@
     "Geography Type": "State",
     "Geography": "Georgia",
     "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
     "Group Category": "18-49 years, Black, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -664,18 +508,6 @@
     "Sample Size": 66,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -695,30 +527,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Social Vulnerability Index (SVI) of county of residence",
     "Group Category": "High SVI",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -730,18 +538,6 @@
     "Sample Size": 95,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Sexual orientation",
-    "Group Category": "Gay/Lesbian/Bisexual/Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -821,30 +617,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Difficulty knowing where to get vaccinated",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Vaccination sites not open at convenient times",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Received a flu vaccination since July 1, 2024",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -905,30 +677,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Language of interview",
-    "Group Category": "Spanish",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Sexual orientation",
-    "Group Category": "Don't know/refused",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Concern about getting COVID-19 disease",
     "Group Category": "Very or moderately concerned",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -959,30 +707,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is very difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Breastfeeding",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Language of interview",
     "Group Category": "English",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -1009,18 +733,6 @@
     "Sample Size": 137,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Asian, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -1085,18 +797,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Reaction to previous dose of COVID-19 vaccine",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -1138,30 +838,6 @@
     "Sample Size": 84,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Not sure whether eligible",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -1271,18 +947,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Reaction to previous dose of COVID-19 vaccine",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Difficulty getting COVID-19 vaccine",
     "Group Category": "Getting a COVID-19 vaccine is not at all difficult",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -1313,18 +977,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Disability status (any)",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Received an RSV vaccination (ever)",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -1336,18 +988,6 @@
     "Sample Size": 37,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Vaccination uptake and intention",
-    "Group Category": "Received a 2024-2025 COVID-19 dose",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -1367,18 +1007,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Metropolitan statistical area",
     "Group Category": "Rural",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -1390,18 +1018,6 @@
     "Sample Size": 33,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -1481,102 +1097,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Difficulty with cost (including payments, transportation, time off)",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is a little difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Difficulty knowing where to get vaccinated",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Disability status (any)",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Language of interview",
-    "Group Category": "Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Sexual orientation",
-    "Group Category": "Don't know/refused",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Hard to get to vaccination site",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Race/Ethnicity (4 level)",
     "Group Category": "White, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -1592,18 +1112,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, White, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Social Vulnerability Index (SVI) of county of residence",
     "Group Category": "Low SVI",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -1615,18 +1123,6 @@
     "Sample Size": 69,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Language of interview",
-    "Group Category": "Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -1657,30 +1153,6 @@
     "Sample Size": 139,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, White, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -1726,18 +1198,6 @@
     "Sample Size": 69,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Self-perceived equity in seeking healthcare compared to other races/ethnicities",
-    "Group Category": "Worse than other races or ethnicities",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -1817,30 +1277,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Trying to get pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Breastfeeding",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Race/Ethnicity (4 level)",
     "Group Category": "Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -1871,30 +1307,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Received a flu vaccination since July 1, 2024",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Received any non-COVID-19 vaccine(s) in past two years",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -1906,18 +1318,6 @@
     "Sample Size": 139,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Trying to get pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -1998,18 +1398,6 @@
     "Geography Type": "State",
     "Geography": "Georgia",
     "Group Name": "Language of interview",
-    "Group Category": "Spanish",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Language of interview",
     "Group Category": "English",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -2054,30 +1442,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Reaction to previous dose of COVID-19 vaccine",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Insurance status",
     "Group Category": "Insured",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -2108,18 +1472,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Health condition associated with higher risk for viral respiratory diseases",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -2146,42 +1498,6 @@
     "Sample Size": 48,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Vaccination sites not open at convenient times",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Difficulty getting an appointment online",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Not sure whether eligible",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -2306,18 +1622,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, White, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Social Vulnerability Index (SVI) of county of residence",
     "Group Category": "High SVI",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -2333,18 +1637,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Difficulty with cost (including payments, transportation, time off)",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Received an RSV vaccination (ever)",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -2356,18 +1648,6 @@
     "Sample Size": 37,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Received a flu vaccination since July 1, 2024",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -2402,18 +1682,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Received an RSV vaccination (ever)",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Vaccination uptake and intention",
     "Group Category": "Probably will get the 2024-2025 COVID-19 vaccine or are unsure",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -2425,18 +1693,6 @@
     "Sample Size": 103,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Vaccination uptake and intention",
-    "Group Category": "Received a 2024-2025 COVID-19 dose",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -2501,18 +1757,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Sex",
     "Group Category": "Female",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -2558,18 +1802,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Native Hawaiian/Pacific Islander, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Disability status (any)",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -2581,18 +1813,6 @@
     "Sample Size": 291,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Asian, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -2672,18 +1892,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Sexual orientation",
-    "Group Category": "Gay/Lesbian/Bisexual/Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Self-perceived equity in seeking healthcare compared to other races/ethnicities",
     "Group Category": "Same as other races or ethnicities",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -2710,30 +1918,6 @@
     "Sample Size": 150,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -2768,18 +1952,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is somewhat difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Confidence in COVID-19 vaccine safety",
     "Group Category": "Somewhat or not at all safe for me",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -2806,18 +1978,6 @@
     "Sample Size": 134,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is very difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -2987,30 +2147,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Race/Ethnicity (7 level)",
     "Group Category": "Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -3052,30 +2188,6 @@
     "Sample Size": 154,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Difficulty getting an appointment online",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, White, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -3140,18 +2252,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Received an RSV vaccination (ever)",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Race/Ethnicity (7 level)",
     "Group Category": "White, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -3163,18 +2263,6 @@
     "Sample Size": 136,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Native Hawaiian/Pacific Islander, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -3284,18 +2372,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Self-perceived equity in seeking healthcare compared to other races/ethnicities",
-    "Group Category": "Worse than other races or ethnicities",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Concern about getting COVID-19 disease",
     "Group Category": "A little or not at all concerned",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -3307,42 +2383,6 @@
     "Sample Size": 178,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Hard to get to vaccination site",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is a little difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is somewhat difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -3497,18 +2537,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Self-perceived equity in seeking healthcare compared to other races/ethnicities",
-    "Group Category": "Worse than other races or ethnicities",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Received any non-COVID-19 vaccine(s) in past two years",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -3520,30 +2548,6 @@
     "Sample Size": 193,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -3604,18 +2608,6 @@
     "Sample Size": 341,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Sexual orientation",
-    "Group Category": "Gay/Lesbian/Bisexual/Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -3785,54 +2777,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Asian, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "American Indian/Alaska Native, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Native Hawaiian/Pacific Islander, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Sex",
     "Group Category": "Female",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -3874,18 +2818,6 @@
     "Sample Size": 194,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Language of interview",
-    "Group Category": "Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -3980,30 +2912,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Vaccination uptake and intention",
     "Group Category": "Probably or definitely will not get the 2024-2025 COVID-19 vaccine",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -4015,30 +2923,6 @@
     "Sample Size": 107,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -4074,42 +2958,6 @@
     "Geography Type": "State",
     "Geography": "Georgia",
     "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, White, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, White, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
     "Group Category": "18-49 years, Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -4120,18 +2968,6 @@
     "Sample Size": 33,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -4196,18 +3032,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Age",
-    "Group Category": "65+ years",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Metropolitan statistical area",
     "Group Category": "Suburban",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -4219,30 +3043,6 @@
     "Sample Size": 171,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Metropolitan statistical area",
-    "Group Category": "Rural",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Social Vulnerability Index (SVI) of county of residence",
-    "Group Category": "Low SVI",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -4323,30 +3123,6 @@
     "Geography Type": "State",
     "Geography": "Georgia",
     "Group Name": "Language of interview",
-    "Group Category": "Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Language of interview",
-    "Group Category": "Spanish",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Language of interview",
     "Group Category": "English",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -4406,18 +3182,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Poverty status",
-    "Group Category": "Below poverty",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Race/Ethnicity (7 level)",
     "Group Category": "Black, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -4448,18 +3212,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Asian, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Poverty status",
     "Group Category": "Above poverty, income <$75k",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -4476,18 +3228,6 @@
     "Geography Type": "State",
     "Geography": "Georgia",
     "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Native Hawaiian/Pacific Islander, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Race/Ethnicity (7 level)",
     "Group Category": "Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -4498,30 +3238,6 @@
     "Sample Size": 38,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "American Indian/Alaska Native, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -4557,18 +3273,6 @@
     "Geography Type": "State",
     "Geography": "Georgia",
     "Group Name": "Sexual orientation",
-    "Group Category": "Gay/Lesbian/Bisexual/Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Sexual orientation",
     "Group Category": "Heterosexual/Straight",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -4579,18 +3283,6 @@
     "Sample Size": 200,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Disability status (any)",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -4606,18 +3298,6 @@
     "Sample Size": 192,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Sexual orientation",
-    "Group Category": "Don't know/refused",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -4693,18 +3373,6 @@
     "Sample Size": 99,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Self-perceived equity in seeking healthcare compared to other races/ethnicities",
-    "Group Category": "Worse than other races or ethnicities",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -4859,18 +3527,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is a little difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Race/Ethnicity (4 level)",
     "Group Category": "White, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -4882,18 +3538,6 @@
     "Sample Size": 117,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Race/Ethnicity (4 level)",
-    "Group Category": "Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -4924,18 +3568,6 @@
     "Sample Size": 51,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is somewhat difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -4986,30 +3618,6 @@
     "Geography Type": "State",
     "Geography": "Georgia",
     "Group Name": "Difficulty getting an appointment online",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is very difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Difficulty getting an appointment online",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -5020,42 +3628,6 @@
     "Sample Size": 234,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Hard to get to vaccination site",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Vaccination sites not open at convenient times",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Difficulty knowing where to get vaccinated",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -5071,30 +3643,6 @@
     "Sample Size": 231,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Reaction to previous dose of COVID-19 vaccine",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Difficulty with cost (including payments, transportation, time off)",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -5144,18 +3692,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Not sure whether eligible",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Difficulty with cost (including payments, transportation, time off)",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -5186,18 +3722,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Received an RSV vaccination (ever)",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Received a flu vaccination since July 1, 2024",
     "Group Category": "Yes",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -5224,18 +3748,6 @@
     "Sample Size": 71,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Vaccination uptake and intention",
-    "Group Category": "Definitely will get the 2024-2025 COVID-19 vaccine",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -5330,18 +3842,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Received an RSV vaccination (ever)",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Received a flu vaccination since July 1, 2024",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -5387,30 +3887,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Reaction to previous dose of COVID-19 vaccine",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Difficulty with cost (including payments, transportation, time off)",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Difficulty with cost (including payments, transportation, time off)",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -5441,18 +3917,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Reaction to previous dose of COVID-19 vaccine",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -5479,18 +3943,6 @@
     "Sample Size": 42,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -5600,18 +4052,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Difficulty getting an appointment online",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Hard to get to vaccination site",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -5623,18 +4063,6 @@
     "Sample Size": 404,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Hard to get to vaccination site",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -5654,30 +4082,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Difficulty knowing where to get vaccinated",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Vaccination sites not open at convenient times",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Vaccination sites not open at convenient times",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -5689,18 +4093,6 @@
     "Sample Size": 397,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Not sure whether eligible",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -5765,18 +4157,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is somewhat difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Race/Ethnicity (4 level)",
     "Group Category": "Black, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -5803,18 +4183,6 @@
     "Sample Size": 31,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is very difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -5910,18 +4278,6 @@
     "Geography Type": "State",
     "Geography": "Georgia",
     "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
     "Group Category": "18-49 years, Black, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -5937,18 +4293,6 @@
     "Geography Type": "State",
     "Geography": "Georgia",
     "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
     "Group Category": "18-49 years, White, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -5959,30 +4303,6 @@
     "Sample Size": 101,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -6137,18 +4457,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Self-perceived equity in seeking healthcare compared to other races/ethnicities",
-    "Group Category": "Worse than other races or ethnicities",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Received any non-COVID-19 vaccine(s) in past two years",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -6160,30 +4468,6 @@
     "Sample Size": 193,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -6244,18 +4528,6 @@
     "Sample Size": 341,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Sexual orientation",
-    "Group Category": "Gay/Lesbian/Bisexual/Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -6425,54 +4697,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Asian, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "American Indian/Alaska Native, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Native Hawaiian/Pacific Islander, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Sex",
     "Group Category": "Female",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -6514,18 +4738,6 @@
     "Sample Size": 194,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Language of interview",
-    "Group Category": "Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -6616,42 +4828,6 @@
     "Sample Size": 85,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -6807,18 +4983,6 @@
     "Geography Type": "State",
     "Geography": "Georgia",
     "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
     "Group Category": "18-49 years, Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -6829,18 +4993,6 @@
     "Sample Size": 39,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -7040,18 +5192,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Language of interview",
-    "Group Category": "Spanish",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Race/Ethnicity (7 level)",
     "Group Category": "White, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -7097,30 +5237,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Language of interview",
-    "Group Category": "Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Poverty status",
     "Group Category": "Above poverty, income <$75k",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -7147,30 +5263,6 @@
     "Sample Size": 108,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Asian, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "American Indian/Alaska Native, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -7261,18 +5353,6 @@
     "Sample Size": 145,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Sexual orientation",
-    "Group Category": "Don't know/refused",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -7378,30 +5458,6 @@
     "Sample Size": 300,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -7677,30 +5733,6 @@
     "Geography Type": "State",
     "Geography": "Georgia",
     "Group Name": "Difficulty getting an appointment online",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is very difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Difficulty getting an appointment online",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -7711,18 +5743,6 @@
     "Sample Size": 513,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is somewhat difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -7742,42 +5762,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Difficulty knowing where to get vaccinated",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Reaction to previous dose of COVID-19 vaccine",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Hard to get to vaccination site",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Not sure whether eligible",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -7789,30 +5773,6 @@
     "Sample Size": 511,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Not sure whether eligible",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Vaccination sites not open at convenient times",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -7873,18 +5833,6 @@
     "Sample Size": 504,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Difficulty with cost (including payments, transportation, time off)",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -7979,42 +5927,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Vaccination uptake and intention",
     "Group Category": "Probably will get the 2024-2025 COVID-19 vaccine or are unsure",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -8046,18 +5958,6 @@
     "Geography Type": "State",
     "Geography": "Georgia",
     "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
     "Group Category": "18-49 years, Black, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -8068,18 +5968,6 @@
     "Sample Size": 70,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -8100,18 +5988,6 @@
     "Geography Type": "State",
     "Geography": "Georgia",
     "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, White, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
     "Group Category": "18-49 years, White, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -8122,30 +5998,6 @@
     "Sample Size": 122,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -8406,18 +6258,6 @@
     "Geography Type": "State",
     "Geography": "Georgia",
     "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "American Indian/Alaska Native, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Race/Ethnicity (7 level)",
     "Group Category": "White, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -8443,18 +6283,6 @@
     "Sample Size": 105,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Language of interview",
-    "Group Category": "Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -8485,18 +6313,6 @@
     "Sample Size": 80,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Asian, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -8561,30 +6377,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Sexual orientation",
-    "Group Category": "Don't know/refused",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Sexual orientation",
     "Group Category": "Gay/Lesbian/Bisexual/Other",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -8641,30 +6433,6 @@
     "Sample Size": 71,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -9015,18 +6783,6 @@
     "Geography Type": "State",
     "Geography": "Georgia",
     "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is very difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
     "Group Category": "Getting a COVID-19 vaccine is a little difficult",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -9056,18 +6812,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Difficulty knowing where to get vaccinated",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Difficulty getting COVID-19 vaccine",
     "Group Category": "Getting a COVID-19 vaccine is not at all difficult",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -9083,18 +6827,6 @@
   {
     "Geography Type": "State",
     "Geography": "Georgia",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is somewhat difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
     "Group Name": "Difficulty with cost (including payments, transportation, time off)",
     "Group Category": "Yes",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -9106,18 +6838,6 @@
     "Sample Size": 33,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Difficulty getting an appointment online",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -9138,30 +6858,6 @@
     "Geography Type": "State",
     "Geography": "Georgia",
     "Group Name": "Hard to get to vaccination site",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Not sure whether eligible",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Hard to get to vaccination site",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -9172,30 +6868,6 @@
     "Sample Size": 408,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Vaccination sites not open at convenient times",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Reaction to previous dose of COVID-19 vaccine",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -9286,18 +6958,6 @@
     "Sample Size": 57,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Georgia",
-    "Group Name": "Received an RSV vaccination (ever)",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",

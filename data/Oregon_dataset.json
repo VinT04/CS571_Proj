@@ -107,18 +107,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Reaction to previous dose of COVID-19 vaccine",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Not sure whether eligible",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -194,18 +182,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Difficulty with cost (including payments, transportation, time off)",
     "Group Category": "Yes",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -247,18 +223,6 @@
     "Sample Size": 209,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -443,18 +407,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Race/Ethnicity (4 level)",
-    "Group Category": "Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Difficulty getting COVID-19 vaccine",
     "Group Category": "Getting a COVID-19 vaccine is not at all difficult",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -481,18 +433,6 @@
     "Sample Size": 895,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is very difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -648,54 +588,6 @@
     "Geography Type": "State",
     "Geography": "Oregon",
     "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
     "Group Category": "18-49 years, White, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -706,30 +598,6 @@
     "Sample Size": 337,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -974,30 +842,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Difficulty getting COVID-19 vaccine",
     "Group Category": "Getting a COVID-19 vaccine is not at all difficult",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -1024,18 +868,6 @@
     "Sample Size": 420,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Reaction to previous dose of COVID-19 vaccine",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -1145,18 +977,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Vaccination sites not open at convenient times",
     "Group Category": "Yes",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -1202,30 +1022,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Social Vulnerability Index (SVI) of county of residence",
     "Group Category": "Low SVI",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -1252,18 +1048,6 @@
     "Sample Size": 378,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -1313,30 +1097,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Language of interview",
-    "Group Category": "Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "American Indian/Alaska Native, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Healthcare provider recommended I get a COVID-19 vaccine",
     "Group Category": "Yes",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -1382,18 +1142,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Breastfeeding",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Difficulty getting an appointment online",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -1405,18 +1153,6 @@
     "Sample Size": 833,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Race/Ethnicity (4 level)",
-    "Group Category": "Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -1586,18 +1322,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Sex",
     "Group Category": "Female",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -1613,30 +1337,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Asian, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "American Indian/Alaska Native, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Self-perceived equity in seeking healthcare compared to other races/ethnicities",
     "Group Category": "Better than other races or ethnicities",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -1648,30 +1348,6 @@
     "Sample Size": 225,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -1721,18 +1397,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Not sure whether eligible",
     "Group Category": "Yes",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -1744,18 +1408,6 @@
     "Sample Size": 36,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -1805,18 +1457,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Trying to get pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Received any non-COVID-19 vaccine(s) in past two years",
     "Group Category": "Yes",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -1858,18 +1498,6 @@
     "Sample Size": 97,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Self-perceived equity in seeking healthcare compared to other races/ethnicities",
-    "Group Category": "Worse than other races or ethnicities",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -2010,18 +1638,6 @@
     "Geography Type": "State",
     "Geography": "Oregon",
     "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is very difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
     "Group Category": "Getting a COVID-19 vaccine is somewhat difficult",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -2047,18 +1663,6 @@
     "Sample Size": 202,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -2123,18 +1727,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Healthcare provider recommended I get a COVID-19 vaccine",
     "Group Category": "Yes",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -2165,18 +1757,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is very difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Difficulty getting an appointment online",
     "Group Category": "Yes",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -2188,42 +1768,6 @@
     "Sample Size": 42,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Asian, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -2254,30 +1798,6 @@
     "Sample Size": 107,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -2447,30 +1967,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Native Hawaiian/Pacific Islander, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Age by race/ethnicity",
     "Group Category": "50-64 years, White, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -2636,18 +2132,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Social Vulnerability Index (SVI) of county of residence",
     "Group Category": "High SVI",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -2704,18 +2188,6 @@
     "Sample Size": 169,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -2836,18 +2308,6 @@
     "Sample Size": 740,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Language of interview",
-    "Group Category": "Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -2983,18 +2443,6 @@
     "Sample Size": 38,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Breastfeeding",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -3149,30 +2597,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Race/Ethnicity (4 level)",
-    "Group Category": "Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Reaction to previous dose of COVID-19 vaccine",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Not sure whether eligible",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -3214,18 +2638,6 @@
     "Sample Size": 62,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -3290,18 +2702,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Native Hawaiian/Pacific Islander, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Insurance status",
     "Group Category": "Not insured",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -3313,18 +2713,6 @@
     "Sample Size": 51,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -3434,18 +2822,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Self-perceived equity in seeking healthcare compared to other races/ethnicities",
-    "Group Category": "Worse than other races or ethnicities",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Sex",
     "Group Category": "Male",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -3457,18 +2833,6 @@
     "Sample Size": 411,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Trying to get pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -3698,30 +3062,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Self-perceived equity in seeking healthcare compared to other races/ethnicities",
     "Group Category": "Don't know/refused",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -3748,18 +3088,6 @@
     "Sample Size": 275,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Self-perceived equity in seeking healthcare compared to other races/ethnicities",
-    "Group Category": "Worse than other races or ethnicities",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -3959,30 +3287,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Native Hawaiian/Pacific Islander, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Poverty status",
     "Group Category": "Unknown income",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -3994,18 +3298,6 @@
     "Sample Size": 217,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "American Indian/Alaska Native, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -4160,18 +3452,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Language of interview",
-    "Group Category": "Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Born in the U.S.",
     "Group Category": "Not born in the U.S.",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -4218,66 +3498,6 @@
     "Geography Type": "State",
     "Geography": "Oregon",
     "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
     "Group Category": "65+ years, White, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -4318,18 +3538,6 @@
     "Sample Size": 362,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -4589,18 +3797,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Language of interview",
-    "Group Category": "Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Insurance status",
     "Group Category": "Insured",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -4627,30 +3823,6 @@
     "Sample Size": 65,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Native Hawaiian/Pacific Islander, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "American Indian/Alaska Native, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -4756,18 +3928,6 @@
     "Sample Size": 1393,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -4963,30 +4123,6 @@
     "Sample Size": 1570,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -5217,18 +4353,6 @@
     "Geography Type": "State",
     "Geography": "Oregon",
     "Group Name": "Race/Ethnicity (4 level)",
-    "Group Category": "Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Race/Ethnicity (4 level)",
     "Group Category": "White, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -5344,18 +4468,6 @@
     "Sample Size": 1694,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is very difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -5705,18 +4817,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Reaction to previous dose of COVID-19 vaccine",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Not sure whether eligible",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -5792,18 +4892,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Difficulty with cost (including payments, transportation, time off)",
     "Group Category": "Yes",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -5845,18 +4933,6 @@
     "Sample Size": 209,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -6041,18 +5117,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Race/Ethnicity (4 level)",
-    "Group Category": "Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Difficulty getting COVID-19 vaccine",
     "Group Category": "Getting a COVID-19 vaccine is not at all difficult",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -6079,18 +5143,6 @@
     "Sample Size": 895,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is very difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -6246,54 +5298,6 @@
     "Geography Type": "State",
     "Geography": "Oregon",
     "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
     "Group Category": "18-49 years, White, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -6304,30 +5308,6 @@
     "Sample Size": 337,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -6482,30 +5462,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Self-perceived equity in seeking healthcare compared to other races/ethnicities",
     "Group Category": "Don't know/refused",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -6532,18 +5488,6 @@
     "Sample Size": 275,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Self-perceived equity in seeking healthcare compared to other races/ethnicities",
-    "Group Category": "Worse than other races or ethnicities",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -6743,30 +5687,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Native Hawaiian/Pacific Islander, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Poverty status",
     "Group Category": "Unknown income",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -6778,18 +5698,6 @@
     "Sample Size": 217,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "American Indian/Alaska Native, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -6944,18 +5852,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Language of interview",
-    "Group Category": "Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Born in the U.S.",
     "Group Category": "Not born in the U.S.",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -6987,18 +5883,6 @@
     "Geography Type": "State",
     "Geography": "Oregon",
     "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
     "Group Category": "18-49 years, Other or multiple races, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -7009,18 +5893,6 @@
     "Sample Size": 38,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -7066,42 +5938,6 @@
     "Sample Size": 228,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -7182,18 +6018,6 @@
     "Geography Type": "State",
     "Geography": "Oregon",
     "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
     "Group Category": "18-49 years, Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -7204,18 +6028,6 @@
     "Sample Size": 82,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -7385,18 +6197,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Native Hawaiian/Pacific Islander, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Language of interview",
     "Group Category": "English",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -7423,30 +6223,6 @@
     "Sample Size": 67,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Asian, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -7496,18 +6272,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "American Indian/Alaska Native, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Poverty status",
     "Group Category": "Above poverty, income <$75k",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -7549,18 +6313,6 @@
     "Sample Size": 948,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Language of interview",
-    "Group Category": "Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -7741,30 +6493,6 @@
     "Sample Size": 276,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -8025,18 +6753,6 @@
     "Geography Type": "State",
     "Geography": "Oregon",
     "Group Name": "Race/Ethnicity (4 level)",
-    "Group Category": "Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Race/Ethnicity (4 level)",
     "Group Category": "Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -8137,18 +6853,6 @@
     "Sample Size": 1171,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is very difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -8378,42 +7082,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Vaccination uptake and intention",
     "Group Category": "Probably will get the 2024-2025 COVID-19 vaccine or are unsure",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -8475,30 +7143,6 @@
     "Geography Type": "State",
     "Geography": "Oregon",
     "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
     "Group Category": "50-64 years, White, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -8554,30 +7198,6 @@
     "Sample Size": 58,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -8882,42 +7502,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Language of interview",
-    "Group Category": "Spanish",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Language of interview",
-    "Group Category": "Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Race/Ethnicity (7 level)",
     "Group Category": "Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -8993,18 +7577,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Native Hawaiian/Pacific Islander, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Sexual orientation",
     "Group Category": "Don't know/refused",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -9016,18 +7588,6 @@
     "Sample Size": 48,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "American Indian/Alaska Native, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -9152,30 +7712,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Self-perceived equity in seeking healthcare compared to other races/ethnicities",
     "Group Category": "Don't know/refused",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -9202,18 +7738,6 @@
     "Sample Size": 211,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Self-perceived equity in seeking healthcare compared to other races/ethnicities",
-    "Group Category": "Worse than other races or ethnicities",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -9353,18 +7877,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Race/Ethnicity (4 level)",
-    "Group Category": "Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Confidence in COVID-19 vaccine safety",
     "Group Category": "Somewhat or not at all safe for me",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -9456,18 +7968,6 @@
     "Geography Type": "State",
     "Geography": "Oregon",
     "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is very difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
     "Group Category": "Getting a COVID-19 vaccine is somewhat difficult",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -9542,18 +8042,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Reaction to previous dose of COVID-19 vaccine",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Difficulty knowing where to get vaccinated",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -9614,18 +8102,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oregon",
-    "Group Name": "Hard to get to vaccination site",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
     "Group Name": "Not sure whether eligible",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -9652,18 +8128,6 @@
     "Sample Size": 35,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oregon",
-    "Group Name": "Not sure whether eligible",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",

@@ -648,30 +648,6 @@
     "Geography Type": "State",
     "Geography": "California",
     "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Age by race/ethnicity",
     "Group Category": "18-49 years, Black, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -682,18 +658,6 @@
     "Sample Size": 32,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -729,18 +693,6 @@
     "Geography Type": "State",
     "Geography": "California",
     "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Age by race/ethnicity",
     "Group Category": "18-49 years, Other or multiple races, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -751,18 +703,6 @@
     "Sample Size": 43,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -1127,18 +1067,6 @@
   {
     "Geography Type": "State",
     "Geography": "California",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Breastfeeding",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
     "Group Name": "Concern about getting COVID-19 disease",
     "Group Category": "Very or moderately concerned",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -1165,42 +1093,6 @@
     "Sample Size": 44,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is very difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -1366,18 +1258,6 @@
     "Sample Size": 120,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Native Hawaiian/Pacific Islander, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -1652,18 +1532,6 @@
   {
     "Geography Type": "State",
     "Geography": "California",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Breastfeeding",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
     "Group Name": "Age by race/ethnicity",
     "Group Category": "50-64 years, Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -1679,18 +1547,6 @@
   {
     "Geography Type": "State",
     "Geography": "California",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
     "Group Name": "Vaccination sites not open at convenient times",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -1702,18 +1558,6 @@
     "Sample Size": 1225,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -1763,18 +1607,6 @@
   {
     "Geography Type": "State",
     "Geography": "California",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Trying to get pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
     "Group Name": "Difficulty getting COVID-19 vaccine",
     "Group Category": "Getting a COVID-19 vaccine is not at all difficult",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -1790,18 +1622,6 @@
   {
     "Geography Type": "State",
     "Geography": "California",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Trying to get pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
     "Group Name": "Race/Ethnicity (7 level)",
     "Group Category": "Other or multiple races, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -1813,18 +1633,6 @@
     "Sample Size": 51,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -2024,30 +1832,6 @@
   {
     "Geography Type": "State",
     "Geography": "California",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
     "Group Name": "Race/Ethnicity (4 level)",
     "Group Category": "Other or multiple races, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -2074,18 +1858,6 @@
     "Sample Size": 328,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -2420,18 +2192,6 @@
   {
     "Geography Type": "State",
     "Geography": "California",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
     "Group Name": "Reaction to previous dose of COVID-19 vaccine",
     "Group Category": "Yes",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -2563,18 +2323,6 @@
     "Sample Size": 259,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "American Indian/Alaska Native, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -2849,18 +2597,6 @@
   {
     "Geography Type": "State",
     "Geography": "California",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
     "Group Name": "All adults 18+ years",
     "Group Category": "All adults 18+ years",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -3086,18 +2822,6 @@
   {
     "Geography Type": "State",
     "Geography": "California",
-    "Group Name": "Language of interview",
-    "Group Category": "Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
     "Group Name": "Race/Ethnicity (7 level)",
     "Group Category": "Black, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -3184,18 +2908,6 @@
     "Sample Size": 121,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Native Hawaiian/Pacific Islander, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -3335,18 +3047,6 @@
   {
     "Geography Type": "State",
     "Geography": "California",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is very difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
     "Group Name": "Vaccination uptake and intention",
     "Group Category": "Probably or definitely will not get the 2024-2025 COVID-19 vaccine",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -3407,18 +3107,6 @@
   {
     "Geography Type": "State",
     "Geography": "California",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "American Indian/Alaska Native, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
     "Group Name": "Sex",
     "Group Category": "Male",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -3445,18 +3133,6 @@
     "Sample Size": 481,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -3577,18 +3253,6 @@
     "Sample Size": 265,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Language of interview",
-    "Group Category": "Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -3784,30 +3448,6 @@
     "Sample Size": 339,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -4052,18 +3692,6 @@
   {
     "Geography Type": "State",
     "Geography": "California",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "American Indian/Alaska Native, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
     "Group Name": "Poverty status",
     "Group Category": "Below poverty",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -4090,18 +3718,6 @@
     "Sample Size": 483,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Native Hawaiian/Pacific Islander, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -4241,18 +3857,6 @@
   {
     "Geography Type": "State",
     "Geography": "California",
-    "Group Name": "Language of interview",
-    "Group Category": "Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
     "Group Name": "Born in the U.S.",
     "Group Category": "Born in the U.S.",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -4279,66 +3883,6 @@
     "Sample Size": 1028,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -4628,18 +4172,6 @@
   {
     "Geography Type": "State",
     "Geography": "California",
-    "Group Name": "Language of interview",
-    "Group Category": "Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
     "Group Name": "Insurance status",
     "Group Category": "Insured",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -4806,18 +4338,6 @@
     "Geography Type": "State",
     "Geography": "California",
     "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Native Hawaiian/Pacific Islander, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Race/Ethnicity (7 level)",
     "Group Category": "Black, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -4858,18 +4378,6 @@
     "Sample Size": 140,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "American Indian/Alaska Native, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -5020,30 +4528,6 @@
     "Sample Size": 240,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -5378,18 +4862,6 @@
   {
     "Geography Type": "State",
     "Geography": "California",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is very difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
     "Group Name": "Difficulty knowing where to get vaccinated",
     "Group Category": "Yes",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -5521,18 +4993,6 @@
     "Sample Size": 65,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Reaction to previous dose of COVID-19 vaccine",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -6333,30 +5793,6 @@
     "Geography Type": "State",
     "Geography": "California",
     "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Age by race/ethnicity",
     "Group Category": "18-49 years, Black, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -6367,18 +5803,6 @@
     "Sample Size": 32,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -6409,18 +5833,6 @@
     "Sample Size": 314,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -6601,30 +6013,6 @@
     "Sample Size": 339,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -6869,18 +6257,6 @@
   {
     "Geography Type": "State",
     "Geography": "California",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "American Indian/Alaska Native, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
     "Group Name": "Poverty status",
     "Group Category": "Below poverty",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -6907,18 +6283,6 @@
     "Sample Size": 483,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Native Hawaiian/Pacific Islander, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -7058,18 +6422,6 @@
   {
     "Geography Type": "State",
     "Geography": "California",
-    "Group Name": "Language of interview",
-    "Group Category": "Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
     "Group Name": "Born in the U.S.",
     "Group Category": "Born in the U.S.",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -7096,42 +6448,6 @@
     "Sample Size": 1028,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -7177,30 +6493,6 @@
     "Sample Size": 31,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -7535,18 +6827,6 @@
   {
     "Geography Type": "State",
     "Geography": "California",
-    "Group Name": "Language of interview",
-    "Group Category": "Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
     "Group Name": "Race/Ethnicity (7 level)",
     "Group Category": "Black, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -7558,18 +6838,6 @@
     "Sample Size": 63,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "American Indian/Alaska Native, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -7660,18 +6928,6 @@
     "Sample Size": 492,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Native Hawaiian/Pacific Islander, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -7852,30 +7108,6 @@
     "Sample Size": 272,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -8195,18 +7427,6 @@
   {
     "Geography Type": "State",
     "Geography": "California",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is very difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
     "Group Name": "Hard to get to vaccination site",
     "Group Category": "Yes",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -8507,42 +7727,6 @@
   {
     "Geography Type": "State",
     "Geography": "California",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
     "Group Name": "Vaccination uptake and intention",
     "Group Category": "Definitely will get the 2024-2025 COVID-19 vaccine",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -8584,30 +7768,6 @@
     "Sample Size": 32,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -8773,18 +7933,6 @@
     "Sample Size": 448,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Metropolitan statistical area",
-    "Group Category": "Rural",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -9045,18 +8193,6 @@
     "Geography Type": "State",
     "Geography": "California",
     "Group Name": "Language of interview",
-    "Group Category": "Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Language of interview",
     "Group Category": "Spanish",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -9097,18 +8233,6 @@
     "Sample Size": 243,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "American Indian/Alaska Native, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -9184,18 +8308,6 @@
     "Sample Size": 815,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Native Hawaiian/Pacific Islander, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -9316,30 +8428,6 @@
     "Sample Size": 260,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -9569,18 +8657,6 @@
   {
     "Geography Type": "State",
     "Geography": "California",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is very difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
     "Group Name": "Difficulty getting an appointment online",
     "Group Category": "Yes",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -9772,18 +8848,6 @@
     "Sample Size": 974,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "California",
-    "Group Name": "Reaction to previous dose of COVID-19 vaccine",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",

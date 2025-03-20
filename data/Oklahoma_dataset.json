@@ -152,18 +152,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Reaction to previous dose of COVID-19 vaccine",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Difficulty with cost (including payments, transportation, time off)",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -175,18 +163,6 @@
     "Sample Size": 895,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -217,18 +193,6 @@
     "Sample Size": 214,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -308,18 +272,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Social Vulnerability Index (SVI) of county of residence",
-    "Group Category": "Low SVI",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Metropolitan statistical area",
     "Group Category": "Urban",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -365,18 +317,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Difficulty knowing where to get vaccinated",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Hard to get to vaccination site",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -407,30 +347,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Difficulty getting an appointment online",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Not sure whether eligible",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Not sure whether eligible",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -442,18 +358,6 @@
     "Sample Size": 905,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is very difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -484,18 +388,6 @@
     "Sample Size": 831,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is somewhat difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -666,54 +558,6 @@
     "Geography Type": "State",
     "Geography": "Oklahoma",
     "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
     "Group Category": "18-49 years, White, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -724,18 +568,6 @@
     "Sample Size": 245,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -755,30 +587,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Difficulty with cost (including payments, transportation, time off)",
     "Group Category": "Yes",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -854,18 +662,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is somewhat difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Born in the U.S.",
     "Group Category": "Born in the U.S.",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -877,18 +673,6 @@
     "Sample Size": 899,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Vaccination sites not open at convenient times",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -1013,18 +797,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Asian, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Born in the U.S.",
     "Group Category": "Not born in the U.S.",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -1100,30 +872,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Healthcare provider recommended I get a COVID-19 vaccine",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -1184,30 +932,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Trying to get pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Reaction to previous dose of COVID-19 vaccine",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Self-perceived equity in seeking healthcare compared to other races/ethnicities",
     "Group Category": "Same as other races or ethnicities",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -1219,42 +943,6 @@
     "Sample Size": 584,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Breastfeeding",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -1330,18 +1018,6 @@
     "Sample Size": 472,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -1496,18 +1172,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Difficulty getting an appointment online",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Race/Ethnicity (4 level)",
     "Group Category": "Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -1519,18 +1183,6 @@
     "Sample Size": 97,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -1670,18 +1322,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Born in the U.S.",
     "Group Category": "Born in the U.S.",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -1708,18 +1348,6 @@
     "Sample Size": 376,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Language of interview",
-    "Group Category": "Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -1784,18 +1412,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Reaction to previous dose of COVID-19 vaccine",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Age by race/ethnicity",
     "Group Category": "18-49 years, Other or multiple races, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -1856,18 +1472,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Language of interview",
-    "Group Category": "Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Metropolitan statistical area",
     "Group Category": "Rural",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -1894,18 +1498,6 @@
     "Sample Size": 548,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -2060,30 +1652,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Not sure whether eligible",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Hard to get to vaccination site",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Vaccination uptake and intention",
     "Group Category": "Probably will get the 2024-2025 COVID-19 vaccine or are unsure",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -2174,18 +1742,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Asian, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Sex",
     "Group Category": "Male",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -2257,30 +1813,6 @@
     "Sample Size": 66,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Not sure whether eligible",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Hard to get to vaccination site",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -2375,30 +1907,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Metropolitan statistical area",
     "Group Category": "Urban",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -2410,18 +1918,6 @@
     "Sample Size": 314,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Vaccination sites not open at convenient times",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -2441,18 +1937,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Breastfeeding",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Self-perceived equity in seeking healthcare compared to other races/ethnicities",
     "Group Category": "Same as other races or ethnicities",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -2464,18 +1948,6 @@
     "Sample Size": 584,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is somewhat difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -2585,18 +2057,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Social Vulnerability Index (SVI) of county of residence",
     "Group Category": "Moderate SVI",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -2638,18 +2098,6 @@
     "Sample Size": 265,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -2759,18 +2207,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Insurance status",
     "Group Category": "Insured",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -2842,18 +2278,6 @@
     "Sample Size": 130,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Native Hawaiian/Pacific Islander, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -2948,42 +2372,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Self-perceived equity in seeking healthcare compared to other races/ethnicities",
-    "Group Category": "Worse than other races or ethnicities",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Received any non-COVID-19 vaccine(s) in past two years",
     "Group Category": "Yes",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -3025,18 +2413,6 @@
     "Sample Size": 465,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Trying to get pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -3117,18 +2493,6 @@
     "Geography Type": "State",
     "Geography": "Oklahoma",
     "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is very difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
     "Group Category": "Getting a COVID-19 vaccine is not at all difficult",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -3169,18 +2533,6 @@
     "Sample Size": 50,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Difficulty getting an appointment online",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -3260,18 +2612,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Native Hawaiian/Pacific Islander, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Healthcare provider recommended I get a COVID-19 vaccine",
     "Group Category": "Yes",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -3343,18 +2683,6 @@
     "Sample Size": 89,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -3524,18 +2852,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Self-perceived equity in seeking healthcare compared to other races/ethnicities",
-    "Group Category": "Worse than other races or ethnicities",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Concern about getting COVID-19 disease",
     "Group Category": "Very or moderately concerned",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -3547,18 +2863,6 @@
     "Sample Size": 402,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is very difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -3773,30 +3077,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Health condition associated with higher risk for viral respiratory diseases",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -3978,18 +3258,6 @@
     "Geography Type": "State",
     "Geography": "Oklahoma",
     "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Asian, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Race/Ethnicity (7 level)",
     "Group Category": "Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -4015,18 +3283,6 @@
     "Sample Size": 81,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Native Hawaiian/Pacific Islander, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -4057,18 +3313,6 @@
     "Sample Size": 622,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Language of interview",
-    "Group Category": "Spanish",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -4114,18 +3358,6 @@
     "Sample Size": 911,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Language of interview",
-    "Group Category": "Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -4191,30 +3423,6 @@
     "Geography Type": "State",
     "Geography": "Oklahoma",
     "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
     "Group Category": "18-49 years, Other or multiple races, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -4225,42 +3433,6 @@
     "Sample Size": 33,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -4311,18 +3483,6 @@
     "Geography Type": "State",
     "Geography": "Oklahoma",
     "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
     "Group Category": "18-49 years, Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -4333,18 +3493,6 @@
     "Sample Size": 30,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -4420,18 +3568,6 @@
     "Sample Size": 241,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Social Vulnerability Index (SVI) of county of residence",
-    "Group Category": "Low SVI",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -4571,18 +3707,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Language of interview",
-    "Group Category": "Spanish",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Poverty status",
     "Group Category": "Above poverty, income >=$75k",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -4654,18 +3778,6 @@
     "Sample Size": 57,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Asian, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -4926,18 +4038,6 @@
     "Geography Type": "State",
     "Geography": "Oklahoma",
     "Group Name": "Self-perceived equity in seeking healthcare compared to other races/ethnicities",
-    "Group Category": "Worse than other races or ethnicities",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Self-perceived equity in seeking healthcare compared to other races/ethnicities",
     "Group Category": "Same as other races or ethnicities",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -5103,18 +4203,6 @@
     "Geography Type": "State",
     "Geography": "Oklahoma",
     "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is somewhat difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
     "Group Category": "Getting a COVID-19 vaccine is not at all difficult",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -5204,18 +4292,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is very difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Hard to get to vaccination site",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -5262,18 +4338,6 @@
     "Geography Type": "State",
     "Geography": "Oklahoma",
     "Group Name": "Difficulty getting an appointment online",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Difficulty getting an appointment online",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -5299,18 +4363,6 @@
     "Sample Size": 779,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Vaccination sites not open at convenient times",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -5345,18 +4397,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Reaction to previous dose of COVID-19 vaccine",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Vaccination sites not open at convenient times",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -5383,18 +4423,6 @@
     "Sample Size": 37,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Not sure whether eligible",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -5669,18 +4697,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Reaction to previous dose of COVID-19 vaccine",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Difficulty with cost (including payments, transportation, time off)",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -5692,18 +4708,6 @@
     "Sample Size": 895,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -5734,18 +4738,6 @@
     "Sample Size": 214,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -5825,18 +4817,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Social Vulnerability Index (SVI) of county of residence",
-    "Group Category": "Low SVI",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Metropolitan statistical area",
     "Group Category": "Urban",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -5882,18 +4862,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Difficulty knowing where to get vaccinated",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Hard to get to vaccination site",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -5924,30 +4892,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Difficulty getting an appointment online",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Not sure whether eligible",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Not sure whether eligible",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -5959,18 +4903,6 @@
     "Sample Size": 905,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is very difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -6001,18 +4933,6 @@
     "Sample Size": 831,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is somewhat difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -6183,54 +5103,6 @@
     "Geography Type": "State",
     "Geography": "Oklahoma",
     "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
     "Group Category": "18-49 years, White, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -6241,18 +5113,6 @@
     "Sample Size": 245,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -6482,30 +5342,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Health condition associated with higher risk for viral respiratory diseases",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -6687,18 +5523,6 @@
     "Geography Type": "State",
     "Geography": "Oklahoma",
     "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Asian, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Race/Ethnicity (7 level)",
     "Group Category": "Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -6724,18 +5548,6 @@
     "Sample Size": 81,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Native Hawaiian/Pacific Islander, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -6766,18 +5578,6 @@
     "Sample Size": 622,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Language of interview",
-    "Group Category": "Spanish",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -6823,18 +5623,6 @@
     "Sample Size": 911,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Language of interview",
-    "Group Category": "Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -6900,18 +5688,6 @@
     "Geography Type": "State",
     "Geography": "Oklahoma",
     "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
     "Group Category": "18-49 years, Other or multiple races, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -6922,18 +5698,6 @@
     "Sample Size": 34,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -6979,42 +5743,6 @@
     "Sample Size": 349,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -7095,18 +5823,6 @@
     "Geography Type": "State",
     "Geography": "Oklahoma",
     "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
     "Group Category": "18-49 years, Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -7117,18 +5833,6 @@
     "Sample Size": 35,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -7224,18 +5928,6 @@
     "Geography Type": "State",
     "Geography": "Oklahoma",
     "Group Name": "Social Vulnerability Index (SVI) of county of residence",
-    "Group Category": "Low SVI",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Social Vulnerability Index (SVI) of county of residence",
     "Group Category": "High SVI",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -7306,30 +5998,6 @@
     "Sample Size": 622,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Language of interview",
-    "Group Category": "Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Language of interview",
-    "Group Category": "Spanish",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -7424,18 +6092,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Native Hawaiian/Pacific Islander, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Poverty status",
     "Group Category": "Above poverty, income >=$75k",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -7447,18 +6103,6 @@
     "Sample Size": 242,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Asian, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -7684,18 +6328,6 @@
     "Sample Size": 364,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Self-perceived equity in seeking healthcare compared to other races/ethnicities",
-    "Group Category": "Worse than other races or ethnicities",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -7956,30 +6588,6 @@
     "Geography Type": "State",
     "Geography": "Oklahoma",
     "Group Name": "Difficulty getting an appointment online",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is somewhat difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Difficulty getting an appointment online",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -8009,30 +6617,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is very difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Difficulty knowing where to get vaccinated",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Difficulty knowing where to get vaccinated",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -8044,18 +6628,6 @@
     "Sample Size": 663,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Hard to get to vaccination site",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -8071,18 +6643,6 @@
     "Sample Size": 663,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Vaccination sites not open at convenient times",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -8143,30 +6703,6 @@
     "Sample Size": 647,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Reaction to previous dose of COVID-19 vaccine",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Not sure whether eligible",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -8247,18 +6783,6 @@
     "Geography Type": "State",
     "Geography": "Oklahoma",
     "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
     "Group Category": "18-49 years, Other or multiple races, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -8269,18 +6793,6 @@
     "Sample Size": 36,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -8346,42 +6858,6 @@
     "Geography Type": "State",
     "Geography": "Oklahoma",
     "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
     "Group Category": "18-49 years, White, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -8422,30 +6898,6 @@
     "Sample Size": 237,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -8585,18 +7037,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Social Vulnerability Index (SVI) of county of residence",
-    "Group Category": "Low SVI",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Born in the U.S.",
     "Group Category": "Born in the U.S.",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -8688,18 +7128,6 @@
     "Geography Type": "State",
     "Geography": "Oklahoma",
     "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Asian, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Race/Ethnicity (7 level)",
     "Group Category": "Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -8710,18 +7138,6 @@
     "Sample Size": 64,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Language of interview",
-    "Group Category": "Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -8936,18 +7352,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Native Hawaiian/Pacific Islander, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Disability status (any)",
     "Group Category": "Yes",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -8974,30 +7378,6 @@
     "Sample Size": 167,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -9302,18 +7682,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Difficulty knowing where to get vaccinated",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Difficulty getting COVID-19 vaccine",
     "Group Category": "Getting a COVID-19 vaccine is very difficult",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -9404,30 +7772,6 @@
   {
     "Geography Type": "State",
     "Geography": "Oklahoma",
-    "Group Name": "Difficulty getting an appointment online",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Vaccination sites not open at convenient times",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
     "Group Name": "Not sure whether eligible",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -9439,18 +7783,6 @@
     "Sample Size": 918,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Oklahoma",
-    "Group Name": "Not sure whether eligible",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",

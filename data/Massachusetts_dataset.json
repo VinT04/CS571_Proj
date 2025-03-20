@@ -138,18 +138,6 @@
     "Geography Type": "State",
     "Geography": "Massachusetts",
     "Group Name": "Reaction to previous dose of COVID-19 vaccine",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Reaction to previous dose of COVID-19 vaccine",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -160,18 +148,6 @@
     "Sample Size": 988,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -217,18 +193,6 @@
     "Sample Size": 177,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -319,30 +283,6 @@
     "Sample Size": 465,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Not sure whether eligible",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Hard to get to vaccination site",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -527,18 +467,6 @@
   {
     "Geography Type": "State",
     "Geography": "Massachusetts",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is somewhat difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
     "Group Name": "Healthcare provider recommended I get a COVID-19 vaccine",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -550,18 +478,6 @@
     "Sample Size": 717,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is very difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -611,18 +527,6 @@
   {
     "Geography Type": "State",
     "Geography": "Massachusetts",
-    "Group Name": "Metropolitan statistical area",
-    "Group Category": "Rural",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
     "Group Name": "All adults 18+ years",
     "Group Category": "All adults 18+ years",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -654,18 +558,6 @@
     "Geography Type": "State",
     "Geography": "Massachusetts",
     "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
     "Group Category": "18-49 years, Black, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -676,18 +568,6 @@
     "Sample Size": 44,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -718,42 +598,6 @@
     "Sample Size": 265,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -818,18 +662,6 @@
   {
     "Geography Type": "State",
     "Geography": "Massachusetts",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Trying to get pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
     "Group Name": "Received a flu vaccination since July 1, 2024",
     "Group Category": "Yes",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -856,18 +688,6 @@
     "Sample Size": 280,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -1142,30 +962,6 @@
   {
     "Geography Type": "State",
     "Geography": "Massachusetts",
-    "Group Name": "Reaction to previous dose of COVID-19 vaccine",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
     "Group Name": "Language of interview",
     "Group Category": "English",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -1192,18 +988,6 @@
     "Sample Size": 39,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -1253,18 +1037,6 @@
   {
     "Geography Type": "State",
     "Geography": "Massachusetts",
-    "Group Name": "Metropolitan statistical area",
-    "Group Category": "Rural",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
     "Group Name": "Social Vulnerability Index (SVI) of county of residence",
     "Group Category": "Moderate SVI",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -1291,18 +1063,6 @@
     "Sample Size": 36,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -1457,18 +1217,6 @@
   {
     "Geography Type": "State",
     "Geography": "Massachusetts",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Native Hawaiian/Pacific Islander, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
     "Group Name": "Poverty status",
     "Group Category": "Above poverty, income >=$75k",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -1529,18 +1277,6 @@
   {
     "Geography Type": "State",
     "Geography": "Massachusetts",
-    "Group Name": "Reaction to previous dose of COVID-19 vaccine",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
     "Group Name": "Difficulty knowing where to get vaccinated",
     "Group Category": "Yes",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -1552,18 +1288,6 @@
     "Sample Size": 39,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -1674,18 +1398,6 @@
     "Geography Type": "State",
     "Geography": "Massachusetts",
     "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
     "Group Category": "50-64 years, White, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -1775,30 +1487,6 @@
   {
     "Geography Type": "State",
     "Geography": "Massachusetts",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is very difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
     "Group Name": "Healthcare provider recommended I get a COVID-19 vaccine",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -1875,18 +1563,6 @@
     "Geography Type": "State",
     "Geography": "Massachusetts",
     "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Breastfeeding",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
     "Group Category": "Not pregnant, trying to get pregnant, or breastfeeding",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -1912,18 +1588,6 @@
     "Sample Size": 1053,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -2048,18 +1712,6 @@
   {
     "Geography Type": "State",
     "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
     "Group Name": "Age",
     "Group Category": "65+ years",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -2090,18 +1742,6 @@
   {
     "Geography Type": "State",
     "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
     "Group Name": "All adults 18+ years",
     "Group Category": "All adults 18+ years",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -2117,30 +1757,6 @@
   {
     "Geography Type": "State",
     "Geography": "Massachusetts",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "American Indian/Alaska Native, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Native Hawaiian/Pacific Islander, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
     "Group Name": "Sex",
     "Group Category": "Male",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -2152,42 +1768,6 @@
     "Sample Size": 557,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Language of interview",
-    "Group Category": "Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -2268,30 +1848,6 @@
     "Geography Type": "State",
     "Geography": "Massachusetts",
     "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
     "Group Category": "65+ years, White, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -2302,18 +1858,6 @@
     "Sample Size": 298,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -2389,18 +1933,6 @@
     "Sample Size": 38,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Trying to get pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -2510,18 +2042,6 @@
   {
     "Geography Type": "State",
     "Geography": "Massachusetts",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "American Indian/Alaska Native, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
     "Group Name": "Born in the U.S.",
     "Group Category": "Born in the U.S.",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -2578,18 +2098,6 @@
     "Sample Size": 280,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Metropolitan statistical area",
-    "Group Category": "Rural",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -3014,18 +2522,6 @@
   {
     "Geography Type": "State",
     "Geography": "Massachusetts",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Breastfeeding",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
     "Group Name": "Confidence in COVID-19 vaccine safety",
     "Group Category": "Somewhat or not at all safe for me",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -3206,18 +2702,6 @@
   {
     "Geography Type": "State",
     "Geography": "Massachusetts",
-    "Group Name": "Language of interview",
-    "Group Category": "Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
     "Group Name": "Race/Ethnicity (4 level)",
     "Group Category": "Other or multiple races, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -3248,30 +2732,6 @@
   {
     "Geography Type": "State",
     "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
     "Group Name": "Difficulty getting COVID-19 vaccine",
     "Group Category": "Getting a COVID-19 vaccine is a little difficult",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -3283,18 +2743,6 @@
     "Sample Size": 72,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -3524,18 +2972,6 @@
   {
     "Geography Type": "State",
     "Geography": "Massachusetts",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is very difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
     "Group Name": "Received any non-COVID-19 vaccine(s) in past two years",
     "Group Category": "Yes",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -3547,30 +2983,6 @@
     "Sample Size": 799,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 1 - September 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -3785,42 +3197,6 @@
   {
     "Geography Type": "State",
     "Geography": "Massachusetts",
-    "Group Name": "Self-perceived equity in seeking healthcare compared to other races/ethnicities",
-    "Group Category": "Worse than other races or ethnicities",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
     "Group Name": "Disability status (any)",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -3941,18 +3317,6 @@
   {
     "Geography Type": "State",
     "Geography": "Massachusetts",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Native Hawaiian/Pacific Islander, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
     "Group Name": "Health condition associated with higher risk for viral respiratory diseases",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -4054,42 +3418,6 @@
     "Sample Size": 201,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "American Indian/Alaska Native, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Language of interview",
-    "Group Category": "Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -4214,42 +3542,6 @@
   {
     "Geography Type": "State",
     "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
     "Group Name": "Vaccination uptake and intention",
     "Group Category": "Probably or definitely will not get the 2024-2025 COVID-19 vaccine",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -4261,42 +3553,6 @@
     "Sample Size": 294,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -4357,30 +3613,6 @@
     "Sample Size": 85,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -4475,18 +3707,6 @@
   {
     "Geography Type": "State",
     "Geography": "Massachusetts",
-    "Group Name": "Metropolitan statistical area",
-    "Group Category": "Rural",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
     "Group Name": "Social Vulnerability Index (SVI) of county of residence",
     "Group Category": "Low SVI",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -4577,18 +3797,6 @@
   {
     "Geography Type": "State",
     "Geography": "Massachusetts",
-    "Group Name": "Language of interview",
-    "Group Category": "Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
     "Group Name": "Poverty status",
     "Group Category": "Above poverty, income >=$75k",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -4660,42 +3868,6 @@
     "Sample Size": 45,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "American Indian/Alaska Native, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Native Hawaiian/Pacific Islander, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -5015,42 +4187,6 @@
   {
     "Geography Type": "State",
     "Geography": "Massachusetts",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Self-perceived equity in seeking healthcare compared to other races/ethnicities",
-    "Group Category": "Worse than other races or ethnicities",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
     "Group Name": "Confidence that COVID-19 vaccine is important",
     "Group Category": "Somewhat or very important to protect me from COVID-19",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -5152,18 +4288,6 @@
     "Sample Size": 350,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is somewhat difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -5288,18 +4412,6 @@
   {
     "Geography Type": "State",
     "Geography": "Massachusetts",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is very difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
     "Group Name": "Hard to get to vaccination site",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -5361,18 +4473,6 @@
     "Geography Type": "State",
     "Geography": "Massachusetts",
     "Group Name": "Difficulty knowing where to get vaccinated",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Difficulty knowing where to get vaccinated",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -5413,18 +4513,6 @@
     "Sample Size": 962,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Not sure whether eligible",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -5470,18 +4558,6 @@
     "Sample Size": 963,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Reaction to previous dose of COVID-19 vaccine",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 1 - December 28",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -5727,18 +4803,6 @@
     "Geography Type": "State",
     "Geography": "Massachusetts",
     "Group Name": "Reaction to previous dose of COVID-19 vaccine",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Reaction to previous dose of COVID-19 vaccine",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -5749,18 +4813,6 @@
     "Sample Size": 988,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -5806,18 +4858,6 @@
     "Sample Size": 177,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -5908,30 +4948,6 @@
     "Sample Size": 465,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Not sure whether eligible",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Hard to get to vaccination site",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -6116,18 +5132,6 @@
   {
     "Geography Type": "State",
     "Geography": "Massachusetts",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is somewhat difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
     "Group Name": "Healthcare provider recommended I get a COVID-19 vaccine",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -6139,18 +5143,6 @@
     "Sample Size": 717,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is very difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -6200,18 +5192,6 @@
   {
     "Geography Type": "State",
     "Geography": "Massachusetts",
-    "Group Name": "Metropolitan statistical area",
-    "Group Category": "Rural",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
     "Group Name": "All adults 18+ years",
     "Group Category": "All adults 18+ years",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -6243,18 +5223,6 @@
     "Geography Type": "State",
     "Geography": "Massachusetts",
     "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
     "Group Category": "18-49 years, Black, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -6265,18 +5233,6 @@
     "Sample Size": 44,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -6307,42 +5263,6 @@
     "Sample Size": 265,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -6542,42 +5462,6 @@
   {
     "Geography Type": "State",
     "Geography": "Massachusetts",
-    "Group Name": "Self-perceived equity in seeking healthcare compared to other races/ethnicities",
-    "Group Category": "Worse than other races or ethnicities",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
     "Group Name": "Disability status (any)",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -6698,18 +5582,6 @@
   {
     "Geography Type": "State",
     "Geography": "Massachusetts",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Native Hawaiian/Pacific Islander, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
     "Group Name": "Health condition associated with higher risk for viral respiratory diseases",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -6811,42 +5683,6 @@
     "Sample Size": 201,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "American Indian/Alaska Native, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Language of interview",
-    "Group Category": "Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "September 29 - October 26",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -6971,42 +5807,6 @@
   {
     "Geography Type": "State",
     "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
     "Group Name": "Vaccination uptake and intention",
     "Group Category": "Probably will get the 2024-2025 COVID-19 vaccine or are unsure",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -7033,42 +5833,6 @@
     "Sample Size": 311,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -7134,18 +5898,6 @@
     "Geography Type": "State",
     "Geography": "Massachusetts",
     "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
     "Group Category": "18-49 years, Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
     "Indicator Category": "Vaccinated (>=1 dose)",
@@ -7156,18 +5908,6 @@
     "Sample Size": 85,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -7228,18 +5968,6 @@
     "Sample Size": 350,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Metropolitan statistical area",
-    "Group Category": "Rural",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -7409,18 +6137,6 @@
   {
     "Geography Type": "State",
     "Geography": "Massachusetts",
-    "Group Name": "Language of interview",
-    "Group Category": "Other",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
     "Group Name": "Race/Ethnicity (7 level)",
     "Group Category": "Asian, non-Hispanic",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -7522,30 +6238,6 @@
     "Sample Size": 523,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "American Indian/Alaska Native, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Native Hawaiian/Pacific Islander, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -7715,18 +6407,6 @@
   {
     "Geography Type": "State",
     "Geography": "Massachusetts",
-    "Group Name": "Self-perceived equity in seeking healthcare compared to other races/ethnicities",
-    "Group Category": "Worse than other races or ethnicities",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
     "Group Name": "Received any non-COVID-19 vaccine(s) in past two years",
     "Group Category": "Yes",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -7798,30 +6478,6 @@
     "Sample Size": 503,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -8021,18 +6677,6 @@
   {
     "Geography Type": "State",
     "Geography": "Massachusetts",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is somewhat difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
     "Group Name": "Difficulty knowing where to get vaccinated",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -8063,18 +6707,6 @@
   {
     "Geography Type": "State",
     "Geography": "Massachusetts",
-    "Group Name": "Difficulty knowing where to get vaccinated",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
     "Group Name": "Difficulty getting an appointment online",
     "Group Category": "Yes",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -8101,18 +6733,6 @@
     "Sample Size": 33,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Difficulty getting COVID-19 vaccine",
-    "Group Category": "Getting a COVID-19 vaccine is very difficult",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -8207,18 +6827,6 @@
   {
     "Geography Type": "State",
     "Geography": "Massachusetts",
-    "Group Name": "Reaction to previous dose of COVID-19 vaccine",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
     "Group Name": "Not sure whether eligible",
     "Group Category": "No",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -8245,18 +6853,6 @@
     "Sample Size": 1069,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Not sure whether eligible",
-    "Group Category": "Yes",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "December 29 - January 25",
-    "Year": 2025,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -8351,42 +6947,6 @@
   {
     "Geography Type": "State",
     "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "18-49 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Other or multiple races, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
     "Group Name": "Vaccination uptake and intention",
     "Group Category": "Probably will get the 2024-2025 COVID-19 vaccine or are unsure",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -8443,30 +7003,6 @@
     "Sample Size": 304,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "50-64 years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Black, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -8561,18 +7097,6 @@
   {
     "Geography Type": "State",
     "Geography": "Massachusetts",
-    "Group Name": "Age by race/ethnicity",
-    "Group Category": "65+ years, Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
     "Group Name": "All adults 18+ years",
     "Group Category": "All adults 18+ years",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -8644,18 +7168,6 @@
     "Sample Size": 419,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Metropolitan statistical area",
-    "Group Category": "Rural",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -8885,18 +7397,6 @@
   {
     "Geography Type": "State",
     "Geography": "Massachusetts",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "American Indian/Alaska Native, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
     "Group Name": "Poverty status",
     "Group Category": "Unknown income",
     "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
@@ -8968,18 +7468,6 @@
     "Sample Size": 44,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Race/Ethnicity (7 level)",
-    "Group Category": "Native Hawaiian/Pacific Islander, non-Hispanic",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
@@ -9085,30 +7573,6 @@
     "Sample Size": 399,
     "Vaccine": "COVID-19",
     "Suppression Flag": 0
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
-  },
-  {
-    "Geography Type": "State",
-    "Geography": "Massachusetts",
-    "Group Name": "Pregnancy status (females age 18-49 years)",
-    "Group Category": "Pregnant",
-    "Indicator Name": "Received COVID-19 Vaccine (>1 dose)",
-    "Indicator Category": "Vaccinated (>=1 dose)",
-    "Time Period": "October 27 - November 30",
-    "Year": 2024,
-    "Vaccine": "COVID-19",
-    "Suppression Flag": 1
   },
   {
     "Geography Type": "State",
