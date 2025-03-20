@@ -1,10 +1,15 @@
 import { showStateName } from './stateView.js';
+import './nationalDetail.js';
 
+// Data for COVID and flu respectively
 const data_covid = await fetch('../data/Adult_COVID.json').then(response => response.json());
 const data_flu = await fetch('../data/Adult_Flu.json').then(response => response.json());
+
+// Getting topology data for the svg, and getting the element where we will put the svg
 const us = await d3.json("https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json");
 const container = d3.select("#map-container");
 
+// Estblishing color scaling
 let color = d3.scaleLinear()
     .domain([60, 84, 100])
     .range(["rgb(255, 255, 255)", "rgb(0, 151, 118)"])
@@ -15,6 +20,8 @@ const proj = d3.geoAlbersUsa()
     .scale(1000);
 
 const path = d3.geoPath().projection(proj);
+
+// Mapping slider values to time periods in the dataset
 const slider_to_date = new Map([
     [0, "September 1 - September 28"],
     [1, "September 29 - October 26"],
@@ -23,11 +30,12 @@ const slider_to_date = new Map([
     [4, "December 29 - January 25"]
 ]);
 
-const option_container = document.getElementById('option_container');
+// Elements that will react to user input, and assign event listeners
+const option_container = document.getElementById('option-container');
 const slider = document.getElementById('mySlider');
-const checkbox = document.getElementById('rsv_check');
+const checkbox = document.getElementById('rsv-check');
 const header = document.getElementById('header');
-const button = document.getElementById('detail_button');
+const button = document.getElementById('detail-button');
 
 let default_time = slider_to_date.get(0);
 let rsv = false;
@@ -62,7 +70,11 @@ checkbox.addEventListener('change', () => {
     }
 });
 
-
+/**
+ * 
+ * @param {*} data JSON object correpsonding to the data
+ * @returns Map corresponding to states and their estimates
+ */
 function filter_statewide(data) {
     // console.log(data);
     return data
@@ -76,6 +88,11 @@ function filter_statewide(data) {
         }, {});
 }
 
+/**
+ * 
+ * @param {*} us us topology/svg data
+ * @param {*} data Map for state and estimates
+ */
 function createMap(us, data) {
     // Draw the states
     container.selectAll("*").remove();
@@ -138,6 +155,10 @@ function createMap(us, data) {
         .ease(d3.easeCubicInOut);
 }
 
+/**
+ * 
+ * @param {*} data Map for state and estimates
+ */
 function updateMap(data) {
     let new_data = filter_statewide(data);
     console.log(new_data);
@@ -146,6 +167,7 @@ function updateMap(data) {
         .style("opacity", 0.7);
 }
 
+// setting up
 function init() {
     createMap(us, data_covid);
 }

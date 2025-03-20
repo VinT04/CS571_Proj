@@ -15,7 +15,7 @@
     background-color: #6a008a;
 }
 
-#detail_button {
+#detail-button {
     background-color: white;
     color: black;
     border: 2px solid #115458;
@@ -25,12 +25,12 @@
     font-family: 'Consolas';
 }
 
-#detail_button:hover {
+#detail-button:hover {
     background-color: #115458;
     color: white;
 }
 
-#detail_button.active {
+#detail-button.active {
     border: 2px solid #6a008a;
     border-width: 5px;
     border-radius: 9px;
@@ -38,7 +38,7 @@
     color: black;
 }
 
-#detail_button.active:hover {
+#detail-button.active:hover {
     background-color: #6a008a;
     color: white;
 }
@@ -152,7 +152,7 @@ input:checked+.slider:before {
     transform: translateX(26px);
 }
 
-#option_container {
+#option-container {
     background-color: #115458;
     display: flex;
     align-items: center;
@@ -162,7 +162,7 @@ input:checked+.slider:before {
     transition: background-color 0.3s ease;
 }
 
-#option_container.active {
+#option-container.active {
     background-color: #6a008a;
 }
 
