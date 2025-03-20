@@ -14,21 +14,24 @@
     </div>
     <div id="national-info">
         <div id="map-container"></div>
-        <div id="option_container">
-            <div id="slider">
-                <input type="range" id="mySlider" name="date_slider" min="0" max="4" value="0" step="1">
-                <div id="slider-labels">
-                    <label for="mySlider">09/01 - 09/28</label>
-                    <label for="mySlider">09/29 - 10/26</label>
-                    <label for="mySlider">10/27 - 11/30</label>
-                    <label for="mySlider">11/01 - 12/28</label>
-                    <label for="mySlider">12/29 - 01/25</label>
+        <div id="option-detail">
+            <div id="option_container">
+                <div id="slider">
+                    <input type="range" id="mySlider" name="date_slider" min="0" max="4" value="0" step="1">
+                    <div id="slider-labels">
+                        <label for="mySlider">09/01 - 09/28</label>
+                        <label for="mySlider">09/29 - 10/26</label>
+                        <label for="mySlider">10/27 - 11/30</label>
+                        <label for="mySlider">11/01 - 12/28</label>
+                        <label for="mySlider">12/29 - 01/25</label>
+                    </div>
                 </div>
+                <label class="switch">
+                    <input type="checkbox" id="rsv_check">
+                    <span class="slider round"></span>
+                </label>
             </div>
-            <label class="switch">
-                <input type="checkbox" id="rsv_check">
-                <span class="slider round"></span>
-            </label>
+            <input type="button" id="detail_button" value="Detailed Statistics">
         </div>
         <script type='module' src="map.js"></script>
     </div>

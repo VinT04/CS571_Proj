@@ -27,6 +27,7 @@ const option_container = document.getElementById('option_container');
 const slider = document.getElementById('mySlider');
 const checkbox = document.getElementById('rsv_check');
 const header = document.getElementById('header');
+const button = document.getElementById('detail_button');
 
 let default_time = slider_to_date.get(0);
 let rsv = false;
@@ -43,6 +44,7 @@ checkbox.addEventListener('change', () => {
     if (rsv) {
         option_container.classList.add('active');
         header.classList.add('active');
+        button.classList.add('active');
         color = d3.scaleLinear()
             .domain([0, 40, 55])
             .range(["rgb(255, 255, 255)", "rgb(106, 0, 138)"])
@@ -51,6 +53,7 @@ checkbox.addEventListener('change', () => {
     } else {
         option_container.classList.remove('active');
         header.classList.remove('active');
+        button.classList.remove('active');
         color = d3.scaleLinear()
             .domain([60, 84, 100])
             .range(["rgb(255, 255, 255)", "rgb(0, 151, 118)"])
