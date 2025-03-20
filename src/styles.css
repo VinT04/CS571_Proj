@@ -6,8 +6,41 @@
     transition: background-color 300ms ease;
 }
 
+#option-detail {
+    display: flex;
+    justify-content: center;
+}
+
 #header.active {
     background-color: #6a008a;
+}
+
+#detail_button {
+    background-color: white;
+    color: black;
+    border: 2px solid #115458;
+    border-width: 5px;
+    border-radius: 9px;
+    transition: background-color 300ms ease;
+    font-family: 'Consolas';
+}
+
+#detail_button:hover {
+    background-color: #115458;
+    color: white;
+}
+
+#detail_button.active {
+    border: 2px solid #6a008a;
+    border-width: 5px;
+    border-radius: 9px;
+    background-color: white;
+    color: black;
+}
+
+#detail_button.active:hover {
+    background-color: #6a008a;
+    color: white;
 }
 
 h1 {
@@ -124,9 +157,8 @@ input:checked+.slider:before {
     display: flex;
     align-items: center;
     border-radius: 15px;
-    margin: auto;
     width: 50%;
-    border-width: 50px;
+    margin-right: 10px;
     transition: background-color 0.3s ease;
 }
 
