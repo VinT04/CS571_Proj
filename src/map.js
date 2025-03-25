@@ -68,10 +68,11 @@ function createMap(us) {
         .style("opacity", 0.7)
         .style("cursor", "pointer")
         .on("click", (event, d) => {
+            const stateColor = color(state_estimates[d.properties.name] || 0);
             showStateName(d.properties.name, container, () => {
                 container.selectAll("*").remove();
                 init();
-            });
+            }, stateColor);
         })
         .on("mouseover", function (event, d) {
             d3.select(this)
