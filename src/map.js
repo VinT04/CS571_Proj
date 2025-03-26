@@ -1,11 +1,16 @@
 import { showStateName } from './stateView.js';
+import './DetailView.js';
 
-const data = await fetch('../data/Adult_COVID.json').then(response => response.json());
+// Data for COVID and flu respectively
+const data_covid = await fetch('../data/Adult_COVID.json').then(response => response.json());
+const data_flu = await fetch('../data/Adult_Flu.json').then(response => response.json());
 
+// Getting topology data for the svg, and getting the element where we will put the svg
 const us = await d3.json("https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json");
 const container = d3.select("#map-container");
 
-const color = d3.scaleLinear()
+// Estblishing color scaling
+let color = d3.scaleLinear()
     .domain([60, 84, 100])
     .range(["rgb(255, 255, 255)", "rgb(0, 151, 118)"])
     .clamp(true);
@@ -15,6 +20,8 @@ const proj = d3.geoAlbersUsa()
     .scale(1000);
 
 const path = d3.geoPath().projection(proj);
+
+// Mapping slider values to time periods in the dataset
 const slider_to_date = new Map([
     [0, "September 1 - September 28"],
     [1, "September 29 - October 26"],
@@ -22,18 +29,62 @@ const slider_to_date = new Map([
     [3, "December 1 - December 28"],
     [4, "December 29 - January 25"]
 ]);
+
+// Elements that will react to user input, and assign event listeners
+const option_container = document.getElementById('option-container');
 const slider = document.getElementById('mySlider');
+const checkbox = document.getElementById('rsv-check');
+const header = document.getElementById('header');
+const button = document.getElementById('detail-button');
 
 let default_time = slider_to_date.get(0);
+let rsv = false;
 slider.addEventListener("input", () => {
     default_time = slider_to_date.get(parseInt(slider.value));
-    console.log(default_time);
-    updateMap();
+    if (rsv)
+        updateMap(data_flu);
+    else
+        updateMap(data_covid);
 });
 
-function getData() {
+checkbox.addEventListener('change', () => {
+    rsv = checkbox.checked;
+    if (rsv) {
+        option_container.classList.add('active');
+        header.classList.add('active');
+        button.classList.add('active');
+        color = d3.scaleLinear()
+            .domain([0, 40, 55])
+            .range(["rgb(255, 255, 255)", "rgb(106, 0, 138)"])
+            .clamp(true);
+        createMap(us, data_flu);
+    } else {
+        option_container.classList.remove('active');
+        header.classList.remove('active');
+        button.classList.remove('active');
+        color = d3.scaleLinear()
+            .domain([60, 84, 100])
+            .range(["rgb(255, 255, 255)", "rgb(0, 151, 118)"])
+            .clamp(true);
+        createMap(us, data_covid);
+    }
+});
+
+button.addEventListener("click", () => {
+    document.getElementById("myNav").style.width = "100%";
+    // Start working on detail stats with DetailView.js here <<- ->>
+});
+
+/**
+ * 
+ * @param {*} data JSON object correpsonding to the data
+ * @returns Map corresponding to states and their estimates
+ */
+function filter_statewide(data) {
+    // console.log(data);
     return data
         .filter(d =>
+            d['Geography Type'] === 'State' &
             d['Group Category'] === 'All adults 18+ years' &&
             d['Time Period'] === default_time)
         .reduce((acc, curr) => {
@@ -42,13 +93,15 @@ function getData() {
         }, {});
 }
 
-
-function createMap(us) {
+/**
+ * 
+ * @param {*} us us topology/svg data
+ * @param {*} data Map for state and estimates
+ */
+function createMap(us, data) {
     // Draw the states
-    let state_estimates = getData();
-    // console.log(state_estimates);
-
     container.selectAll("*").remove();
+    let new_data = filter_statewide(data);
 
     // Create new SVG
     const svg = container
@@ -64,8 +117,8 @@ function createMap(us) {
         .join("path")
         .attr("class", "state")
         .attr("d", path)
-        .style("fill", d => color(state_estimates[d.properties.name] || 0))
-        .style("opacity", 0.7)
+        .style("fill", d => color(new_data[d.properties.name] || 0))
+        .style("opacity", 0)
         .style("cursor", "pointer")
         .on("click", (event, d) => {
             const stateColor = color(state_estimates[d.properties.name] || 0);
@@ -88,26 +141,40 @@ function createMap(us) {
                 .duration(100)
                 .attr("stroke", "black")
                 .attr("stroke-width", 1);
-        });
+        })
+        .transition() // Add a transition
+        .duration(1000) // Duration of the transition
+        .style("opacity", 0.7) // Final opacity
+        .ease(d3.easeCubicInOut); // Optional easing function
 
     // Add state borders
     svg.append("path")
         .datum(topojson.mesh(us, us.objects.states, (a, b) => a !== b))
         .attr("fill", "none")
         .attr("stroke", "black")
-        .attr("d", path);
+        .attr("d", path)
+        .style("opacity", 0)
+        .transition()
+        .duration(1000)
+        .style("opacity", 0.7)
+        .ease(d3.easeCubicInOut);
 }
 
-function updateMap() {
-    let state_estimates = getData();
-    console.log(state_estimates);
-    svg.selectAll(".state")
-        .style("fill", d => color(state_estimates[d.properties.name] || 0))
+/**
+ * 
+ * @param {*} data Map for state and estimates
+ */
+function updateMap(data) {
+    let new_data = filter_statewide(data);
+    console.log(new_data);
+    container.selectAll(".state")
+        .style("fill", d => color(new_data[d.properties.name] || 0))
         .style("opacity", 0.7);
 }
 
+// setting up
 function init() {
-    createMap(us);
+    createMap(us, data_covid);
 }
 
 init();
