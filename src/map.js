@@ -5,6 +5,7 @@ import './DetailView.js';
 const data_covid = await fetch('../data/covid_data/Adult_COVID.json').then(response => response.json());
 const data_flu = await fetch('../data/flu_data/Adult_Flu.json').then(response => response.json());
 
+
 // Getting topology data for the svg, and getting the element where we will put the svg
 const us = await d3.json("https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json");
 const container = d3.select("#map-container");
