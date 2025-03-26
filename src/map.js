@@ -1,5 +1,5 @@
 import { showStateName } from './stateView.js';
-import './nationalDetail.js';
+import './DetailView.js';
 
 // Data for COVID and flu respectively
 const data_covid = await fetch('../data/Adult_COVID.json').then(response => response.json());
@@ -57,7 +57,7 @@ checkbox.addEventListener('change', () => {
             .domain([0, 40, 55])
             .range(["rgb(255, 255, 255)", "rgb(106, 0, 138)"])
             .clamp(true);
-        updateMap(data_flu);
+        createMap(us, data_flu);
     } else {
         option_container.classList.remove('active');
         header.classList.remove('active');
@@ -66,8 +66,13 @@ checkbox.addEventListener('change', () => {
             .domain([60, 84, 100])
             .range(["rgb(255, 255, 255)", "rgb(0, 151, 118)"])
             .clamp(true);
-        updateMap(data_covid);
+        createMap(us, data_covid);
     }
+});
+
+button.addEventListener("click", () => {
+    document.getElementById("myNav").style.width = "100%";
+    // Start working on detail stats with DetailView.js here <<- ->>
 });
 
 /**
