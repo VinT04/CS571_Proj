@@ -1,19 +1,34 @@
 // Function to show state view
 export function showStateName(stateName, container, onBackClick, stateColor) {
-    // Clear the container
-    container.selectAll("*").remove();
     
-    // Create a wrapper div for flex layout
-    const wrapper = container
+    const overlay = d3.select("body")
         .append("div")
+        .style("position", "fixed")
+        .style("top", "0")
+        .style("left", "0")
         .style("width", "100%")
         .style("height", "100%")
+        .style("background-color", "rgba(0, 0, 0, 0.5)")
+        .style("display", "flex")
+        .style("justify-content", "center")
+        .style("align-items", "center")
+        .style("z-index", "1000");
+
+
+    const wrapper = overlay
+        .append("div")
+        .style("width", "90%")
+        .style("max-width", "1000px")
+        .style("height", "90vh")
+        .style("background-color", "white")
+        .style("border-radius", "10px")
         .style("display", "flex")
         .style("flex-direction", "column")
         .style("justify-content", "center")
         .style("align-items", "center")
         .style("gap", "20px")
-        .style("padding", "20px");
+        .style("padding", "20px")
+        .style("position", "relative");
 
     // Add state name as header
     wrapper
@@ -23,7 +38,7 @@ export function showStateName(stateName, container, onBackClick, stateColor) {
         .style("margin-bottom", "20px")
         .text(stateName);
 
-    // Create a container for the visualization
+
     const vizContainer = wrapper
         .append("div")
         .style("width", "80%")
@@ -45,14 +60,25 @@ export function showStateName(stateName, container, onBackClick, stateColor) {
         .style("border-radius", "5px")
         .style("box-shadow", "0 2px 5px rgba(0,0,0,0.2)")
         .style("margin-top", "20px")
-        .text("Back to Main Map")
+        .text("Close")
         .on("mouseover", function() {
             d3.select(this).style("background-color", "rgb(88, 156, 171)")
         })
         .on("mouseout", function() {
             d3.select(this).style("background-color", "rgb(88, 156, 171)")
         })
-        .on("click", onBackClick);
+        .on("click", () => {
+            overlay.remove();
+            onBackClick();
+        });
+
+    // Add click handler to close on overlay click
+    overlay.on("click", function(event) {
+        if (event.target === this) {
+            overlay.remove();
+            onBackClick();
+        }
+    });
 
     // Fetch and display the TopoJSON data
     fetch("https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json")

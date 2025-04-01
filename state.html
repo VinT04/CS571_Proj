@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State View</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        .header {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        .visualization {
+            width: 80%;
+            max-width: 800px;
+            height: 600px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .back-button {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: rgb(55, 137, 224);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            margin-top: 20px;
+        }
+        .back-button:hover {
+            background-color: rgb(88, 156, 171);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="state-name" class="header"></div>
+        <div id="visualization" class="visualization"></div>
+        <button class="back-button" onclick="window.history.back()">Back to Map</button>
+    </div>
+    <script type="module">
+        // Get state name from URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const stateName = urlParams.get('state');
+        const stateColor = urlParams.get('color');
+
+        // Display state name
+        document.getElementById('state-name').textContent = stateName;
+
+        // Create visualization
+        const vizContainer = d3.select("#visualization");
+
+        // Fetch and display the TopoJSON data
+        fetch("https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json")
+            .then(response => response.json())
+            .then(us => {
+                // Find the state feature
+                const stateFeature = topojson.feature(us, us.objects.states)
+                    .features.find(d => d.properties.name === stateName);
+
+                if (stateFeature) {
+                    // Create SVG for the state visualization
+                    const svg = vizContainer
+                        .append("svg")
+                        .style("width", "100%")
+                        .style("height", "100%");
+
+                    // Create a projection that will fit the state
+                    const projection = d3.geoMercator()
+                        .fitSize([vizContainer.node().getBoundingClientRect().width * 0.9, 
+                                 vizContainer.node().getBoundingClientRect().height * 0.9], 
+                                stateFeature);
+
+                    // Create a path generator
+                    const path = d3.geoPath().projection(projection);
+
+                    // Draw the state
+                    svg.append("path")
+                        .datum(stateFeature)
+                        .attr("d", path)
+                        .attr("fill", stateColor)
+                        .attr("stroke", "white")
+                        .attr("stroke-width", 2)
+                        .style("opacity", 0.7);
+                }
+            })
+            .catch(error => {
+                console.error("Error loading TopoJSON data:", error);
+                vizContainer
+                    .append("div")
+                    .style("color", "red")
+                    .style("text-align", "center")
+                    .style("padding", "20px")
+                    .text("Error loading state data. Please try again.");
+            });
+    </script>
+</body>
+</html> 
