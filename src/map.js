@@ -156,8 +156,8 @@ function showStateView(stateName, stateColor) {
             init();
         });
 
-    // Load and display state shape
-    fetch("https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json")
+    // Load and display state shape with counties
+    fetch("https://cdn.jsdelivr.net/npm/us-atlas@3/counties-10m.json")
         .then(response => response.json())
         .then(us => {
             const stateFeature = topojson.feature(us, us.objects.states)
@@ -176,6 +176,7 @@ function showStateView(stateName, stateColor) {
 
                 const path = d3.geoPath().projection(projection);
 
+                // Draw the state
                 svg.append("path")
                     .datum(stateFeature)
                     .attr("d", path)
@@ -183,6 +184,21 @@ function showStateView(stateName, stateColor) {
                     .attr("stroke", "white")
                     .attr("stroke-width", 2)
                     .style("opacity", 0.7);
+
+                // Draw county boundaries
+                const counties = topojson.feature(us, us.objects.counties).features;
+                const stateId = stateFeature.id;
+                const stateCounties = counties.filter(county => county.id.startsWith(stateId));
+
+                svg.append("path")
+                    .datum(topojson.mesh(us, us.objects.counties, (a, b) => {
+                        return a.id.startsWith(stateId) && b.id.startsWith(stateId);
+                    }))
+                    .attr("fill", "none")
+                    .attr("stroke", "white")
+                    .attr("stroke-width", 1)
+                    .attr("stroke-opacity", 0.5)
+                    .attr("d", path);
             }
         })
         .catch(error => {
