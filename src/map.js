@@ -1,4 +1,5 @@
 import { showStateName } from './stateView.js';
+import { showStateGraph } from './stategraph.js';
 
 const data = await fetch('../data/Adult_COVID.json').then(response => response.json());
 
