@@ -12,7 +12,7 @@ const container = d3.select("#map-container");
 
 // Estblishing color scaling
 let color = d3.scaleLinear()
-    .domain([60, 84, 100])
+    .domain([0, 20, 50])
     .range(["rgb(255, 255, 255)", "rgb(0, 151, 118)"])
     .clamp(true);
 
@@ -64,7 +64,7 @@ checkbox.addEventListener('change', () => {
         header.classList.remove('active');
         button.classList.remove('active');
         color = d3.scaleLinear()
-            .domain([60, 84, 100])
+            .domain([0, 20, 50])
             .range(["rgb(255, 255, 255)", "rgb(0, 151, 118)"])
             .clamp(true);
         createMap(us, data_covid);
