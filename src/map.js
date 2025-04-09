@@ -78,11 +78,10 @@ button.addEventListener("click", () => {
 
 /**
  * 
- * @param {*} data JSON object correpsonding to the data
+ * @param {*} data JSON object corresponding to the data
  * @returns Map corresponding to states and their estimates
  */
 function filter_statewide(data) {
-    // console.log(data);
     return data
         .filter(d =>
             d['Geography Type'] === 'State' &
@@ -122,7 +121,7 @@ function createMap(us, data) {
         .style("opacity", 0)
         .style("cursor", "pointer")
         .on("click", (event, d) => {
-            const stateColor = color(state_estimates[d.properties.name] || 0);
+            const stateColor = color(new_data[d.properties.name] || 0);
             showStateName(d.properties.name, container, () => {
                 container.selectAll("*").remove();
                 init();
@@ -143,10 +142,10 @@ function createMap(us, data) {
                 .attr("stroke", "black")
                 .attr("stroke-width", 1);
         })
-        .transition() // Add a transition
-        .duration(1000) // Duration of the transition
-        .style("opacity", 0.7) // Final opacity
-        .ease(d3.easeCubicInOut); // Optional easing function
+        .transition()
+        .duration(1000)
+        .style("opacity", 0.7)
+        .ease(d3.easeCubicInOut);
 
     // Add state borders
     svg.append("path")
@@ -167,7 +166,6 @@ function createMap(us, data) {
  */
 function updateMap(data) {
     let new_data = filter_statewide(data);
-    console.log(new_data);
     container.selectAll(".state")
         .style("fill", d => color(new_data[d.properties.name] || 0))
         .style("opacity", 0.7);
