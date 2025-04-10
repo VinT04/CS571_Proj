@@ -5,7 +5,6 @@ import './DetailView.js';
 const data_covid = await fetch('../data/covid_data/Adult_COVID.json').then(response => response.json());
 const data_flu = await fetch('../data/flu_data/Adult_Flu.json').then(response => response.json());
 
-
 // Getting topology data for the svg, and getting the element where we will put the svg
 const us = await d3.json("https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json");
 const container = d3.select("#map-container");
@@ -38,19 +37,30 @@ const checkbox = document.getElementById('rsv-check');
 const header = document.getElementById('header');
 const button = document.getElementById('detail-button');
 
-let default_time = slider_to_date.get(0);
-let rsv = false;
+// Application state
+const appState = {
+    default_time: slider_to_date.get(0),
+    rsv: false,
+    current_data: data_covid,
+    state_data: null,
+    is_transitioning: false
+};
+
+// Update state data based on current settings
+function updateStateData() {
+    appState.state_data = filter_statewide(appState.current_data);
+}
+
+// Event listeners
 slider.addEventListener("input", () => {
-    default_time = slider_to_date.get(parseInt(slider.value));
-    if (rsv)
-        updateMap(data_flu);
-    else
-        updateMap(data_covid);
+    appState.default_time = slider_to_date.get(parseInt(slider.value));
+    updateStateData();
+    updateMap();
 });
 
 checkbox.addEventListener('change', () => {
-    rsv = checkbox.checked;
-    if (rsv) {
+    appState.rsv = checkbox.checked;
+    if (appState.rsv) {
         option_container.classList.add('active');
         header.classList.add('active');
         button.classList.add('active');
@@ -58,7 +68,7 @@ checkbox.addEventListener('change', () => {
             .domain([0, 40, 55])
             .range(["rgb(255, 255, 255)", "rgb(106, 0, 138)"])
             .clamp(true);
-        createMap(us, data_flu);
+        appState.current_data = data_flu;
     } else {
         option_container.classList.remove('active');
         header.classList.remove('active');
@@ -67,8 +77,10 @@ checkbox.addEventListener('change', () => {
             .domain([0, 20, 50])
             .range(["rgb(255, 255, 255)", "rgb(0, 151, 118)"])
             .clamp(true);
-        createMap(us, data_covid);
+        appState.current_data = data_covid;
     }
+    updateStateData();
+    createMap();
 });
 
 button.addEventListener("click", () => {
@@ -77,16 +89,16 @@ button.addEventListener("click", () => {
 });
 
 /**
- * 
+ * Filter data to get statewide estimates for the current time period
  * @param {*} data JSON object corresponding to the data
  * @returns Map corresponding to states and their estimates
  */
 function filter_statewide(data) {
     return data
         .filter(d =>
-            d['Geography Type'] === 'State' &
+            d['Geography Type'] === 'State' &&
             d['Group Category'] === 'All adults 18+ years' &&
-            d['Time Period'] === default_time)
+            d['Time Period'] === appState.default_time)
         .reduce((acc, curr) => {
             acc[curr.Geography] = curr['Estimate (%)'];
             return acc;
@@ -94,15 +106,16 @@ function filter_statewide(data) {
 }
 
 /**
- * 
- * @param {*} us us topology/svg data
- * @param {*} data Map for state and estimates
+ * Create the map visualization
  */
-function createMap(us, data) {
+function createMap() {
+    // Prevent multiple transitions
+    if (appState.is_transitioning) return;
+    appState.is_transitioning = true;
+    
     // Draw the states
     container.selectAll("*").remove();
-    let new_data = filter_statewide(data);
-
+    
     // Create new SVG
     const svg = container
         .append("svg")
@@ -117,17 +130,28 @@ function createMap(us, data) {
         .join("path")
         .attr("class", "state")
         .attr("d", path)
-        .style("fill", d => color(new_data[d.properties.name] || 0))
+        .style("fill", d => {
+            const value = appState.state_data[d.properties.name] || 0;
+            return color(value);
+        })
         .style("opacity", 0)
         .style("cursor", "pointer")
         .on("click", (event, d) => {
-            const stateColor = color(new_data[d.properties.name] || 0);
-            showStateName(d.properties.name, container, () => {
+            if (appState.is_transitioning) return;
+            
+            const stateName = d.properties.name;
+            const stateValue = appState.state_data[stateName] || 0;
+            const stateColor = color(stateValue);
+            
+            showStateName(stateName, container, () => {
                 container.selectAll("*").remove();
-                init();
+                appState.is_transitioning = false;
+                createMap();
             }, stateColor);
         })
         .on("mouseover", function (event, d) {
+            if (appState.is_transitioning) return;
+            
             d3.select(this)
                 .transition()
                 .duration(100)
@@ -136,6 +160,8 @@ function createMap(us, data) {
                 .attr('size', 10);
         })
         .on("mouseout", function (event, d) {
+            if (appState.is_transitioning) return;
+            
             d3.select(this)
                 .transition()
                 .duration(100)
@@ -145,7 +171,10 @@ function createMap(us, data) {
         .transition()
         .duration(1000)
         .style("opacity", 0.7)
-        .ease(d3.easeCubicInOut);
+        .ease(d3.easeCubicInOut)
+        .on("end", () => {
+            appState.is_transitioning = false;
+        });
 
     // Add state borders
     svg.append("path")
@@ -161,19 +190,23 @@ function createMap(us, data) {
 }
 
 /**
- * 
- * @param {*} data Map for state and estimates
+ * Update the map with new data
  */
-function updateMap(data) {
-    let new_data = filter_statewide(data);
+function updateMap() {
+    if (appState.is_transitioning) return;
+    
     container.selectAll(".state")
-        .style("fill", d => color(new_data[d.properties.name] || 0))
+        .style("fill", d => {
+            const value = appState.state_data[d.properties.name] || 0;
+            return color(value);
+        })
         .style("opacity", 0.7);
 }
 
-// setting up
+// Initialize the application
 function init() {
-    createMap(us, data_covid);
+    updateStateData();
+    createMap();
 }
 
 init();
