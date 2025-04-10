@@ -1,4 +1,6 @@
 // Function to show state view
+import { drawVaccinationSpots } from './vaccinationSpots.js';
+
 export function showStateName(stateName, container, onBackClick, stateColor) {
     // Clear the container
     container.selectAll("*").remove();
@@ -107,6 +109,9 @@ export function showStateName(stateName, container, onBackClick, stateColor) {
                 .attr("stroke-width", 0.5)
                 .attr("stroke-opacity", 0.5)
                 .attr("d", path);
+                
+            // Add vaccination spots visualization
+            drawVaccinationSpots(stateName, svg, projection);
         }
     })
     .catch(error => {
