@@ -1,3 +1,4 @@
+import { createStateGraphs } from "./stateGraphs.js";
 // Function to show state view
 export function showStateName(stateName, container, onBackClick, stateColor) {
     // Clear the container
@@ -53,7 +54,6 @@ export function showStateName(stateName, container, onBackClick, stateColor) {
             d3.select(this).style("background-color", "rgb(88, 156, 171)")
         })
         .on("click", onBackClick);
-
     // Fetch both state and county TopoJSON data
     Promise.all([
         fetch("https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json"),
