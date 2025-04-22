@@ -115,7 +115,7 @@ function createMap() {
     
     // Draw the states
     container.selectAll("*").remove();
-    
+
     // Create new SVG
     const svg = container
         .append("svg")

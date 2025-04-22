@@ -4,94 +4,151 @@
  * with the size of each diamond corresponding to the number of vaccination locations in that city.
  */
 
-// Hardcoded fake data for cities by state
-const FAKE_CITY_DATA = {
-    "colorado": [
-        { city: "Denver", lat: 39.7392, lon: -104.9903, locations: 15 },
-        { city: "Colorado Springs", lat: 38.8339, lon: -104.8214, locations: 12 },
-        { city: "Aurora", lat: 39.7294, lon: -104.8319, locations: 10 },
-        { city: "Fort Collins", lat: 40.5853, lon: -105.0844, locations: 8 },
-        { city: "Boulder", lat: 40.0150, lon: -105.2705, locations: 7 },
-        { city: "Lakewood", lat: 39.7047, lon: -105.0814, locations: 6 },
-        { city: "Pueblo", lat: 38.2544, lon: -104.6091, locations: 5 },
-        { city: "Grand Junction", lat: 39.0639, lon: -108.5506, locations: 4 },
-        { city: "Greeley", lat: 40.4233, lon: -104.7091, locations: 4 },
-        { city: "Longmont", lat: 40.1672, lon: -105.1019, locations: 3 },
-        { city: "Loveland", lat: 40.3977, lon: -105.0749, locations: 3 },
-        { city: "Broomfield", lat: 39.9205, lon: -105.0867, locations: 3 },
-        { city: "Castle Rock", lat: 39.3722, lon: -104.8561, locations: 2 },
-        { city: "Parker", lat: 39.5186, lon: -104.7613, locations: 2 },
-        { city: "Commerce City", lat: 39.8083, lon: -104.9339, locations: 2 }
-    ],
-    "texas": [
-        { city: "Houston", lat: 29.7604, lon: -95.3698, locations: 25 },
-        { city: "San Antonio", lat: 29.4241, lon: -98.4936, locations: 20 },
-        { city: "Dallas", lat: 32.7767, lon: -96.7970, locations: 18 },
-        { city: "Austin", lat: 30.2672, lon: -97.7431, locations: 15 },
-        { city: "Fort Worth", lat: 32.7555, lon: -97.3308, locations: 12 },
-        { city: "El Paso", lat: 31.7619, lon: -106.4850, locations: 10 },
-        { city: "Arlington", lat: 32.7357, lon: -97.1081, locations: 8 },
-        { city: "Corpus Christi", lat: 27.8006, lon: -97.3964, locations: 7 },
-        { city: "Plano", lat: 33.0198, lon: -96.6989, locations: 6 },
-        { city: "Lubbock", lat: 33.5779, lon: -101.8552, locations: 5 },
-        { city: "Irving", lat: 32.8140, lon: -96.9489, locations: 4 },
-        { city: "Amarillo", lat: 35.2220, lon: -101.8313, locations: 4 },
-        { city: "Waco", lat: 31.5493, lon: -97.1467, locations: 3 },
-        { city: "Tyler", lat: 32.3513, lon: -95.3011, locations: 3 },
-        { city: "College Station", lat: 30.6280, lon: -96.3344, locations: 3 }
-    ],
-    "florida": [
-        { city: "Jacksonville", lat: 30.3322, lon: -81.6557, locations: 20 },
-        { city: "Miami", lat: 25.7617, lon: -80.1918, locations: 18 },
-        { city: "Tampa", lat: 27.9506, lon: -82.4572, locations: 15 },
-        { city: "Orlando", lat: 28.5383, lon: -81.3792, locations: 12 },
-        { city: "St. Petersburg", lat: 27.7676, lon: -82.6403, locations: 10 },
-        { city: "Hialeah", lat: 25.8576, lon: -80.2781, locations: 8 },
-        { city: "Tallahassee", lat: 30.4383, lon: -84.2807, locations: 7 },
-        { city: "Fort Lauderdale", lat: 26.1224, lon: -80.1373, locations: 6 },
-        { city: "Port St. Lucie", lat: 27.2731, lon: -80.3534, locations: 5 },
-        { city: "Cape Coral", lat: 26.5629, lon: -81.9495, locations: 4 },
-        { city: "Gainesville", lat: 29.6516, lon: -82.3248, locations: 4 },
-        { city: "Clearwater", lat: 27.9659, lon: -82.8001, locations: 3 },
-        { city: "Palm Bay", lat: 28.0345, lon: -80.5887, locations: 3 },
-        { city: "Lakeland", lat: 28.0395, lon: -81.9498, locations: 3 },
-        { city: "Daytona Beach", lat: 29.2108, lon: -81.0228, locations: 2 }
-    ],
-    "california": [
-        { city: "Los Angeles", lat: 34.0522, lon: -118.2437, locations: 30 },
-        { city: "San Diego", lat: 32.7157, lon: -117.1611, locations: 25 },
-        { city: "San Jose", lat: 37.3382, lon: -121.8863, locations: 20 },
-        { city: "San Francisco", lat: 37.7749, lon: -122.4194, locations: 18 },
-        { city: "Fresno", lat: 36.7378, lon: -119.7871, locations: 15 },
-        { city: "Sacramento", lat: 38.5816, lon: -121.4944, locations: 12 },
-        { city: "Long Beach", lat: 33.7701, lon: -118.1937, locations: 10 },
-        { city: "Oakland", lat: 37.8044, lon: -122.2711, locations: 8 },
-        { city: "Bakersfield", lat: 35.3733, lon: -119.0187, locations: 7 },
-        { city: "Anaheim", lat: 33.8366, lon: -117.9143, locations: 6 },
-        { city: "Santa Ana", lat: 33.7455, lon: -117.8677, locations: 5 },
-        { city: "Riverside", lat: 33.9534, lon: -117.3962, locations: 4 },
-        { city: "Stockton", lat: 37.9577, lon: -121.2908, locations: 4 },
-        { city: "Irvine", lat: 33.6846, lon: -117.8265, locations: 3 },
-        { city: "Chula Vista", lat: 32.6401, lon: -117.0842, locations: 3 }
-    ]
-};
+// Cache for city coordinates
+let cityCoordinates = null;
+
+// Function to load city coordinates data
+async function loadCityCoordinates() {
+    if (cityCoordinates === null) {
+        try {
+            const response = await fetch('/src/us_cities.json');
+            cityCoordinates = await response.json();
+            console.log('Loaded city coordinates data');
+        } catch (error) {
+            console.error('Error loading city coordinates:', error);
+            cityCoordinates = {};
+        }
+    }
+    return cityCoordinates;
+}
+
+// Function to get coordinates from local data
+async function getLocalCoordinates(city, state) {
+    const coords = await loadCityCoordinates();
+    if (coords[state] && coords[state][city.toLowerCase()]) {
+        return coords[state][city.toLowerCase()];
+    }
+    console.warn(`No coordinates found for ${city}, ${state}`);
+    return null;
+}
 
 // Function to get vaccination locations data
 async function getVaccinationLocations(stateName) {
-    // Convert state name to lowercase for comparison
-    const stateKey = stateName.toLowerCase();
-    
-    // Return hardcoded data for the state, or empty array if not found
-    return FAKE_CITY_DATA[stateKey] || [];
+    try {
+        console.log('Loading data for state:', stateName);
+        const response = await fetch('/data/summary_covid_prov.json');
+        const data = await response.json();
+        
+        const stateCodeMap = {
+            'Alabama': 'AL',
+            'Alaska': 'AK',
+            'Arizona': 'AZ',
+            'Arkansas': 'AR',
+            'California': 'CA',
+            'Colorado': 'CO',
+            'Connecticut': 'CT',
+            'Delaware': 'DE',
+            'Florida': 'FL',
+            'Georgia': 'GA',
+            'Hawaii': 'HI',
+            'Idaho': 'ID',
+            'Illinois': 'IL',
+            'Indiana': 'IN',
+            'Iowa': 'IA',
+            'Kansas': 'KS',
+            'Kentucky': 'KY',
+            'Louisiana': 'LA',
+            'Maine': 'ME',
+            'Maryland': 'MD',
+            'Massachusetts': 'MA',
+            'Michigan': 'MI',
+            'Minnesota': 'MN',
+            'Mississippi': 'MS',
+            'Missouri': 'MO',
+            'Montana': 'MT',
+            'Nebraska': 'NE',
+            'Nevada': 'NV',
+            'New Hampshire': 'NH',
+            'New Jersey': 'NJ',
+            'New Mexico': 'NM',
+            'New York': 'NY',
+            'North Carolina': 'NC',
+            'North Dakota': 'ND',
+            'Ohio': 'OH',
+            'Oklahoma': 'OK',
+            'Oregon': 'OR',
+            'Pennsylvania': 'PA',
+            'Rhode Island': 'RI',
+            'South Carolina': 'SC',
+            'South Dakota': 'SD',
+            'Tennessee': 'TN',
+            'Texas': 'TX',
+            'Utah': 'UT',
+            'Vermont': 'VT',
+            'Virginia': 'VA',
+            'Washington': 'WA',
+            'West Virginia': 'WV',
+            'Wisconsin': 'WI',
+            'Wyoming': 'WY',
+            'District of Columbia': 'DC'
+        };
+        
+        const stateCode = stateCodeMap[stateName];
+        if (!stateCode) {
+            console.warn(`No state code mapping for ${stateName}`);
+            return [];
+        }
+        
+        // Filter and group data by city
+        const cityData = data
+            .filter(entry => entry.loc_admin_state === stateCode)
+            .reduce((acc, entry) => {
+                const city = entry.loc_admin_city.toLowerCase();
+                if (!acc[city]) {
+                    acc[city] = {
+                        city: city,
+                        locations: entry.entry_count
+                    };
+                } else {
+                    acc[city].locations += entry.entry_count;
+                }
+                return acc;
+            }, {});
+        
+        const cities = Object.values(cityData);
+        console.log(`Processing ${cities.length} cities for ${stateCode}`);
+        
+        // Get coordinates for each city
+        const citiesWithCoords = await Promise.all(
+            cities.map(async (cityInfo) => {
+                const coords = await getLocalCoordinates(cityInfo.city, stateCode);
+                if (coords) {
+                    return {
+                        ...cityInfo,
+                        lat: coords.lat,
+                        lon: coords.lon
+                    };
+                }
+                return null;
+            })
+        );
+        
+        return citiesWithCoords.filter(city => city !== null);
+    } catch (error) {
+        console.error('Error loading vaccination location data:', error);
+        return [];
+    }
 }
 
 // Function to draw diamonds on the state view
 export async function drawVaccinationSpots(stateName, container, projection) {
+    console.log('Drawing spots for:', stateName);
     // Clear any existing spots
     container.selectAll(".vaccination-spot").remove();
     
     // Get vaccination locations data
     const vaccinationData = await getVaccinationLocations(stateName);
+    console.log('Got vaccination data:', vaccinationData.length, 'cities');
     
     if (vaccinationData.length === 0) {
         console.warn(`No vaccination data found for ${stateName}`);
@@ -104,6 +161,7 @@ export async function drawVaccinationSpots(stateName, container, projection) {
     
     // Find the maximum number of locations for scaling
     const maxLocations = d3.max(vaccinationData, d => d.locations);
+    console.log('Max locations:', maxLocations);
     
     // Create a scale for diamond sizes - adjusted for the state view scale
     const sizeScale = d3.scaleLinear()
@@ -118,6 +176,7 @@ export async function drawVaccinationSpots(stateName, container, projection) {
         .attr("class", "vaccination-spot")
         .attr("d", d => {
             const coords = projection([d.lon, d.lat]);
+            console.log('Projecting:', d.city, [d.lon, d.lat], 'to:', coords);
             if (!coords) return "";
             const [x, y] = coords;
             const size = sizeScale(d.locations);
