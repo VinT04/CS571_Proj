@@ -1,4 +1,5 @@
 import { showStateName } from './stateView.js';
+import { createStateGraphs } from './stateGraphs.js';
 import './DetailView.js';
 
 // Data for COVID and flu respectively
@@ -86,6 +87,10 @@ checkbox.addEventListener('change', () => {
 button.addEventListener("click", () => {
     document.getElementById("myNav").style.width = "100%";
     // Start working on detail stats with DetailView.js here <<- ->>
+
+    //JAKE CODE 
+    createStateGraphs(document.getElementById("myNav"), "Massachusetts");
+    //
 });
 
 /**
