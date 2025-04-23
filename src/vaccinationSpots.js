@@ -13,9 +13,7 @@ async function loadCityCoordinates() {
         try {
             const response = await fetch('/src/us_cities.json');
             cityCoordinates = await response.json();
-            console.log('Loaded city coordinates data');
         } catch (error) {
-            console.error('Error loading city coordinates:', error);
             cityCoordinates = {};
         }
     }
@@ -28,15 +26,15 @@ async function getLocalCoordinates(city, state) {
     if (coords[state] && coords[state][city.toLowerCase()]) {
         return coords[state][city.toLowerCase()];
     }
-    console.warn(`No coordinates found for ${city}, ${state}`);
     return null;
 }
 
 // Function to get vaccination locations data
-async function getVaccinationLocations(stateName) {
+async function getVaccinationLocations(stateName, isFlu = false) {
     try {
-        console.log('Loading data for state:', stateName);
-        const response = await fetch('/data/summary_covid_prov.json');
+        const dataPath = isFlu ? '/data/summary_flu_prov.json' : '/data/summary_covid_prov.json';
+        console.log('Loading data from:', dataPath);
+        const response = await fetch(dataPath);
         const data = await response.json();
         
         const stateCodeMap = {
@@ -95,28 +93,29 @@ async function getVaccinationLocations(stateName) {
         
         const stateCode = stateCodeMap[stateName];
         if (!stateCode) {
-            console.warn(`No state code mapping for ${stateName}`);
             return [];
         }
         
         // Filter and group data by city
-        const cityData = data
-            .filter(entry => entry.loc_admin_state === stateCode)
-            .reduce((acc, entry) => {
-                const city = entry.loc_admin_city.toLowerCase();
-                if (!acc[city]) {
-                    acc[city] = {
-                        city: city,
-                        locations: entry.entry_count
-                    };
-                } else {
-                    acc[city].locations += entry.entry_count;
-                }
-                return acc;
-            }, {});
+        const filteredData = data.filter(entry => entry.loc_admin_state === stateCode);
+        console.log(`Raw filtered entries for ${stateCode}:`, filteredData.length);
+        
+        const cityData = filteredData.reduce((acc, entry) => {
+            const city = entry.loc_admin_city.toLowerCase();
+            if (!acc[city]) {
+                acc[city] = {
+                    city: city,
+                    locations: entry.entry_count
+                };
+            } else {
+                acc[city].locations += entry.entry_count;
+            }
+            return acc;
+        }, {});
         
         const cities = Object.values(cityData);
-        console.log(`Processing ${cities.length} cities for ${stateCode}`);
+        console.log(`Cities with location counts for ${stateCode}:`, 
+            cities.map(c => `${c.city}: ${c.locations}`).slice(0, 5));
         
         // Get coordinates for each city
         const citiesWithCoords = await Promise.all(
@@ -133,25 +132,29 @@ async function getVaccinationLocations(stateName) {
             })
         );
         
-        return citiesWithCoords.filter(city => city !== null);
+        const validCities = citiesWithCoords.filter(city => city !== null);
+        console.log(`Cities with valid coordinates:`, 
+            validCities.map(c => `${c.city}: ${c.locations}`).slice(0, 5));
+            
+        return validCities;
     } catch (error) {
-        console.error('Error loading vaccination location data:', error);
+        console.error('Error loading data:', error);
         return [];
     }
 }
 
 // Function to draw diamonds on the state view
 export async function drawVaccinationSpots(stateName, container, projection) {
-    console.log('Drawing spots for:', stateName);
+    // Get the current toggle state from the checkbox
+    const isFlu = document.getElementById('rsv-check').checked;
+    
     // Clear any existing spots
     container.selectAll(".vaccination-spot").remove();
     
-    // Get vaccination locations data
-    const vaccinationData = await getVaccinationLocations(stateName);
-    console.log('Got vaccination data:', vaccinationData.length, 'cities');
+    // Get vaccination locations data based on current toggle state
+    const vaccinationData = await getVaccinationLocations(stateName, isFlu);
     
     if (vaccinationData.length === 0) {
-        console.warn(`No vaccination data found for ${stateName}`);
         return;
     }
     
@@ -159,45 +162,44 @@ export async function drawVaccinationSpots(stateName, container, projection) {
     const spotsGroup = container.append("g")
         .attr("class", "vaccination-spots");
     
-    // Find the maximum number of locations for scaling
-    const maxLocations = d3.max(vaccinationData, d => d.locations);
-    console.log('Max locations:', maxLocations);
+    // Use a fixed maximum scale for both datasets to show absolute differences
+    const FIXED_MAX_LOCATIONS = 2500;
     
     // Create a scale for diamond sizes - adjusted for the state view scale
     const sizeScale = d3.scaleLinear()
-        .domain([1, maxLocations])
-        .range([5, 15]); // Smaller diamonds to fit the state view better
+        .domain([1, FIXED_MAX_LOCATIONS])
+        .range([5, 15])
+        .clamp(true); // Clamp values to prevent extremely large diamonds
     
-    // Draw diamonds for each city - draw larger ones first so they appear in back
-    spotsGroup.selectAll("path")
-        .data(vaccinationData.sort((a, b) => b.locations - a.locations)) // Sort by size descending
+    // Draw diamonds for each city
+    const diamonds = spotsGroup.selectAll("path")
+        .data(vaccinationData.sort((a, b) => b.locations - a.locations))
         .enter()
         .append("path")
         .attr("class", "vaccination-spot")
         .attr("d", d => {
             const coords = projection([d.lon, d.lat]);
-            console.log('Projecting:', d.city, [d.lon, d.lat], 'to:', coords);
             if (!coords) return "";
             const [x, y] = coords;
             const size = sizeScale(d.locations);
-            
-            // Create a diamond shape (rotated square)
             return `M ${x} ${y-size} L ${x+size} ${y} L ${x} ${y+size} L ${x-size} ${y} Z`;
         })
-        .style("fill", "#ff4444") // Red color as shown in the example
-        .style("opacity", 0.8)
-        .style("stroke", "white")
-        .style("stroke-width", 0.5)
-        .append("title")
-        .text(d => `${d.city}: ${d.locations} vaccination locations`);
+        .style("fill", "#ff4444")
+        .style("opacity", isFlu ? 0.6 : 0.8) // Different opacity for flu vs covid
+        .style("stroke", "none") // Remove white outline
+        .style("stroke-width", 0); // Set stroke width to 0
     
-    // Add a small text label for "# of available vaccination sites"
+    // Add tooltips with both the count and the type
+    diamonds.append("title")
+        .text(d => `${d.city}: ${d.locations} ${isFlu ? 'flu' : 'COVID'} vaccination locations`);
+    
+    // Add a small text label showing the type and scale
     container.append("text")
         .attr("x", 10)
         .attr("y", 20)
         .style("font-size", "12px")
         .style("fill", "#666")
-        .text("# of available vaccination sites");
+        .text(`# of available ${isFlu ? 'flu' : 'COVID'} vaccination sites`);
 }
 
 // Function to update spots when the state view changes

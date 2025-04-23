@@ -80,7 +80,16 @@ checkbox.addEventListener('change', () => {
         appState.current_data = data_covid;
     }
     updateStateData();
-    createMap();
+    
+    // If we're in state view, only update vaccination spots
+    if (container.select(".vaccination-spots").size() > 0) {
+        const stateName = container.select(".state-label").text();
+        const projection = d3.geoMercator();
+        drawVaccinationSpots(stateName, container, projection);
+    } else {
+        // Only recreate the map if we're in national view
+        createMap();
+    }
 });
 
 button.addEventListener("click", () => {
