@@ -41,7 +41,7 @@ const button = document.getElementById('detail-button');
 const appState = {
     default_time: slider_to_date.get(0),
     rsv: false,
-    current_data: data_covid,
+    current_data: null,  // Initialize as null
     state_data: null,
     is_transitioning: false
 };
@@ -58,30 +58,62 @@ slider.addEventListener("input", () => {
     updateMap();
 });
 
-checkbox.addEventListener('change', () => {
-    appState.rsv = checkbox.checked;
-    if (appState.rsv) {
-        option_container.classList.add('active');
-        header.classList.add('active');
-        button.classList.add('active');
-        color = d3.scaleLinear()
-            .domain([0, 40, 55])
-            .range(["rgb(255, 255, 255)", "rgb(106, 0, 138)"])
-            .clamp(true);
-        appState.current_data = data_flu;
-    } else {
-        option_container.classList.remove('active');
-        header.classList.remove('active');
-        button.classList.remove('active');
+// Initialize the application
+async function init() {
+    try {
+        // Load data first
+        const data_covid = await fetch('../data/covid_data/Adult_COVID.json').then(response => response.json());
+        const data_flu = await fetch('../data/flu_data/Adult_Flu.json').then(response => response.json());
+        
+        // Set current data after loading
+        appState.current_data = data_covid;
+        
+        // Update state data before creating map
+        updateStateData();
+        
+        // Initialize color scale after data is loaded
         color = d3.scaleLinear()
             .domain([0, 20, 50])
             .range(["rgb(255, 255, 255)", "rgb(0, 151, 118)"])
             .clamp(true);
-        appState.current_data = data_covid;
+            
+        // Create map only after data and color scale are ready
+        createMap();
+        
+        // Set up event listeners
+        setupEventListeners();
+    } catch (error) {
+        console.error('Error initializing application:', error);
     }
-    updateStateData();
-    createMap();
-});
+}
+
+// Function to set up event listeners
+function setupEventListeners() {
+    checkbox.addEventListener('change', () => {
+        appState.rsv = checkbox.checked;
+        if (appState.rsv) {
+            option_container.classList.add('active');
+            header.classList.add('active');
+            button.classList.add('active');
+            color = d3.scaleLinear()
+                .domain([0, 40, 55])
+                .range(["rgb(255, 255, 255)", "rgb(106, 0, 138)"])
+                .clamp(true);
+            appState.current_data = data_flu;
+        } else {
+            option_container.classList.remove('active');
+            header.classList.remove('active');
+            button.classList.remove('active');
+            color = d3.scaleLinear()
+                .domain([0, 20, 50])
+                .range(["rgb(255, 255, 255)", "rgb(0, 151, 118)"])
+                .clamp(true);
+            appState.current_data = data_covid;
+        }
+        updateStateData();
+        updateMap();
+    });
+}
 
 button.addEventListener("click", () => {
     document.getElementById("myNav").style.width = "100%";
@@ -115,7 +147,7 @@ function createMap() {
     
     // Draw the states
     container.selectAll("*").remove();
-    
+
     // Create new SVG
     const svg = container
         .append("svg")
@@ -208,10 +240,5 @@ function updateMap() {
         .style("opacity", 0.7);
 }
 
-// Initialize the application
-function init() {
-    updateStateData();
-    createMap();
-}
-
+// Start initialization
 init();
