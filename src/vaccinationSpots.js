@@ -171,6 +171,28 @@ export async function drawVaccinationSpots(stateName, container, projection) {
         .range([5, 15])
         .clamp(true); // Clamp values to prevent extremely large diamonds
     
+    // Create tooltip div
+    const tooltip = d3.select("body").append("div")
+        .attr("class", "tooltip")
+        .style("position", "absolute")
+        .style("visibility", "hidden")
+        .style("background-color", "white")
+        .style("border", "1px solid #ddd")
+        .style("border-radius", "5px")
+        .style("padding", "10px")
+        .style("font-size", "12px")
+        .style("box-shadow", "0 2px 4px rgba(0,0,0,0.1)");
+
+    // Create zoom behavior
+    const zoom = d3.zoom()
+        .scaleExtent([1, 8])
+        .on("zoom", (event) => {
+            spotsGroup.attr("transform", event.transform);
+        });
+
+    // Enable zoom on the container
+    container.call(zoom);
+    
     // Draw diamonds for each city
     const diamonds = spotsGroup.selectAll("path")
         .data(vaccinationData.sort((a, b) => b.locations - a.locations))
@@ -185,13 +207,41 @@ export async function drawVaccinationSpots(stateName, container, projection) {
             return `M ${x} ${y-size} L ${x+size} ${y} L ${x} ${y+size} L ${x-size} ${y} Z`;
         })
         .style("fill", "#ff4444")
-        .style("opacity", isFlu ? 0.6 : 0.8) // Different opacity for flu vs covid
-        .style("stroke", "none") // Remove white outline
-        .style("stroke-width", 0); // Set stroke width to 0
-    
-    // Add tooltips with both the count and the type
-    diamonds.append("title")
-        .text(d => `${d.city}: ${d.locations} ${isFlu ? 'flu' : 'COVID'} vaccination locations`);
+        .style("opacity", isFlu ? 0.6 : 0.8)
+        .style("stroke", "none")
+        .style("stroke-width", 0)
+        .style("cursor", "pointer")
+        // Add hover effects
+        .on("mouseover", function(event, d) {
+            d3.select(this)
+                .transition()
+                .duration(200)
+                .style("fill", "#ff6666")
+                .style("opacity", 1);
+                
+            tooltip.html(`
+                <strong>${d.city.toUpperCase()}</strong><br/>
+                ${d.locations} vaccination site${d.locations > 1 ? 's' : ''}<br/>
+                ${isFlu ? '(Flu Vaccines)' : '(COVID-19 Vaccines)'}
+            `)
+            .style("visibility", "visible")
+            .style("left", (event.pageX + 10) + "px")
+            .style("top", (event.pageY - 10) + "px");
+        })
+        .on("mouseout", function() {
+            d3.select(this)
+                .transition()
+                .duration(200)
+                .style("fill", "#ff4444")
+                .style("opacity", isFlu ? 0.6 : 0.8);
+                
+            tooltip.style("visibility", "hidden");
+        })
+        .on("mousemove", function(event) {
+            tooltip
+                .style("left", (event.pageX + 10) + "px")
+                .style("top", (event.pageY - 10) + "px");
+        });
     
     // Add a small text label showing the type and scale
     container.append("text")
@@ -200,6 +250,14 @@ export async function drawVaccinationSpots(stateName, container, projection) {
         .style("font-size", "12px")
         .style("fill", "#666")
         .text(`# of available ${isFlu ? 'flu' : 'COVID'} vaccination sites`);
+        
+    // Add zoom instructions
+    container.append("text")
+        .attr("x", 10)
+        .attr("y", 40)
+        .style("font-size", "12px")
+        .style("fill", "#666")
+        .text("Use mouse wheel to zoom in/out");
 }
 
 // Function to update spots when the state view changes
