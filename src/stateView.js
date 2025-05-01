@@ -1,5 +1,7 @@
 // Function to show state view
+import { createStateGraphs } from './stateGraphs.js';
 import { drawVaccinationSpots } from './vaccinationSpots.js';
+
 
 export function showStateName(stateName, container, onBackClick, stateColor) {
     // Clear the container
@@ -123,4 +125,5 @@ export function showStateName(stateName, container, onBackClick, stateColor) {
             .style("padding", "20px")
             .text("Error loading state data. Please try again.");
     });
+    createStateGraphs(stateName);
 } 
