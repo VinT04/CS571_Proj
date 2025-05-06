@@ -1,46 +1,28 @@
 const graphs = [];
 let mostRecentState = null;
 
-/* =============================================================
-   0.  Public entry‑points
-   ============================================================= */
 export function recallGraphs () {
   createStateGraphs(mostRecentState);
+  mostRecentState = null;
 }
 
-document.getElementById('Dem-option').addEventListener('change', recallGraphs);
+export function destroyOnBackButton() {
+  const vizRoot = d3.select('#myNav');
+    vizRoot.selectAll('.demo-viz').remove(); 
+}
 
-/* =============================================================
-   1.  Master builder
-   ============================================================= */
+document.getElementById('Dem-option').addEventListener('change', recallGraphs)
+document.getElementById('rsv-check').addEventListener('change', recallGraphs);
 export function createStateGraphs (stateName) {
   mostRecentState = stateName;
 
-  /* -----------------------------------------------------------
-     Early exit if user requests RSV instead of COVID
-     ----------------------------------------------------------- */
-  const checkbox = document.getElementById('rsv-check');
-  if (checkbox.checked) {
-    d3.json(`../data/flu_data/${stateName}_dataset_flu.json`).then(_ => {/* todo */});
-    return;
-  }
 
-  /* -----------------------------------------------------------
-     Otherwise: load COVID‑19 data for this state
-     ----------------------------------------------------------- */
-  d3.json(`../data/covid_data/${stateName}COVID_dataset.json`).then(data => {
-
-    /* ---------------------------------------------------------
-       Shared constants
-       --------------------------------------------------------- */
-    const CHART_W  = 760;   // identical footprint for bar & line (slightly bigger)
+    function renderCharts (data, stateName, vaccineTag = 'COVID‑19') 
+    {
+    const CHART_W  = 760; 
     const CHART_H  = 480;
 
-    const colour = d3.scaleOrdinal(d3.schemeTableau10);
-
-    /* ---------------------------------------------------------
-       Tidy up the stage before drawing new charts
-       --------------------------------------------------------- */
+    const cScheme = d3.scaleOrdinal(d3.schemeTableau10);
     const vizRoot = d3.select('#myNav');
     vizRoot.selectAll('.demo-viz').remove();
     const wrapper = vizRoot.append('div')
@@ -51,9 +33,6 @@ export function createStateGraphs (stateName) {
       .style('flex-wrap', 'wrap')
       .style('padding', '1rem');
 
-    /* ---------------------------------------------------------
-       Global tooltip (shared by all charts)
-       --------------------------------------------------------- */
     const tooltip = d3.select('body').selectAll('div.tooltip').data([null]).join('div')
       .attr('class', 'tooltip')
       .style('position', 'absolute')
@@ -76,12 +55,6 @@ export function createStateGraphs (stateName) {
              .style('top',  (event.pageY + 12) + 'px');
     }
     function hideTip () { tooltip.style('opacity', 0); }
-
-    /* ---------------------------------------------------------
-       Convenience – parse the survey period as first‑of‑month
-       (FIX: collapse multiple rounds in a month into one date
-             to avoid duplicate x‑axis labels)
-       --------------------------------------------------------- */
     const monthNames = {
       January:1, February:2, March:3, April:4, May:5, June:6,
       July:7, August:8, September:9, October:10, November:11, December:12
@@ -93,20 +66,13 @@ export function createStateGraphs (stateName) {
       const month = monthNames[monthMatch[1]];
       const yearMatch = period.match(/(\d{4})$/);
       const year = yearMatch ? +yearMatch[1] : 2024;
-      // ALWAYS return the first day of the month so every survey
-      // round within that month shares a common x‑axis position.
       return new Date(year, month - 1, 1);
     }
-
-    /* ---------------------------------------------------------
-       Generic drawing helpers
-       --------------------------------------------------------- */
 
     /**
      * Simple horizontal bar‑chart with tooltips
      */
     function drawBar ({ dataset, title, holder }) {
-      // widen left margin dynamically based on label length
       const maxLabelLen = d3.max(dataset, d => d.key.length);
       const margin = { top: 50, right: 40, bottom: 60, left: Math.max(180, maxLabelLen * 7) };
       const innerW = CHART_W - margin.left - margin.right;
@@ -129,13 +95,20 @@ export function createStateGraphs (stateName) {
         .range([0, innerH])
         .padding(0.25);
 
-      /* axes */
-      g.append('g').call(d3.axisLeft(y));
+      const yAxis = d3.axisLeft(y);
+      g.append('g')
+        .call(yAxis)
+        .selectAll('text')              
+          .attr('font-size', '0.9rem');  
+    
+      const xAxis = d3.axisBottom(x)
+        .tickFormat(d => d + '%');
       g.append('g')
         .attr('transform', `translate(0,${innerH})`)
-        .call(d3.axisBottom(x).tickFormat(d => d + '%'));
+        .call(xAxis)
+        .selectAll('text')            
+          .attr('font-size', '0.9rem');  
 
-      /* bars */
       g.selectAll('rect')
       .data(dataset)
       .join('rect')
@@ -162,7 +135,7 @@ export function createStateGraphs (stateName) {
         });
     
 
-      /* title */
+      // title 
       svg.append('text')
         .attr('x', margin.left)
         .attr('y', margin.top - 20)
@@ -171,15 +144,11 @@ export function createStateGraphs (stateName) {
         .text(title);
     }
 
-    /**
-     * Multi‑series line‑chart with a tidy vertical legend and tooltip interactivity
-     */
     function drawLine ({ multiSeries, title, holder }) {
-      const margin = { top: 50, right: 200, bottom: 60, left: 60 }; // extra right‑hand padding for legend
+      const margin = { top: 50, right: 200, bottom: 60, left: 60 }; 
       const innerW = CHART_W - margin.left - margin.right;
       const innerH = CHART_H - margin.top - margin.bottom;
 
-      /* union of all survey rounds (as Date objects) */
       const allDates = Array.from(
         d3.union(...multiSeries.map(s => s.values.map(v => v.date)))
       ).sort(d3.ascending);
@@ -189,7 +158,6 @@ export function createStateGraphs (stateName) {
         .domain([0, d3.max(multiSeries, s => d3.max(s.values, v => v.value))]).nice()
         .range([innerH, 0]);
 
-      /* ensure every series has an entry for each survey round (null if missing) */
       multiSeries.forEach(s => {
         const dateMap = new Map(s.values.map(v => [+v.date, v.value]));
         s.values = allDates.map(d => ({ date: d, value: dateMap.get(+d) ?? null }));
@@ -203,14 +171,20 @@ export function createStateGraphs (stateName) {
       const g = svg.append('g')
         .attr('transform', `translate(${margin.left},${margin.top})`);
 
-      /* axes */
-      g.append('g')
-        .attr('transform', `translate(0,${innerH})`)
-        .call(d3.axisBottom(x).tickFormat(d3.timeFormat('%b %Y')));
-      g.append('g')
-        .call(d3.axisLeft(y).tickFormat(d => d + '%'));
+    const xAxis = d3.axisBottom(x)
+    .tickFormat(d3.timeFormat('%b %Y'));
+    g.append('g')
+    .attr('transform', `translate(0,${innerH})`)
+    .call(xAxis)
+    .selectAll('text')                  
+    .attr('font-size', '0.9rem');     
 
-      /* lines */
+  const yAxis = d3.axisLeft(y)
+    .tickFormat(d => d + '%');
+  g.append('g')
+    .call(yAxis)
+    .selectAll('text')                 
+      .attr('font-size', '0.9rem');
       const line = d3.line()
         .defined(d => d.value !== null)
         .x(d => x(d.date))
@@ -221,11 +195,10 @@ export function createStateGraphs (stateName) {
         .join('path')
           .attr('class', 'series')
           .attr('fill', 'none')
-          .attr('stroke', (d,i) => colour(i))
+          .attr('stroke', (d,i) => cScheme(i))
           .attr('stroke-width', 2)
           .attr('d', d => line(d.values));
 
-      /* circles for tooltip */
       multiSeries.forEach((s, i) => {
         g.selectAll(`circle.series-${i}`)
           .data(s.values.filter(v => v.value !== null))
@@ -234,7 +207,7 @@ export function createStateGraphs (stateName) {
             .attr('cx', d => x(d.date))
             .attr('cy', d => y(d.value))
             .attr('r', 4)
-            .attr('fill', colour(i))
+            .attr('fill', cScheme(i))
             .attr('stroke', '#fff')
             .on('mouseover', (event, d) => {
                 const dateStr = d3.timeFormat('%b %Y')(d.date);
@@ -253,7 +226,7 @@ export function createStateGraphs (stateName) {
         .attr('font-weight', 700)
         .text(title);
 
-      /* legend – tidy vertical stack on the right */
+      // legend 
       const legendX = margin.left + innerW + 10;
       const legendY = margin.top;
 
@@ -266,7 +239,6 @@ export function createStateGraphs (stateName) {
           .attr('transform', (d,i) => `translate(0,${i * 22})`)
           .style('cursor', 'pointer')
           .on('click', function (event, d) {
-            // simple interactivity – click legend to toggle series visibility
             const path = g.selectAll('path.series').filter(p => p === d);
             const on   = path.style('display') !== 'none';
             path.style('display', on ? 'none' : null);
@@ -277,7 +249,7 @@ export function createStateGraphs (stateName) {
       legendEntry.append('rect')
         .attr('width', 14)
         .attr('height', 14)
-        .attr('fill', (d,i) => colour(i));
+        .attr('fill', (d,i) => cScheme(i));
 
       legendEntry.append('text')
         .attr('x', 20)
@@ -285,79 +257,67 @@ export function createStateGraphs (stateName) {
         .attr('font-size', '0.85rem')
         .text(d => d.name);
     }
-
-    /* =========================================================
-       2.  Demographic switcher – ONLY 1 bar + 1 line per case
-       ========================================================= */
     const selectedDemographic = document.getElementById('Dem-option');
-
-    /* helper to build bar & line for a given group‑name */
     function buildCharts (groupFilter, barTitle, lineTitle, barSort = (a,b) => d3.ascending(a.key,b.key)) {
+      if (vaccineTag === 'Flu') {
+        barTitle = barTitle
+          .replace('with ≥1 dose', 'vaccinated')
+          .replace('COVID‑19', 'Flu');
+        lineTitle = lineTitle.replace('COVID‑19', 'Flu');
+      }
       const subset = data.filter(groupFilter);
       const latest = d3.max(subset, d => parsePeriod(d['Time Period']));
-
-      const barData = subset
-        .filter(d => +parsePeriod(d['Time Period']) === +latest)
-        .map(d => ({ key: d['Group Category'], value: +d['Estimate (%)'] }))
-        .sort(barSort);
+      const barData = d3.groups(subset, d => d['Group Category'])
+  .map(([key, rows]) => {
+    const latestRow = rows.reduce((a, b) =>
+      // compare their dates
+      parsePeriod(a['Time Period']) > parsePeriod(b['Time Period']) ? a : b
+    );
+    return { key, value: +latestRow['Estimate (%)'] };
+  })
+  .sort(barSort);
 
       drawBar({ dataset: barData, title: `${stateName} – ${barTitle}`, holder: wrapper });
-
       const series = d3.groups(subset, d => d['Group Category'])
         .map(([cat, rows]) => ({
           name  : cat,
           values: rows.map(r => ({ date: parsePeriod(r['Time Period']), value: +r['Estimate (%)'] }))
         }));
-
       drawLine({ multiSeries: series, title: lineTitle, holder: wrapper });
     }
 
     switch (+selectedDemographic.value) {
-      case 0: // AGE
-        buildCharts(
-          d => d['Group Name'] === 'Age',
-          '% adults with ≥1 dose by AGE (latest)',
-          'Trend – AGE'
-        );
+      case 0: 
+        buildCharts(d => d['Group Name'] === 'Age','% adults with ≥1 dose by Age (latest)','Trends – Age' );
         break;
-      case 1: // SEX
-        buildCharts(
-          d => d['Group Name'] === 'Sex',
-          '% adults by SEX (latest)',
-          'Trend – SEX'
-        );
+      case 1: 
+        buildCharts(d => d['Group Name'] === 'Sex','% adults by Gender (latest)','Trends – Gender');
         break;
-      case 2: // RACE / ETHNICITY (7‑level)
-        buildCharts(
-          d => d['Group Name'].startsWith('Race/Ethnicity (7'),
-          '% adults by RACE / ETHNICITY (latest)',
-          'Trend – RACE / ETHNICITY',
-          (a,b) => d3.descending(a.value, b.value) // sort bar by size
-        );
+      case 2: 
+        buildCharts(d => d['Group Name'].startsWith('Race/Ethnicity (7'),'% adults by Race/Ethnicity (latest)','Trends – Race/Ethnicity',(a,b) => d3.descending(a.value, b.value));
         break;
-      case 3: // SEXUAL ORIENTATION
-        buildCharts(
-          d => d['Group Name'] === 'Sexual orientation',
-          '% adults by SEXUAL ORIENTATION (latest)',
-          'Trend – SEXUAL ORIENTATION'
-        );
+      case 3: 
+        buildCharts(d => d['Group Name'] === 'Sexual orientation','% adults by Sexual Orientation (latest)','Trends – Sexual Orientation');
         break;
-      case 4: // METRO vs RURAL
-        buildCharts(
-          d => d['Group Name'] === 'Metropolitan statistical area',
-          '% adults by METRO / SUBURBAN / RURAL (latest)',
-          'Trend – METROPOLITAN STATUS'
-        );
+      case 4:
+         buildCharts(d => d['Group Name'] === 'Metropolitan statistical area','% adults by Metropolitan Status (latest)','Trends – Metropolitan Status');
         break;
-      case 5: // POVERTY STATUS
-        buildCharts(
-          d => d['Group Name'] === 'Poverty status',
-          '% adults by POVERTY STATUS (latest)',
-          'Trend – POVERTY STATUS'
-        );
+      case 5: 
+        buildCharts(d => d['Group Name'] === 'Poverty status','% adults by Poverty Status (latest)','Trends – Poverty Status');
         break;
       default:
-        console.warn('Unknown demographic option');
+        console.warn('ERROR');
     }
-  });
+  }
+
+const checkbox = document.getElementById('rsv-check');
+if (checkbox.checked) {
+  d3.json(`../data/flu_data/${stateName}_dataset_flu.json`)
+    .then(data => renderCharts(data, stateName, 'Flu'));
+  return;
 }
+d3.json(`../data/covid_data/${stateName}COVID_dataset.json`)
+  .then(data => renderCharts(data, stateName, 'COVID‑19'));
+
+}
+

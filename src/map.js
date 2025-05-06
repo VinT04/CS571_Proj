@@ -1,4 +1,5 @@
 import { showStateName } from './stateView.js';
+import { destroyOnBackButton } from './stateGraphs.js';
 import './DetailView.js';
 
 // Data for COVID and flu respectively
@@ -180,6 +181,7 @@ function createMap() {
                 appState.is_transitioning = false;
                 // Show the option container when returning to national view
                 option_container.style.display = 'flex';
+                destroyOnBackButton();
                 createMap();
             }, stateColor);
             
