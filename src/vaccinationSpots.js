@@ -183,7 +183,16 @@ export async function drawVaccinationSpots(stateName, container, projection) {
         .style("font-size", "12px")
         .style("box-shadow", "0 2px 4px rgba(0,0,0,0.1)");
 
-   
+    // Create zoom behavior
+    const zoom = d3.zoom()
+        .scaleExtent([1, 8])
+        .on("zoom", (event) => {
+            spotsGroup.attr("transform", event.transform);
+        });
+
+    // Enable zoom on the container
+    container.call(zoom);
+    
     // Draw diamonds for each city
     const diamonds = spotsGroup.selectAll("path")
         .data(vaccinationData.sort((a, b) => b.locations - a.locations))
@@ -242,8 +251,6 @@ export async function drawVaccinationSpots(stateName, container, projection) {
         .style("fill", "#666")
         .text(`# of available ${isFlu ? 'flu' : 'COVID'} vaccination sites`);
         
-    // Comment out zoom instructions
-    /*
     // Add zoom instructions
     container.append("text")
         .attr("x", 10)
@@ -251,7 +258,6 @@ export async function drawVaccinationSpots(stateName, container, projection) {
         .style("font-size", "12px")
         .style("fill", "#666")
         .text("Use mouse wheel to zoom in/out");
-    */
 }
 
 // Function to update spots when the state view changes

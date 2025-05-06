@@ -178,8 +178,13 @@ function createMap() {
             showStateName(stateName, container, () => {
                 container.selectAll("*").remove();
                 appState.is_transitioning = false;
+                // Show the option container when returning to national view
+                option_container.style.display = 'flex';
                 createMap();
             }, stateColor);
+            
+            // Hide the option container when entering state view
+            option_container.style.display = 'none';
         })
         .on("mouseover", function (event, d) {
             if (appState.is_transitioning) return;
