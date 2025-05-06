@@ -3,12 +3,12 @@ let mostRecentState = null;
 
 export function recallGraphs () {
   createStateGraphs(mostRecentState);
-  mostRecentState = null;
 }
 
 export function destroyOnBackButton() {
   const vizRoot = d3.select('#myNav');
     vizRoot.selectAll('.demo-viz').remove(); 
+    mostRecentState = null;
 }
 
 document.getElementById('Dem-option').addEventListener('change', recallGraphs)
@@ -74,7 +74,7 @@ export function createStateGraphs (stateName) {
      */
     function drawBar ({ dataset, title, holder }) {
       const maxLabelLen = d3.max(dataset, d => d.key.length);
-      const margin = { top: 50, right: 40, bottom: 60, left: Math.max(180, maxLabelLen * 7) };
+      const margin = { top: 50, right: 40, bottom: 60, left: Math.max(250, maxLabelLen * 7) };
       const innerW = CHART_W - margin.left - margin.right;
       const innerH = CHART_H - margin.top - margin.bottom;
 
