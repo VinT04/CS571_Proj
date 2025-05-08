@@ -189,14 +189,6 @@ function createMap() {
             option_container.style.display = 'none';
         })
         .on("mouseover", function (event, d) {
-            if (appState.is_transitioning) return;
-            d3.select(this)
-                .transition()
-                .duration(100)
-                .attr("stroke", "black")
-                .attr("stroke-width", 4)
-                .attr('size', 10);
-
             const stateName = d.properties.name;
             svg.append("text")
                 .attr("class", "state-tooltip")
@@ -225,7 +217,8 @@ function createMap() {
                 .transition()
                 .duration(100)
                 .attr("stroke", "black")
-                .attr("stroke-width", 4);
+                .attr("stroke-width", 4)
+                .attr('size', 10);
         })
         .on("mouseout", function () {
             svg.selectAll(".state-tooltip").remove();
@@ -243,16 +236,16 @@ function createMap() {
         })
 
     // Add state borders
-    svg.append("path")
-        .datum(topojson.mesh(us, us.objects.states, (a, b) => a !== b))
-        .attr("fill", "none")
-        .attr("stroke", "black")
-        .attr("d", path)
-        .style("opacity", 0)
-        .transition()
-        .duration(1000)
-        .style("opacity", 0.7)
-        .ease(d3.easeCubicInOut);
+    // svg.append("path")
+    //     .datum(topojson.mesh(us, us.objects.states, (a, b) => a !== b))
+    //     .attr("fill", "none")
+    //     .attr("stroke", "black")
+    //     .attr("d", path)
+    //     .style("opacity", 0)
+    //     .transition()
+    //     .duration(1000)
+    //     .style("opacity", 0.7)
+    //     .ease(d3.easeCubicInOut);
 }
 
 /**
@@ -266,7 +259,11 @@ function updateMap() {
             const value = appState.state_data[d.properties.name] || 0;
             return color(value);
         })
-        .style("opacity", 0.7);
+        .style("opacity", 0)
+        .transition()
+        .duration(1000)
+        .style("opacity", 0.7)
+        .ease(d3.easeCubicInOut);
 }
 
 // Start initialization
