@@ -1,5 +1,5 @@
 const graphs = [];
-let mostRecentState = null;
+let mostRecentState = "National";
 
 export function recallGraphs () {
   createStateGraphs(mostRecentState);
@@ -8,11 +8,12 @@ export function recallGraphs () {
 export function destroyOnBackButton() {
   const vizRoot = d3.select('#myNav');
     vizRoot.selectAll('.demo-viz').remove(); 
-    mostRecentState = null;
+    mostRecentState = "National";
 }
 
 document.getElementById('Dem-option').addEventListener('change', recallGraphs)
 document.getElementById('rsv-check').addEventListener('change', recallGraphs);
+document.getElementById('detail-button').addEventListener('click', createStateGraphs(mostRecentState))
 export function createStateGraphs (stateName) {
   mostRecentState = stateName;
 
@@ -312,12 +313,28 @@ export function createStateGraphs (stateName) {
 
 const checkbox = document.getElementById('rsv-check');
 if (checkbox.checked) {
+  if (mostRecentState != "National") {
   d3.json(`../data/flu_data/${stateName}_dataset_flu.json`)
     .then(data => renderCharts(data, stateName, 'Flu'));
   return;
+  }
+  else 
+  {
+    d3.json(`../data/flu_data/Adult_Flu_national.json`)
+    .then(data => renderCharts(data, `National`, 'Flu'));
+  return;
+  }
 }
+if (mostRecentState != "National")
+{
 d3.json(`../data/covid_data/${stateName}COVID_dataset.json`)
   .then(data => renderCharts(data, stateName, 'COVID‑19'));
+}
+else 
+{
+  d3.json(`../data/covid_data/Adult_COVID_national.json`)
+  .then(data => renderCharts(data, `National`, 'COVID‑19'));
+}
 
 }
 
