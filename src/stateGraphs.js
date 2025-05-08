@@ -9,6 +9,7 @@ export function destroyOnBackButton() {
   const vizRoot = d3.select('#myNav');
     vizRoot.selectAll('.demo-viz').remove(); 
     mostRecentState = "National";
+    recallGraphs();
 }
 
 document.getElementById('Dem-option').addEventListener('change', recallGraphs)
