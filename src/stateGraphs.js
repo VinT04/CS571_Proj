@@ -9,6 +9,7 @@ export function destroyOnBackButton() {
   const vizRoot = d3.select('#myNav');
     vizRoot.selectAll('.demo-viz').remove(); 
     mostRecentState = "National";
+    recallGraphs();
 }
 
 document.getElementById('Dem-option').addEventListener('change', recallGraphs)
@@ -100,7 +101,8 @@ export function createStateGraphs (stateName) {
       g.append('g')
         .call(yAxis)
         .selectAll('text')              
-          .attr('font-size', '0.9rem');  
+          .attr('font-size', '0.9rem')
+          .attr('fill', 'white');
     
       const xAxis = d3.axisBottom(x)
         .tickFormat(d => d + '%');
@@ -108,7 +110,8 @@ export function createStateGraphs (stateName) {
         .attr('transform', `translate(0,${innerH})`)
         .call(xAxis)
         .selectAll('text')            
-          .attr('font-size', '0.9rem');  
+          .attr('font-size', '0.9rem')
+          .attr('fill', 'white');
 
       g.selectAll('rect')
       .data(dataset)
@@ -142,6 +145,7 @@ export function createStateGraphs (stateName) {
         .attr('y', margin.top - 20)
         .attr('font-size', '1.25rem')
         .attr('font-weight', 700)
+        .attr('fill', 'white')
         .text(title);
     }
 
@@ -178,14 +182,16 @@ export function createStateGraphs (stateName) {
     .attr('transform', `translate(0,${innerH})`)
     .call(xAxis)
     .selectAll('text')                  
-    .attr('font-size', '0.9rem');     
+    .attr('font-size', '0.9rem')
+    .attr('fill', 'white');
 
   const yAxis = d3.axisLeft(y)
     .tickFormat(d => d + '%');
   g.append('g')
     .call(yAxis)
     .selectAll('text')                 
-      .attr('font-size', '0.9rem');
+      .attr('font-size', '0.9rem')
+      .attr('fill', 'white');
       const line = d3.line()
         .defined(d => d.value !== null)
         .x(d => x(d.date))
@@ -225,6 +231,7 @@ export function createStateGraphs (stateName) {
         .attr('y', margin.top - 20)
         .attr('font-size', '1.25rem')
         .attr('font-weight', 700)
+        .attr('fill', 'white')
         .text(title);
 
       // legend 
@@ -256,6 +263,7 @@ export function createStateGraphs (stateName) {
         .attr('x', 20)
         .attr('y', 11)
         .attr('font-size', '0.85rem')
+        .attr('fill', 'white')
         .text(d => d.name);
     }
     const selectedDemographic = document.getElementById('Dem-option');
