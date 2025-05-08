@@ -65,22 +65,22 @@ async function init() {
         // Load data first
         const data_covid = await fetch('../data/covid_data/Adult_COVID.json').then(response => response.json());
         const data_flu = await fetch('../data/flu_data/Adult_Flu.json').then(response => response.json());
-        
+
         // Set current data after loading
         appState.current_data = data_covid;
-        
+
         // Update state data before creating map
         updateStateData();
-        
+
         // Initialize color scale after data is loaded
         color = d3.scaleLinear()
             .domain([0, 20, 50])
             .range(["rgb(255, 255, 255)", "rgb(0, 151, 118)"])
             .clamp(true);
-            
+
         // Create map only after data and color scale are ready
         createMap();
-        
+
         // Set up event listeners
         setupEventListeners();
     } catch (error) {
@@ -145,7 +145,7 @@ function createMap() {
     // Prevent multiple transitions
     if (appState.is_transitioning) return;
     appState.is_transitioning = true;
-    
+
     // Draw the states
     container.selectAll("*").remove();
 
@@ -171,11 +171,11 @@ function createMap() {
         .style("cursor", "pointer")
         .on("click", (event, d) => {
             if (appState.is_transitioning) return;
-            
+
             const stateName = d.properties.name;
             const stateValue = appState.state_data[stateName] || 0;
             const stateColor = color(stateValue);
-            
+
             showStateName(stateName, container, () => {
                 container.selectAll("*").remove();
                 appState.is_transitioning = false;
@@ -184,36 +184,63 @@ function createMap() {
                 destroyOnBackButton();
                 createMap();
             }, stateColor);
-            
+
             // Hide the option container when entering state view
             option_container.style.display = 'none';
         })
         .on("mouseover", function (event, d) {
             if (appState.is_transitioning) return;
-            
             d3.select(this)
                 .transition()
                 .duration(100)
                 .attr("stroke", "black")
                 .attr("stroke-width", 4)
                 .attr('size', 10);
-        })
-        .on("mouseout", function (event, d) {
-            if (appState.is_transitioning) return;
-            
+
+            const stateName = d.properties.name;
+            svg.append("text")
+                .attr("class", "state-tooltip")
+                .attr("x", d3.select(this).attr("x") + 500)
+                .attr("y", d3.select(this).attr("y") + 90)
+                .attr("font-size", "15px")
+                .attr("font-weight", "bold")
+                .attr("text-anchor", "start")
+                .attr("font-family", "Consolas, monospace")
+                .attr("background-color", "white")
+                .attr("fill", "black")
+                .text(`Time Period: ${appState.default_time}`)
+            svg.append("text")
+                .attr("class", "state-tooltip")
+                .attr("x", d3.select(this).attr("x") + 500)
+                .attr("y", d3.select(this).attr("y") + 110)
+                .attr("font-size", "15px")
+                .attr("font-weight", "bold")
+                .attr("text-anchor", "start")
+                .attr("font-family", "Consolas, monospace")
+                .attr("background-color", "white")
+                .attr("fill", "black")
+                .text(`${stateName}: ${appState.state_data[stateName] || 0}%`)
+
             d3.select(this)
                 .transition()
                 .duration(100)
                 .attr("stroke", "black")
+                .attr("stroke-width", 4);
+        })
+        .on("mouseout", function () {
+            svg.selectAll(".state-tooltip").remove();
+            d3.select(this)
+                .transition()
+                .duration(100)
                 .attr("stroke-width", 1);
         })
         .transition()
-        .duration(1000)
+        .duration(100)
         .style("opacity", 0.7)
         .ease(d3.easeCubicInOut)
         .on("end", () => {
             appState.is_transitioning = false;
-        });
+        })
 
     // Add state borders
     svg.append("path")
@@ -233,7 +260,7 @@ function createMap() {
  */
 function updateMap() {
     if (appState.is_transitioning) return;
-    
+
     container.selectAll(".state")
         .style("fill", d => {
             const value = appState.state_data[d.properties.name] || 0;
