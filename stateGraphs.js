@@ -1,28 +1,27 @@
 const graphs = [];
 let mostRecentState = "National";
 
-export function recallGraphs () {
+export function recallGraphs() {
   createStateGraphs(mostRecentState);
 }
 
 export function destroyOnBackButton() {
   const vizRoot = d3.select('#myNav');
-    vizRoot.selectAll('.demo-viz').remove(); 
-    mostRecentState = "National";
-    recallGraphs();
+  vizRoot.selectAll('.demo-viz').remove();
+  mostRecentState = "National";
+  recallGraphs();
 }
 
 document.getElementById('Dem-option').addEventListener('change', recallGraphs)
 document.getElementById('rsv-check').addEventListener('change', recallGraphs);
 document.getElementById('detail-button').addEventListener('click', createStateGraphs(mostRecentState))
-export function createStateGraphs (stateName) {
+export function createStateGraphs(stateName) {
   mostRecentState = stateName;
 
 
-    function renderCharts (data, stateName, vaccineTag = 'COVID‑19') 
-    {
-    const CHART_W  = 760; 
-    const CHART_H  = 480;
+  function renderCharts(data, stateName, vaccineTag = 'COVID‑19') {
+    const CHART_W = 760;
+    const CHART_H = 480;
 
     const cScheme = d3.scaleOrdinal(d3.schemeTableau10);
     const vizRoot = d3.select('#myNav');
@@ -46,22 +45,22 @@ export function createStateGraphs (stateName) {
       .style('font-size', '0.8rem')
       .style('opacity', 0);
 
-    function showTip (html, event) {
+    function showTip(html, event) {
       tooltip.html(html)
         .style('opacity', 1)
         .style('left', (event.pageX + 12) + 'px')
-        .style('top',  (event.pageY + 12) + 'px');
+        .style('top', (event.pageY + 12) + 'px');
     }
-    function moveTip (event) {
+    function moveTip(event) {
       tooltip.style('left', (event.pageX + 12) + 'px')
-             .style('top',  (event.pageY + 12) + 'px');
+        .style('top', (event.pageY + 12) + 'px');
     }
-    function hideTip () { tooltip.style('opacity', 0); }
+    function hideTip() { tooltip.style('opacity', 0); }
     const monthNames = {
-      January:1, February:2, March:3, April:4, May:5, June:6,
-      July:7, August:8, September:9, October:10, November:11, December:12
+      January: 1, February: 2, March: 3, April: 4, May: 5, June: 6,
+      July: 7, August: 8, September: 9, October: 10, November: 11, December: 12
     };
-    function parsePeriod (period) {
+    function parsePeriod(period) {
       // Typical strings: "September 6‑18 2024", "Dec 1‑14 2024"
       const monthMatch = period.match(/^(January|February|March|April|May|June|July|August|September|October|November|December)/);
       if (!monthMatch) return new Date(2024, 0, 1);
@@ -74,16 +73,16 @@ export function createStateGraphs (stateName) {
     /**
      * Simple horizontal bar‑chart with tooltips
      */
-    function drawBar ({ dataset, title, holder }) {
+    function drawBar({ dataset, title, holder }) {
       const maxLabelLen = d3.max(dataset, d => d.key.length);
       const margin = { top: 50, right: 40, bottom: 60, left: Math.max(250, maxLabelLen * 7) };
       const innerW = CHART_W - margin.left - margin.right;
       const innerH = CHART_H - margin.top - margin.bottom;
 
       const svg = holder.append('svg')
-        .attr('width',  CHART_W)
+        .attr('width', CHART_W)
         .attr('height', CHART_H)
-        .attr('class',  'covid-chart');
+        .attr('class', 'covid-chart');
 
       const g = svg.append('g')
         .attr('transform', `translate(${margin.left},${margin.top})`);
@@ -100,22 +99,22 @@ export function createStateGraphs (stateName) {
       const yAxis = d3.axisLeft(y);
       g.append('g')
         .call(yAxis)
-        .selectAll('text')              
-          .attr('font-size', '0.9rem')
-          .attr('fill', 'white');
-    
+        .selectAll('text')
+        .attr('font-size', '0.9rem')
+        .attr('fill', 'white');
+
       const xAxis = d3.axisBottom(x)
         .tickFormat(d => d + '%');
       g.append('g')
         .attr('transform', `translate(0,${innerH})`)
         .call(xAxis)
-        .selectAll('text')            
-          .attr('font-size', '0.9rem')
-          .attr('fill', 'white');
+        .selectAll('text')
+        .attr('font-size', '0.9rem')
+        .attr('fill', 'white');
 
       g.selectAll('rect')
-      .data(dataset)
-      .join('rect')
+        .data(dataset)
+        .join('rect')
         .attr('x', 0)
         .attr('y', d => y(d.key))
         .attr('width', d => x(d.value))
@@ -125,19 +124,19 @@ export function createStateGraphs (stateName) {
           tooltip
             .html(`<strong>${d.key}</strong>: ${d.value}%`)
             .style('opacity', 1)
-            .style('left',  (event.pageX + 12) + 'px')
-            .style('top',   (event.pageY + 12) + 'px')
+            .style('left', (event.pageX + 12) + 'px')
+            .style('top', (event.pageY + 12) + 'px')
             .style('z-index', 1000);
         })
         .on('mousemove', (event) => {
           tooltip
             .style('left', (event.pageX + 12) + 'px')
-            .style('top',  (event.pageY + 12) + 'px');
+            .style('top', (event.pageY + 12) + 'px');
         })
         .on('mouseleave', () => {
           tooltip.style('opacity', 0);
         });
-    
+
 
       // title 
       svg.append('text')
@@ -149,8 +148,8 @@ export function createStateGraphs (stateName) {
         .text(title);
     }
 
-    function drawLine ({ multiSeries, title, holder }) {
-      const margin = { top: 50, right: 200, bottom: 60, left: 60 }; 
+    function drawLine({ multiSeries, title, holder }) {
+      const margin = { top: 50, right: 200, bottom: 60, left: 60 };
       const innerW = CHART_W - margin.left - margin.right;
       const innerH = CHART_H - margin.top - margin.bottom;
 
@@ -169,29 +168,29 @@ export function createStateGraphs (stateName) {
       });
 
       const svg = holder.append('svg')
-        .attr('width',  CHART_W)
+        .attr('width', CHART_W)
         .attr('height', CHART_H)
         .attr('class', 'covid-chart');
 
       const g = svg.append('g')
         .attr('transform', `translate(${margin.left},${margin.top})`);
 
-    const xAxis = d3.axisBottom(x)
-    .tickFormat(d3.timeFormat('%b %Y'));
-    g.append('g')
-    .attr('transform', `translate(0,${innerH})`)
-    .call(xAxis)
-    .selectAll('text')                  
-    .attr('font-size', '0.9rem')
-    .attr('fill', 'white');
+      const xAxis = d3.axisBottom(x)
+        .tickFormat(d3.timeFormat('%b %Y'));
+      g.append('g')
+        .attr('transform', `translate(0,${innerH})`)
+        .call(xAxis)
+        .selectAll('text')
+        .attr('font-size', '0.9rem')
+        .attr('fill', 'white');
 
-  const yAxis = d3.axisLeft(y)
-    .tickFormat(d => d + '%');
-  g.append('g')
-    .call(yAxis)
-    .selectAll('text')                 
-      .attr('font-size', '0.9rem')
-      .attr('fill', 'white');
+      const yAxis = d3.axisLeft(y)
+        .tickFormat(d => d + '%');
+      g.append('g')
+        .call(yAxis)
+        .selectAll('text')
+        .attr('font-size', '0.9rem')
+        .attr('fill', 'white');
       const line = d3.line()
         .defined(d => d.value !== null)
         .x(d => x(d.date))
@@ -200,29 +199,29 @@ export function createStateGraphs (stateName) {
       g.selectAll('path.series')
         .data(multiSeries)
         .join('path')
-          .attr('class', 'series')
-          .attr('fill', 'none')
-          .attr('stroke', (d,i) => cScheme(i))
-          .attr('stroke-width', 2)
-          .attr('d', d => line(d.values));
+        .attr('class', 'series')
+        .attr('fill', 'none')
+        .attr('stroke', (d, i) => cScheme(i))
+        .attr('stroke-width', 2)
+        .attr('d', d => line(d.values));
 
       multiSeries.forEach((s, i) => {
         g.selectAll(`circle.series-${i}`)
           .data(s.values.filter(v => v.value !== null))
           .join('circle')
-            .attr('class', `series-${i}`)
-            .attr('cx', d => x(d.date))
-            .attr('cy', d => y(d.value))
-            .attr('r', 4)
-            .attr('fill', cScheme(i))
-            .attr('stroke', '#fff')
-            .on('mouseover', (event, d) => {
-                const dateStr = d3.timeFormat('%b %Y')(d.date);
-                showTip(`<strong>${s.name}</strong><br>${dateStr}: ${d.value}%`, event);
-              })
-              .on('mousemove', event => moveTip(event))
-              .on('mouseout', hideTip);
-              
+          .attr('class', `series-${i}`)
+          .attr('cx', d => x(d.date))
+          .attr('cy', d => y(d.value))
+          .attr('r', 4)
+          .attr('fill', cScheme(i))
+          .attr('stroke', '#fff')
+          .on('mouseover', (event, d) => {
+            const dateStr = d3.timeFormat('%b %Y')(d.date);
+            showTip(`<strong>${s.name}</strong><br>${dateStr}: ${d.value}%`, event);
+          })
+          .on('mousemove', event => moveTip(event))
+          .on('mouseout', hideTip);
+
       });
 
       /* title */
@@ -244,20 +243,20 @@ export function createStateGraphs (stateName) {
       const legendEntry = legend.selectAll('g')
         .data(multiSeries)
         .join('g')
-          .attr('transform', (d,i) => `translate(0,${i * 22})`)
-          .style('cursor', 'pointer')
-          .on('click', function (event, d) {
-            const path = g.selectAll('path.series').filter(p => p === d);
-            const on   = path.style('display') !== 'none';
-            path.style('display', on ? 'none' : null);
-            g.selectAll(`circle.series-${multiSeries.indexOf(d)}`).style('display', on ? 'none' : null);
-            d3.select(this).select('text').style('opacity', on ? 0.4 : 1);
-          });
+        .attr('transform', (d, i) => `translate(0,${i * 22})`)
+        .style('cursor', 'pointer')
+        .on('click', function (event, d) {
+          const path = g.selectAll('path.series').filter(p => p === d);
+          const on = path.style('display') !== 'none';
+          path.style('display', on ? 'none' : null);
+          g.selectAll(`circle.series-${multiSeries.indexOf(d)}`).style('display', on ? 'none' : null);
+          d3.select(this).select('text').style('opacity', on ? 0.4 : 1);
+        });
 
       legendEntry.append('rect')
         .attr('width', 14)
         .attr('height', 14)
-        .attr('fill', (d,i) => cScheme(i));
+        .attr('fill', (d, i) => cScheme(i));
 
       legendEntry.append('text')
         .attr('x', 20)
@@ -267,7 +266,7 @@ export function createStateGraphs (stateName) {
         .text(d => d.name);
     }
     const selectedDemographic = document.getElementById('Dem-option');
-    function buildCharts (groupFilter, barTitle, lineTitle, barSort = (a,b) => d3.ascending(a.key,b.key)) {
+    function buildCharts(groupFilter, barTitle, lineTitle, barSort = (a, b) => d3.ascending(a.key, b.key)) {
       if (vaccineTag === 'Flu') {
         barTitle = barTitle
           .replace('with ≥1 dose', 'vaccinated')
@@ -277,72 +276,69 @@ export function createStateGraphs (stateName) {
       const subset = data.filter(groupFilter);
       const latest = d3.max(subset, d => parsePeriod(d['Time Period']));
       const barData = d3.groups(subset, d => d['Group Category'])
-  .map(([key, rows]) => {
-    const latestRow = rows.reduce((a, b) =>
-      // compare their dates
-      parsePeriod(a['Time Period']) > parsePeriod(b['Time Period']) ? a : b
-    );
-    return { key, value: +latestRow['Estimate (%)'] };
-  })
-  .sort(barSort);
+        .map(([key, rows]) => {
+          const latestRow = rows.reduce((a, b) =>
+            // compare their dates
+            parsePeriod(a['Time Period']) > parsePeriod(b['Time Period']) ? a : b
+          );
+          return { key, value: +latestRow['Estimate (%)'] };
+        })
+        .sort(barSort);
 
       drawBar({ dataset: barData, title: `${stateName} – ${barTitle}`, holder: wrapper });
       const series = d3.groups(subset, d => d['Group Category'])
         .map(([cat, rows]) => ({
-          name  : cat,
+          name: cat,
           values: rows.map(r => ({ date: parsePeriod(r['Time Period']), value: +r['Estimate (%)'] }))
         }));
       drawLine({ multiSeries: series, title: lineTitle, holder: wrapper });
     }
 
     switch (+selectedDemographic.value) {
-      case 0: 
-        buildCharts(d => d['Group Name'] === 'Age','% adults with ≥1 dose by Age (latest)','Trends – Age' );
+      case 0:
+        buildCharts(d => d['Group Name'] === 'Age', '% adults with ≥1 dose by Age (latest)', 'Trends – Age');
         break;
-      case 1: 
-        buildCharts(d => d['Group Name'] === 'Sex','% adults by Gender (latest)','Trends – Gender');
+      case 1:
+        buildCharts(d => d['Group Name'] === 'Sex', '% adults by Gender (latest)', 'Trends – Gender');
         break;
-      case 2: 
-        buildCharts(d => d['Group Name'].startsWith('Race/Ethnicity (7'),'% adults by Race/Ethnicity (latest)','Trends – Race/Ethnicity',(a,b) => d3.descending(a.value, b.value));
+      case 2:
+        buildCharts(d => d['Group Name'].startsWith('Race/Ethnicity (7'), '% adults by Race/Ethnicity (latest)', 'Trends – Race/Ethnicity', (a, b) => d3.descending(a.value, b.value));
         break;
-      case 3: 
-        buildCharts(d => d['Group Name'] === 'Sexual orientation','% adults by Sexual Orientation (latest)','Trends – Sexual Orientation');
+      case 3:
+        buildCharts(d => d['Group Name'] === 'Sexual orientation', '% adults by Sexual Orientation (latest)', 'Trends – Sexual Orientation');
         break;
       case 4:
-         buildCharts(d => d['Group Name'] === 'Metropolitan statistical area','% adults by Metropolitan Status (latest)','Trends – Metropolitan Status');
+        buildCharts(d => d['Group Name'] === 'Metropolitan statistical area', '% adults by Metropolitan Status (latest)', 'Trends – Metropolitan Status');
         break;
-      case 5: 
-        buildCharts(d => d['Group Name'] === 'Poverty status','% adults by Poverty Status (latest)','Trends – Poverty Status');
+      case 5:
+        buildCharts(d => d['Group Name'] === 'Poverty status', '% adults by Poverty Status (latest)', 'Trends – Poverty Status');
         break;
       default:
         console.warn('ERROR');
     }
   }
 
-const checkbox = document.getElementById('rsv-check');
-if (checkbox.checked) {
+  const checkbox = document.getElementById('rsv-check');
+  if (checkbox.checked) {
+    if (mostRecentState != "National") {
+      d3.json(`./flu_data/${stateName}_dataset_flu.json`)
+        .then(data => renderCharts(data, stateName, 'Flu'));
+      return;
+    }
+    else {
+      d3.json(`./flu_data/Adult_Flu_national.json`)
+        .then(data => renderCharts(data, `National`, 'Flu'));
+      return;
+    }
+  }
   if (mostRecentState != "National") {
-  d3.json(`../data/flu_data/${stateName}_dataset_flu.json`)
-    .then(data => renderCharts(data, stateName, 'Flu'));
-  return;
+    d3.json(`./covid_data/${stateName}COVID_dataset.json`)
+      .then(data => renderCharts(data, stateName, 'COVID‑19'));
   }
-  else 
-  {
-    d3.json(`../data/flu_data/Adult_Flu_national.json`)
-    .then(data => renderCharts(data, `National`, 'Flu'));
-  return;
+  else {
+    d3.json(`./covid_data/Adult_COVID_national.json`)
+      .then(data => renderCharts(data, `National`, 'COVID‑19'));
   }
-}
-if (mostRecentState != "National")
-{
-d3.json(`../data/covid_data/${stateName}COVID_dataset.json`)
-  .then(data => renderCharts(data, stateName, 'COVID‑19'));
-}
-else 
-{
-  d3.json(`../data/covid_data/Adult_COVID_national.json`)
-  .then(data => renderCharts(data, `National`, 'COVID‑19'));
-}
 
 }
 

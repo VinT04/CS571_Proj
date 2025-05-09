@@ -3,8 +3,8 @@ import { destroyOnBackButton } from './stateGraphs.js';
 import './DetailView.js';
 
 // Data for COVID and flu respectively
-const data_covid = await fetch('../data/covid_data/Adult_COVID.json').then(response => response.json());
-const data_flu = await fetch('../data/flu_data/Adult_Flu.json').then(response => response.json());
+const data_covid = await fetch('./covid_data/Adult_COVID.json').then(response => response.json());
+const data_flu = await fetch('./flu_data/Adult_Flu.json').then(response => response.json());
 
 // Getting topology data for the svg, and getting the element where we will put the svg
 const us = await d3.json("https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json");
@@ -63,8 +63,8 @@ slider.addEventListener("input", () => {
 async function init() {
     try {
         // Load data first
-        const data_covid = await fetch('../data/covid_data/Adult_COVID.json').then(response => response.json());
-        const data_flu = await fetch('../data/flu_data/Adult_Flu.json').then(response => response.json());
+        const data_covid = await fetch('./covid_data/Adult_COVID.json').then(response => response.json());
+        const data_flu = await fetch('./flu_data/Adult_Flu.json').then(response => response.json());
 
         // Set current data after loading
         appState.current_data = data_covid;

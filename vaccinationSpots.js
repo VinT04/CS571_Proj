@@ -11,7 +11,7 @@ let cityCoordinates = null;
 async function loadCityCoordinates() {
     if (cityCoordinates === null) {
         try {
-            const response = await fetch('/src/us_cities.json');
+            const response = await fetch('/us_cities.json');
             cityCoordinates = await response.json();
         } catch (error) {
             cityCoordinates = {};
@@ -32,11 +32,11 @@ async function getLocalCoordinates(city, state) {
 // Function to get vaccination locations data
 async function getVaccinationLocations(stateName, isFlu = false) {
     try {
-        const dataPath = isFlu ? '/data/summary_flu_prov.json' : '/data/summary_covid_prov.json';
+        const dataPath = isFlu ? '/summary_flu_prov.json' : '/summary_covid_prov.json';
         console.log('Loading data from:', dataPath);
         const response = await fetch(dataPath);
         const data = await response.json();
-        
+
         const stateCodeMap = {
             'Alabama': 'AL',
             'Alaska': 'AK',
@@ -90,16 +90,16 @@ async function getVaccinationLocations(stateName, isFlu = false) {
             'Wyoming': 'WY',
             'District of Columbia': 'DC'
         };
-        
+
         const stateCode = stateCodeMap[stateName];
         if (!stateCode) {
             return [];
         }
-        
+
         // Filter and group data by city
         const filteredData = data.filter(entry => entry.loc_admin_state === stateCode);
         console.log(`Raw filtered entries for ${stateCode}:`, filteredData.length);
-        
+
         const cityData = filteredData.reduce((acc, entry) => {
             const city = entry.loc_admin_city.toLowerCase();
             if (!acc[city]) {
@@ -112,11 +112,11 @@ async function getVaccinationLocations(stateName, isFlu = false) {
             }
             return acc;
         }, {});
-        
+
         const cities = Object.values(cityData);
-        console.log(`Cities with location counts for ${stateCode}:`, 
+        console.log(`Cities with location counts for ${stateCode}:`,
             cities.map(c => `${c.city}: ${c.locations}`).slice(0, 5));
-        
+
         // Get coordinates for each city
         const citiesWithCoords = await Promise.all(
             cities.map(async (cityInfo) => {
@@ -131,11 +131,11 @@ async function getVaccinationLocations(stateName, isFlu = false) {
                 return null;
             })
         );
-        
+
         const validCities = citiesWithCoords.filter(city => city !== null);
-        console.log(`Cities with valid coordinates:`, 
+        console.log(`Cities with valid coordinates:`,
             validCities.map(c => `${c.city}: ${c.locations}`).slice(0, 5));
-            
+
         return validCities;
     } catch (error) {
         console.error('Error loading data:', error);
@@ -147,30 +147,30 @@ async function getVaccinationLocations(stateName, isFlu = false) {
 export async function drawVaccinationSpots(stateName, container, projection) {
     // Get the current toggle state from the checkbox
     const isFlu = document.getElementById('rsv-check').checked;
-    
+
     // Clear any existing spots
     container.selectAll(".vaccination-spot").remove();
-    
+
     // Get vaccination locations data based on current toggle state
     const vaccinationData = await getVaccinationLocations(stateName, isFlu);
-    
+
     if (vaccinationData.length === 0) {
         return;
     }
-    
+
     // Create SVG group for spots
     const spotsGroup = container.append("g")
         .attr("class", "vaccination-spots");
-    
+
     // Use a fixed maximum scale for both datasets to show absolute differences
     const FIXED_MAX_LOCATIONS = 2500;
-    
+
     // Create a scale for diamond sizes - adjusted for the state view scale
     const sizeScale = d3.scaleLinear()
         .domain([1, FIXED_MAX_LOCATIONS])
         .range([5, 15])
         .clamp(true); // Clamp values to prevent extremely large diamonds
-    
+
     // Create tooltip div
     const tooltip = d3.select("body").append("div")
         .attr("class", "tooltip")
@@ -192,7 +192,7 @@ export async function drawVaccinationSpots(stateName, container, projection) {
 
     // Enable zoom on the container
     container.call(zoom);
-    
+
     // Draw diamonds for each city
     const diamonds = spotsGroup.selectAll("path")
         .data(vaccinationData.sort((a, b) => b.locations - a.locations))
@@ -204,7 +204,7 @@ export async function drawVaccinationSpots(stateName, container, projection) {
             if (!coords) return "";
             const [x, y] = coords;
             const size = sizeScale(d.locations);
-            return `M ${x} ${y-size} L ${x+size} ${y} L ${x} ${y+size} L ${x-size} ${y} Z`;
+            return `M ${x} ${y - size} L ${x + size} ${y} L ${x} ${y + size} L ${x - size} ${y} Z`;
         })
         .style("fill", "#ff4444")
         .style("opacity", isFlu ? 0.6 : 0.8)
@@ -212,37 +212,37 @@ export async function drawVaccinationSpots(stateName, container, projection) {
         .style("stroke-width", 0)
         .style("cursor", "pointer")
         // Add hover effects
-        .on("mouseover", function(event, d) {
+        .on("mouseover", function (event, d) {
             d3.select(this)
                 .transition()
                 .duration(200)
                 .style("fill", "#ff6666")
                 .style("opacity", 1);
-                
+
             tooltip.html(`
                 <strong>${d.city.toUpperCase()}</strong><br/>
                 ${d.locations} vaccination site${d.locations > 1 ? 's' : ''}<br/>
                 ${isFlu ? '(Flu Vaccines)' : '(COVID-19 Vaccines)'}
             `)
-            .style("visibility", "visible")
-            .style("left", (event.pageX + 10) + "px")
-            .style("top", (event.pageY - 10) + "px");
+                .style("visibility", "visible")
+                .style("left", (event.pageX + 10) + "px")
+                .style("top", (event.pageY - 10) + "px");
         })
-        .on("mouseout", function() {
+        .on("mouseout", function () {
             d3.select(this)
                 .transition()
                 .duration(200)
                 .style("fill", "#ff4444")
                 .style("opacity", isFlu ? 0.6 : 0.8);
-                
+
             tooltip.style("visibility", "hidden");
         })
-        .on("mousemove", function(event) {
+        .on("mousemove", function (event) {
             tooltip
                 .style("left", (event.pageX + 10) + "px")
                 .style("top", (event.pageY - 10) + "px");
         });
-    
+
     // Add a small text label showing the type and scale
     container.append("text")
         .attr("x", 10)
@@ -250,7 +250,7 @@ export async function drawVaccinationSpots(stateName, container, projection) {
         .style("font-size", "12px")
         .style("fill", "#666")
         .text(`# of available ${isFlu ? 'flu' : 'COVID'} vaccination sites`);
-        
+
     // Add zoom instructions
     container.append("text")
         .attr("x", 10)

@@ -33,9 +33,7 @@ const options = document.getElementById('Dem-option');
 export function setUpDetail(geo, rsv) {
     switch (geo) {
         case value:
-
             break;
-
         default:
             break;
     }
