@@ -64,4 +64,4 @@ allowing for further customization.
 https://www.youtube.com/watch?v=feX1wI_ECRM
 
 ## Link to Web Application
-https://vint04.github.io/CS571_Proj/
+[![Launch App](https://img.shields.io/badge/Launch-App-red)](https://vint04.github.io/CS571_Proj/)
