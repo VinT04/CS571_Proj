@@ -55,7 +55,9 @@ All of these can be altered, meaning that users can see any combination of the v
 allowing for further customization.
 
 ## Link to Presentation/Screencast
+
 https://youtu.be/fhgTP65VJ-4
+
 
 ## Link to Web Application
 [![Launch App](https://img.shields.io/badge/Launch-App-red)](https://vint04.github.io/CS571_Proj/)
