@@ -6,13 +6,7 @@ For project notes, make sure to run the file on Chrome, as we are experiencing p
 ## Introduction
 VaxInfo is an all encompassing tool that lets users visualize survey trends regarding COVID vaccinations.
 It allows users to view vaccination metrics of COVID and the flu for comparison, and allows users to make relationships
-regarding the data. 
-
-## Screencast
-Our screencast can be viewed at https://www.youtube.com/watch?v=feX1wI_ECRM. 
-
-## Project URL
-Our project can be viewed by cloning the repo and running the index.html file locally, or at INSERT LINK.
+regarding the data.
 
 ## Code Overview
 The project is organized into two main directories:
