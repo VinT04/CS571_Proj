@@ -39,3 +39,9 @@ area through lenses of demographics that the visualization offers. Some of the d
 ![img_3.png](img_3.png)
 All of these can be altered, meaning that users can see any combination of the values for each of these demographics, 
 allowing for further customization.
+
+## Link to Presentation/Screencast
+https://www.youtube.com/watch?v=feX1wI_ECRM
+
+## Link to Web Application
+https://vint04.github.io/CS571_Proj/
