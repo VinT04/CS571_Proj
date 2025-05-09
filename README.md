@@ -6,7 +6,21 @@ For project notes, make sure to run the file on Chrome, as we are experiencing p
 ## Introduction
 VaxInfo is an all encompassing tool that lets users visualize survey trends regarding COVID vaccinations.
 It allows users to view vaccination metrics of COVID and the flu for comparison, and allows users to make relationships
-regarding the data. 
+regarding the data.
+
+## Code Overview
+The project is organized into two main directories:
+1. `src/`: Contains our visualization code
+   - `map.js`: Main visualization logic for the national map
+   - `stateGraphs.js`: Generates state-level demographic charts
+   - `vaccinationSpots.js`: Handles vaccination site visualization
+   - `stateView.js`: Manages state-level view transitions
+   - `index.html`: Main entry point and UI structure
+
+2. `data/`: Contains the vaccination data files
+   - `covid_data/`: State-specific COVID-19 vaccination datasets (e.g., `ArkansasCOVID_dataset.json`)
+   - `flu_data/`: State-specific flu vaccination datasets (e.g., `Connecticut_dataset_flu.json`)
+
 
 ## Data Sources
 Our vaccination data has been source from the National Immunization Survey, as well as Census data. Our goal was to find 
@@ -39,3 +53,9 @@ area through lenses of demographics that the visualization offers. Some of the d
 ![img_3.png](img_3.png)
 All of these can be altered, meaning that users can see any combination of the values for each of these demographics, 
 allowing for further customization.
+
+## Link to Presentation/Screencast
+https://www.youtube.com/watch?v=feX1wI_ECRM
+
+## Link to Web Application
+[![Launch App](https://img.shields.io/badge/Launch-App-red)](https://vint04.github.io/CS571_Proj/)
