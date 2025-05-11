@@ -32,7 +32,7 @@ async function getLocalCoordinates(city, state) {
 // Function to get vaccination locations data
 async function getVaccinationLocations(stateName, isFlu = false) {
     try {
-        const dataPath = isFlu ? './summary_flu_prov.json' : './summary_covid_prov.json';
+        const dataPath = isFlu ? './flu_data/summary_flu_prov.json' : './covid_data/summary_covid_prov.json';
         console.log('Loading data from:', dataPath);
         const response = await fetch(dataPath);
         const data = await response.json();
