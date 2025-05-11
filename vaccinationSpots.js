@@ -11,7 +11,7 @@ let cityCoordinates = null;
 async function loadCityCoordinates() {
     if (cityCoordinates === null) {
         try {
-            const response = await fetch('/us_cities.json');
+            const response = await fetch('./us_cities.json');
             cityCoordinates = await response.json();
         } catch (error) {
             cityCoordinates = {};
@@ -32,7 +32,7 @@ async function getLocalCoordinates(city, state) {
 // Function to get vaccination locations data
 async function getVaccinationLocations(stateName, isFlu = false) {
     try {
-        const dataPath = isFlu ? '/summary_flu_prov.json' : '/summary_covid_prov.json';
+        const dataPath = isFlu ? './summary_flu_prov.json' : './summary_covid_prov.json';
         console.log('Loading data from:', dataPath);
         const response = await fetch(dataPath);
         const data = await response.json();
